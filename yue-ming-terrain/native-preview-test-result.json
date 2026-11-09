@@ -1,0 +1,249 @@
+{
+  "success": true,
+  "status": "passed",
+  "testName": "可編輯原生場景驗證",
+  "framesExecuted": 2817,
+  "durationMs": 19540,
+  "loadingMs": 674,
+  "timeoutMs": 120000,
+  "hiddenStallMs": 0,
+  "gameTimeMs": 46950,
+  "assertions": [
+    {
+      "message": "Native editor-authored scene controller initialized",
+      "passed": true
+    },
+    {
+      "message": "Placed editable tile Terrain_0_0",
+      "passed": true
+    },
+    {
+      "message": "Placed editable tile Terrain_1_0",
+      "passed": true
+    },
+    {
+      "message": "Placed editable tile Terrain_0_1",
+      "passed": true
+    },
+    {
+      "message": "Placed editable tile Terrain_1_1",
+      "passed": true
+    },
+    {
+      "message": "Trees exist as 1150 editable instances",
+      "passed": true
+    },
+    {
+      "message": "Placed editable building part Hall_Main",
+      "passed": true
+    },
+    {
+      "message": "Placed editable building part Hall_Basement",
+      "passed": true
+    },
+    {
+      "message": "Placed editable building part Hall_Platform",
+      "passed": true
+    },
+    {
+      "message": "Placed editable building part Hall_Stairs",
+      "passed": true
+    },
+    {
+      "message": "Placed editable building part Hall_Terrace",
+      "passed": true
+    },
+    {
+      "message": "Reach staircase approach 327.0,256.0",
+      "passed": true
+    },
+    {
+      "message": "Reach staircase approach 397.0,256.0",
+      "passed": true
+    },
+    {
+      "message": "Reach staircase approach 397.0,288.0",
+      "passed": true
+    },
+    {
+      "message": "Reach staircase approach 410.6,303.0",
+      "passed": true
+    },
+    {
+      "message": "Walk up white staircase to upper landing",
+      "passed": true
+    },
+    {
+      "message": "Staircase raises the walking camera to 1F",
+      "passed": true
+    },
+    {
+      "message": "Upper landing is level with the first-floor platform",
+      "passed": true
+    },
+    {
+      "message": "Upper landing connects to higher northern flat ground",
+      "passed": true
+    },
+    {
+      "message": "Higher ground is level with platform",
+      "passed": true
+    },
+    {
+      "message": "Return from higher ground to landing",
+      "passed": true
+    },
+    {
+      "message": "Step onto the exterior 1F platform",
+      "passed": true
+    },
+    {
+      "message": "Actual model facade stops the first-person camera with clearance",
+      "passed": true
+    },
+    {
+      "message": "God-view toggle still works",
+      "passed": true
+    },
+    {
+      "message": "B returns to lakeside building view",
+      "passed": true
+    },
+    {
+      "message": "Adding an eastern tile expands map bounds automatically",
+      "passed": true
+    },
+    {
+      "message": "God camera can pan beyond the original map boundary",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "consoleLogs": [
+    "[log] {\"bounds\":{\"minX\":0,\"maxX\":576,\"minY\":-1.6320278461989778e-13,\"maxY\":490.00000000000006},\"hall\":{\"minX\":402.2734259132954,\"minY\":284.34022368305205,\"minZ\":103.99999980926513,\"maxX\":450.52657303853954,\"maxY\":350.0597747694779,\"maxZ\":119.08000164031982},\"stairs\":{\"minX\":408.1973635200136,\"minY\":283.73914223480347,\"minZ\":99.79999995231627,\"maxX\":421.7721859458559,\"maxY\":302.665699775697,\"maxZ\":104.89999985694884},\"camera\":{\"x\":332,\"y\":312,\"z\":109.90240359211225,\"rotationX\":92.29183118052329,\"rotationY\":0,\"angle\":93.15293700777532,\"zoom\":6.186178053484359}}",
+    "[log] Facade stop: {\"local\":[-12.077148951163078,-25.008304571370324],\"foot\":104.04000002264976}",
+    "[log] {\"buildingCenter\":[426.4,317.2],\"rotation\":14,\"basementElevation\":339.8,\"firstFloorElevation\":344,\"stairSteps\":24}"
+  ],
+  "eventLog": [
+    {
+      "frame": 1,
+      "event": "sceneChanged",
+      "sceneName": "月明湖地形",
+      "cause": "harness"
+    },
+    {
+      "frame": 2481,
+      "event": "spawned",
+      "object": "Terrain_1_0",
+      "count": 2
+    },
+    {
+      "frame": 2815,
+      "event": "sceneReset",
+      "sceneName": "月明湖地形",
+      "cause": "harness"
+    }
+  ],
+  "finalState": {
+    "sceneName": "月明湖地形",
+    "objectCounts": {
+      "Terrain_0_0": 1,
+      "Terrain_1_0": 1,
+      "Terrain_0_1": 1,
+      "Terrain_1_1": 1,
+      "Terrain_Cutaway": 1,
+      "MoonLake": 1,
+      "Lake_Shore": 1,
+      "Road_01": 1,
+      "Road_02": 1,
+      "Road_03": 1,
+      "Road_04": 1,
+      "Road_05": 1,
+      "Road_06": 1,
+      "Trail_01": 1,
+      "Trail_02": 1,
+      "Trail_03": 1,
+      "Trail_04": 1,
+      "Trail_05": 1,
+      "Trail_06": 1,
+      "Trail_07": 1,
+      "Trail_08": 1,
+      "Trail_09": 1,
+      "Trail_10": 1,
+      "Trail_11": 1,
+      "Trail_12": 1,
+      "Trail_13": 1,
+      "Trail_14": 1,
+      "Trail_15": 1,
+      "Trail_16": 1,
+      "Trail_17": 1,
+      "Trail_18": 1,
+      "Trail_19": 1,
+      "Trail_20": 1,
+      "Trail_21": 1,
+      "Trail_22": 1,
+      "Trail_23": 1,
+      "Trail_24": 1,
+      "Trail_25": 1,
+      "Trail_26": 1,
+      "Trail_27": 1,
+      "Trail_28": 1,
+      "Trail_29": 1,
+      "Trail_30": 1,
+      "Trail_31": 1,
+      "Trail_32": 1,
+      "Trail_33": 1,
+      "Lake_Boardwalk": 1,
+      "Lake_Pier": 1,
+      "Lake_Pavilion": 1,
+      "Hall_Main": 1,
+      "Hall_Basement": 1,
+      "Hall_Platform": 1,
+      "Hall_Stairs": 1,
+      "Hall_Terrace": 1,
+      "Tree_1": 390,
+      "Tree_2": 393,
+      "Tree_3": 367
+    },
+    "watchedObjects": {},
+    "sceneVariables": []
+  },
+  "screenshots": [
+    {
+      "label": "原生場景・第一人稱",
+      "frame": 5,
+      "width": 1440,
+      "height": 900,
+      "image": "attached below"
+    },
+    {
+      "label": "原生模型・建築與樓梯",
+      "frame": 5,
+      "width": 1440,
+      "height": 900,
+      "image": "attached below"
+    },
+    {
+      "label": "第一人稱・白色樓梯上方",
+      "frame": 1956,
+      "width": 1440,
+      "height": 900,
+      "image": "attached below"
+    },
+    {
+      "label": "上帝視角・湖東建築與地形銜接",
+      "frame": 2478,
+      "width": 1440,
+      "height": 900,
+      "image": "attached below"
+    }
+  ],
+  "screenshotsTakenCount": 4,
+  "droppedScreenshots": [],
+  "profiles": [],
+  "performance": {
+    "avgStepMs": 4.18,
+    "worstStepMs": 29.5
+  }
+}

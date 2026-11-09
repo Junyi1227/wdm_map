@@ -1,0 +1,20 @@
+{
+  "id": "east-lake-hall",
+  "name": "月明湖東側主建築",
+  "footprintPixels": [[795, 575], [846, 586], [824, 674], [780, 659]],
+  "centerMeters": [426.4, 317.2],
+  "rotationDegrees": 14,
+  "widthMeters": 28,
+  "lengthMeters": 52,
+  "aboveGroundFloors": 3,
+  "floorHeightMeters": 4.2,
+  "basementHeightMeters": 4.2,
+  "basementFloorAboveLakeMeters": 0.8,
+  "facadeDirection": "west, toward the lake",
+  "stairSide": "north end, left when viewing the lake-facing facade",
+  "stairs": {"minX": -21.5, "maxX": -16, "bottomY": -11, "topY": -23, "steps": 24},
+  "upperTerrace": {"minX": -23, "maxX": 18, "minY": -43, "maxY": -29},
+  "reference": "User-supplied lakeside photograph and topographic map",
+  "confirmed": ["Three above-ground floors", "One open basement level", "White stairs on the left reach the first-floor platform", "Left platform connects to adjacent higher flat ground"],
+  "approximate": ["Building dimensions inferred from map scale", "Floor and basement heights are illustrative", "Facade details and roof curvature simplified", "Left interpreted as north when viewed from lake"]
+}

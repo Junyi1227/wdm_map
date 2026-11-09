@@ -1,0 +1,18 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local MCP client reads the user's private Codex configuration.
+gdevelop_mcp.py
+
+# Superseded prototypes, temporary MCP requests and unused store assets.
+yue-ming-terrain/assets/
+yue-ming-terrain/*-events.json
+yue-ming-terrain/procedural-backup.json
+yue-ming-terrain/inspect-test.py
+yue-ming-terrain/build.py
+yue-ming-terrain/building-test.js
+yue-ming-terrain/building-preview-*
+yue-ming-terrain/preview-*
+yue-ming-terrain/test-result.json

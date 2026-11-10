@@ -1,0 +1,33 @@
+{
+  "id": "01-yasimjak",
+  "name": "野心作／야심작",
+  "status": "照片整理；尚未核對／建模",
+  "missing_angles": [
+    "連續正面全景",
+    "各段石壁側背面",
+    "階梯及通道尺寸"
+  ],
+  "photos": [
+    {
+      "id": "route-11",
+      "source_page": "https://www.wolmyeongdong.kr/experience/thrill-course",
+      "image_url": "https://www.wolmyeongdong.kr/img/experience/thrill-course/yasimjak_course.jpg",
+      "source_caption": "월명동 스릴코스 야심작 돌조경 - 하늘 높이 쌓인 바위 사이 500m 돌길",
+      "nearby_text": "작 돌조경 코스로 진입합니다. 코스는 높이에 따라 세 단계로 나뉘어 있으며, 초등학생부터 성인까지 누구나 체험할 수 있습니다.\n                하늘을 향해 층층이 쌓인 바위들 사이로 형성된 500m의 돌길은, 어느 구간은 좁았다가, 또 어느 구간은 넓게 트여 있어 지루할 새가 없습니다. 동시에 돌길 밑으로 보이는 바위들이 긴장감을 느끼게 하죠. 꼭 한 번 멈춰 서서 오른쪽으로 시선을 돌려보세요. 가슴이 탁 트이는 전망이 펼쳐집니다.",
+      "publication_date": null,
+      "photo_date": null,
+      "retrieved": "2026-11-10",
+      "rights": "未發現明確開放授權；著作權屬原權利人。限參考整理，公開散布、AI上傳與衍生使用前需確認權限。",
+      "identity": "依來源章節及圖說分類",
+      "file": "01-yasimjak/photos/route-11.jpg",
+      "width": 1200,
+      "height": 691,
+      "sha256": "214a3d1564615287c184d08c9958182d795a5c1657ae02af14a2f4f272b776e6"
+    }
+  ],
+  "parts": [
+    "分段石壁",
+    "特色巨石",
+    "階梯／通道"
+  ]
+}

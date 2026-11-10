@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "status": "passed",
+  "testName": "PavilionPivotPreview",
+  "framesExecuted": 4,
+  "durationMs": 1258,
+  "loadingMs": 1226,
+  "timeoutMs": 60000,
+  "hiddenStallMs": 0,
+  "gameTimeMs": 67,
+  "assertions": [
+    {
+      "message": "Pavilion loads",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "consoleLogs": [
+    "[log] {\"minX\":1823.7731543236298,\"minY\":2263.2048866772934,\"minZ\":223.58978088410925,\"maxX\":1832.2268456763704,\"maxY\":2274.2268456488637,\"maxZ\":231.07978080423902}"
+  ],
+  "eventLog": [
+    {
+      "frame": 1,
+      "event": "sceneChanged",
+      "sceneName": "月明洞核心區",
+      "cause": "harness"
+    }
+  ],
+  "screenshotsTakenCount": 1,
+  "droppedScreenshots": [],
+  "profiles": [],
+  "performance": {
+    "avgStepMs": 1.68,
+    "worstStepMs": 5.5
+  }
+}

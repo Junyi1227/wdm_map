@@ -1,0 +1,63 @@
+{
+  "id": "04-god-waterfall",
+  "name": "神的瀑布",
+  "status": "照片整理；尚未核對／建模",
+  "missing_angles": [
+    "全岩壁側面與頂部",
+    "落水口及下方水池尺度"
+  ],
+  "photos": [
+    {
+      "id": "lake-05",
+      "source_page": "https://god21.tw/post/wmd_lake/",
+      "image_url": "https://god21.tw/media/images/2-1_ShenDePuBu3.width-800.jpg",
+      "source_caption": "攝理教會神的瀑布月明洞",
+      "nearby_text": " → 月明湖八角亭 → 大象石 → 草坪山泉水 → 駱駝石 * 小瀑布、大作品——神的瀑布 在月明洞中有三座瀑布，今天要介紹的 〈神的瀑布〉 ，於2015年開始建設，位在月明湖的其中一側，在雄壯的瀑布周圍有小巧可愛的石頭造景，上方還有一座於2019年底前完成的亭子。鄭明析牧師在領受 神的構想後，按照特質將月明洞中的三座瀑布打造成不同模樣與形像，雖風格不同卻又互相和諧、呼應，如同三位一體的「 神、聖靈、聖子」雖各自存在又是一體，其中 〈 神的瀑布〉象徵 耶和華 神的形象，所以被打造得既廣闊又雄壯。",
+      "publication_date": "2026-05-06",
+      "photo_date": null,
+      "retrieved": "2026-11-10",
+      "rights": "未發現明確開放授權；著作權屬原權利人。限參考整理，公開散布、AI上傳與衍生使用前需確認權限。",
+      "identity": "依來源章節及圖說分類",
+      "file": "04-god-waterfall/photos/lake-05.jpg",
+      "width": 800,
+      "height": 600,
+      "sha256": "a318f5081457a9a8f1cfe6d09f8c5cb29a1bb01ded4dbe9ea2c53e38fb024e3d"
+    },
+    {
+      "id": "lake-06",
+      "source_page": "https://god21.tw/post/wmd_lake/",
+      "image_url": "https://god21.tw/media/images/IMG_8023.width-800.jpg",
+      "source_caption": "攝理教會月明洞",
+      "nearby_text": "和華 神的形象，所以被打造得既廣闊又雄壯。 打造「瀑布的部分」並不容易，有幾次感覺已經將石頭堆得很好了，但總會讓人心想不過只是在「人的想法和能力可及的範圍」去建設罷了。在掙扎與懇切的禱告中，最終得到　神的構想，而建造出足以象徵耶和華 神的——〈 神的瀑布〉。這個位置本來的山勢很狹窄，削掉山上土石後，在陡峭的坡地上如同豎立刀子一般，好不容易才完成此處的造景工程。此外，也為了紀念鄭明析牧師 「用筆寫下無數從聖三位身上領受的箴言話語」 而在造景中 加入了「筆的形狀」 ，整體而言是危險性極高的絕壁工程。",
+      "publication_date": "2026-05-06",
+      "photo_date": null,
+      "retrieved": "2026-11-10",
+      "rights": "未發現明確開放授權；著作權屬原權利人。限參考整理，公開散布、AI上傳與衍生使用前需確認權限。",
+      "identity": "依來源章節及圖說分類",
+      "file": "04-god-waterfall/photos/lake-06.jpg",
+      "width": 800,
+      "height": 533,
+      "sha256": "213515afa7cc960e17a840e1f0cf9e6896db24e9d9942bc8f5aeb01c3a1d438a"
+    },
+    {
+      "id": "lake-07",
+      "source_page": "https://god21.tw/post/wmd_lake/",
+      "image_url": "https://god21.tw/media/images/0000082201_73741ea570def1d114a9ac9bb6726916n_l.width-800.jpg",
+      "source_caption": "攝理教會月明洞自然聖殿",
+      "nearby_text": "念鄭明析牧師 「用筆寫下無數從聖三位身上領受的箴言話語」 而在造景中 加入了「筆的形狀」 ，整體而言是危險性極高的絕壁工程。 圖/其中一支鋼筆石頭造景，另外還有毛筆與原子筆 (牧師指定了原子筆的顏色，請各位未來親自去看筆尖來確認囉) 本來打算讓＜ 神的瀑布＞從前山最頂端開始往下流，不過條件上無法這麼做，只能做得小一點。 這座瀑布雖然小，卻是「大作品」，因為它和底下扮演「水盆角色」的＜湖泊＞很諧調 ，所以是大作品。此外因為有了＜瀑布＞，所以＜湖泊＞也不再是「寧靜的湖泊」，而是成為了「活著的湖泊」！",
+      "publication_date": "2026-05-06",
+      "photo_date": null,
+      "retrieved": "2026-11-10",
+      "rights": "未發現明確開放授權；著作權屬原權利人。限參考整理，公開散布、AI上傳與衍生使用前需確認權限。",
+      "identity": "依來源章節及圖說分類",
+      "file": "04-god-waterfall/photos/lake-07.jpg",
+      "width": 800,
+      "height": 600,
+      "sha256": "de73a0e92a7a1e610b63ca725f4e08544bbfba4fc798a542fc5f849a5dcf59de",
+      "visual_review": "湖、橋、亭與野心作的周邊關係；非瀑布特寫。"
+    }
+  ],
+  "parts": [
+    "主體；細分待照片核對"
+  ]
+}

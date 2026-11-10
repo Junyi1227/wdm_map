@@ -1,0 +1,37 @@
+[
+  {
+    "id": "09-camel-rock",
+    "glb_import": "passed",
+    "editable_blend_reopened": "passed",
+    "mesh_objects": 1,
+    "triangles": 6910,
+    "external_textures": 0,
+    "parts": []
+  },
+  {
+    "id": "10-round-hill-pavilion",
+    "glb_import": "passed",
+    "editable_blend_reopened": "passed",
+    "mesh_objects": 408,
+    "triangles": 21072,
+    "external_textures": 0,
+    "parts": [
+      "roof.glb",
+      "stairs.glb",
+      "structure.glb"
+    ]
+  },
+  {
+    "id": "08-prayer-hill",
+    "glb_import": "passed",
+    "editable_blend_reopened": "passed",
+    "mesh_objects": 102,
+    "triangles": 13378,
+    "external_textures": 0,
+    "parts": [
+      "terrain.glb",
+      "stairs.glb",
+      "platform.glb"
+    ]
+  }
+]

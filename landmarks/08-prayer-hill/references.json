@@ -1,0 +1,171 @@
+{
+  "id": "08-prayer-hill",
+  "name": "禱告山／기도동산",
+  "status": "已確認身分；簡化初稿待風格確認",
+  "missing_angles": [
+    "平台俯視、山坡側面",
+    "道路與階梯起終點及高低差"
+  ],
+  "photos": [
+    {
+      "id": "hill-06",
+      "source_page": "https://www.wolmyeongdong.kr/intro/scenic-spots/the-prayer-hill",
+      "image_url": "https://www.wolmyeongdong.kr/img/intro/scenic-spots/the-prayer-hill/the-prayer-hill.jpg",
+      "source_caption": "월명동 자연성전 내 기도동산 전경, 자연 지형을 따라 조성된 기도 공간",
+      "nearby_text": "uguês Family Sites 만남과 대화 CGM 신과 인간의 대 합작품 월명동 소개 월명동 비경 월명동 소개 월명동 소개 작품 체험 소식 월명동 비경 인사말 월명동 비경 월명동 스케치 월명동 스토리 기도동산 기도동산 성자 사랑의 집 월명호 별봉정 ‹ 기도동산 성자 사랑의 집 월명호 별봉정 › 월명동 소개 월명동 소개 작품 체험 소식 월명동 비경 인사말 월명동 비경 월명동 스케치 월명동 스토리 기도동산 기도동산 성자 사랑의 집 월명호 별봉정",
+      "publication_date": null,
+      "photo_date": null,
+      "retrieved": "2026-11-10",
+      "rights": "未發現明確開放授權；著作權屬原權利人。限參考整理，公開散布、AI上傳與衍生使用前需確認權限。",
+      "identity": "依來源章節及圖說分類",
+      "file": "08-prayer-hill/photos/hill-06.jpg",
+      "width": 1140,
+      "height": 760,
+      "sha256": "655a1300fa5ce505eb2c775e97db403ae440bf6c4169ede35b8938ec0d6b6752"
+    },
+    {
+      "id": "hill-07",
+      "source_page": "https://www.wolmyeongdong.kr/intro/scenic-spots/the-prayer-hill",
+      "image_url": "https://www.wolmyeongdong.kr/img/intro/scenic-spots/the-prayer-hill/the-prayer-hill-pine-tree.jpg",
+      "source_caption": "소나무 숲으로 둘러싸인 월명동 자연성전 기도동산의 자연 환경",
+      "nearby_text": "불에 빨갛게 탔다가 간절한\n        기도 끝에 살아난 '기도 표적 소나무'가 자리를 지키고 있습니다. 기도표적소나무 사연 확인하기 기도의 사연이 깊이 어린 이 곳에서 기도하시면 소나무 향기 사이로 스며드는 시원한 바람과 새소리가 마음에 시간이 멈춘 것 같은 평온함을 가져다 줄 것입니다.\n           또한 이 곳은 월명동 곳곳의 숨은 비경을 모두 다 볼 수 있고 성자 사랑의 집이 마치 천국의 웅장한 건물처럼 보이는 신비한 장소입니다.",
+      "publication_date": null,
+      "photo_date": null,
+      "retrieved": "2026-11-10",
+      "rights": "未發現明確開放授權；著作權屬原權利人。限參考整理，公開散布、AI上傳與衍生使用前需確認權限。",
+      "identity": "依來源章節及圖說分類",
+      "file": "08-prayer-hill/photos/hill-07.jpg",
+      "width": 1140,
+      "height": 760,
+      "sha256": "32daf9632ad53f3cc80311c3c8859bfaf279b42f2e3df78ba176a4493d91f670"
+    },
+    {
+      "id": "hill-08",
+      "source_page": "https://www.wolmyeongdong.kr/intro/scenic-spots/the-prayer-hill",
+      "image_url": "https://www.wolmyeongdong.kr/img/intro/scenic-spots/the-prayer-hill/the-prayer-hill-people.jpg",
+      "source_caption": "기도동산으로 이어지는 하나님의 계단 근처에서 기도하는 JMS 교인들이 보이는 월명동 자연성전 전경",
+      "nearby_text": "불에 빨갛게 탔다가 간절한\n        기도 끝에 살아난 '기도 표적 소나무'가 자리를 지키고 있습니다. 기도표적소나무 사연 확인하기 기도의 사연이 깊이 어린 이 곳에서 기도하시면 소나무 향기 사이로 스며드는 시원한 바람과 새소리가 마음에 시간이 멈춘 것 같은 평온함을 가져다 줄 것입니다.\n           또한 이 곳은 월명동 곳곳의 숨은 비경을 모두 다 볼 수 있고 성자 사랑의 집이 마치 천국의 웅장한 건물처럼 보이는 신비한 장소입니다.",
+      "publication_date": null,
+      "photo_date": null,
+      "retrieved": "2026-11-10",
+      "rights": "未發現明確開放授權；著作權屬原權利人。限參考整理，公開散布、AI上傳與衍生使用前需確認權限。",
+      "identity": "依來源章節及圖說分類",
+      "file": "08-prayer-hill/photos/hill-08.jpg",
+      "width": 1200,
+      "height": 799,
+      "sha256": "9a1847d526aae7cb4f668f62e0172de2526dbe15265d1a01d859caf9a694a64c"
+    },
+    {
+      "id": "hill-09",
+      "source_page": "https://www.wolmyeongdong.kr/intro/scenic-spots/the-prayer-hill",
+      "image_url": "https://www.wolmyeongdong.kr/img/intro/scenic-spots/the-prayer-hill/the-prayer-hill-stairs2.jpg",
+      "source_caption": "청기와집이 함께 보이는 월명동 자연성전 기도동산 진입 계단 풍경",
+      "nearby_text": "불에 빨갛게 탔다가 간절한\n        기도 끝에 살아난 '기도 표적 소나무'가 자리를 지키고 있습니다. 기도표적소나무 사연 확인하기 기도의 사연이 깊이 어린 이 곳에서 기도하시면 소나무 향기 사이로 스며드는 시원한 바람과 새소리가 마음에 시간이 멈춘 것 같은 평온함을 가져다 줄 것입니다.\n           또한 이 곳은 월명동 곳곳의 숨은 비경을 모두 다 볼 수 있고 성자 사랑의 집이 마치 천국의 웅장한 건물처럼 보이는 신비한 장소입니다.",
+      "publication_date": null,
+      "photo_date": null,
+      "retrieved": "2026-11-10",
+      "rights": "未發現明確開放授權；著作權屬原權利人。限參考整理，公開散布、AI上傳與衍生使用前需確認權限。",
+      "identity": "依來源章節及圖說分類",
+      "file": "08-prayer-hill/photos/hill-09.jpg",
+      "width": 1140,
+      "height": 760,
+      "sha256": "1707c38b89cf9f187fe60461fb8e533f09acc4ddaa73f9129616f88ce93ccda2"
+    },
+    {
+      "id": "holy-14",
+      "source_page": "https://god21.tw/post/夏季靈修會線上月明洞導覽聖靈歷史篇/",
+      "image_url": "https://god21.tw/media/images/YingMuXieQuHuaMian_2021-08-26_180715.width-500.png",
+      "source_caption": "攝理教會【夏季靈修會】線上月明洞導覽：聖靈歷史篇",
+      "nearby_text": "要有形像才會有價值，也會有意義，人們會因為好奇而欣賞。就像這樣，當我們的內心、想法和精神，越相似於聖靈的形像、天主的形象時，那價值會沖上天。這顆<聖靈石>能夠被搬到月明洞、被發現形象、體會價值，過程中無不蘊含著與天之間深刻的故事。 * 已經勝利的人可以領受榮耀的冠冕--禱告山 ＜禱告山＞堆得很雄壯，讓人覺得那彷彿是「第二個野心作」。這裡並 不是為了讓人可以坐 而打造的地方，選用了十幾噸的大石頭，雄壯地豎立起來堆。全都建造好之後，聖子說： 「這是榮耀的冠冕，將聖三位榮耀的冠冕形像化地打造出來了。」",
+      "publication_date": "2021-08-30",
+      "photo_date": null,
+      "retrieved": "2026-11-10",
+      "rights": "未發現明確開放授權；著作權屬原權利人。限參考整理，公開散布、AI上傳與衍生使用前需確認權限。",
+      "identity": "依來源章節及圖說分類",
+      "file": "08-prayer-hill/photos/holy-14.png",
+      "width": 500,
+      "height": 338,
+      "sha256": "29d7b4e5d9031fb5eb1424e1a27220a8989392138c07f739f5b5ec69aa7ee678"
+    },
+    {
+      "id": "holy-15",
+      "source_page": "https://god21.tw/post/夏季靈修會線上月明洞導覽聖靈歷史篇/",
+      "image_url": "https://god21.tw/media/images/17262663394_bf83a1c8d9_k.width-800.jpg",
+      "source_caption": "攝理教會【夏季靈修會】線上月明洞導覽：聖靈歷史篇",
+      "nearby_text": "--禱告山 ＜禱告山＞堆得很雄壯，讓人覺得那彷彿是「第二個野心作」。這裡並 不是為了讓人可以坐 而打造的地方，選用了十幾噸的大石頭，雄壯地豎立起來堆。全都建造好之後，聖子說： 「這是榮耀的冠冕，將聖三位榮耀的冠冕形像化地打造出來了。」 因為用像黃金一般「昂貴的石頭」來堆，所以有「黃金冠冕」的意義，而＜空中提升的人、盡忠誠的人＞也正戴著　神賜下的生命冠冕、金冠冕、鑽石冠冕。是為了象徵這點，才把月明洞的禱告山打造成冠冕的模樣，也在那裡建造了 象徵「已經勝利」的凱旋門， 這一切都是　神親自動工的事情。",
+      "publication_date": "2021-08-30",
+      "photo_date": null,
+      "retrieved": "2026-11-10",
+      "rights": "未發現明確開放授權；著作權屬原權利人。限參考整理，公開散布、AI上傳與衍生使用前需確認權限。",
+      "identity": "依來源章節及圖說分類",
+      "file": "08-prayer-hill/photos/holy-15.jpg",
+      "width": 800,
+      "height": 533,
+      "sha256": "9de7a69e842ce9db318a2e284b50edc33cb0080fa8d2e65916669d7109f11667",
+      "visual_review": "山區遠眺，僅作周邊環境，不能據此重建禱告山平台。"
+    }
+  ],
+  "parts": [
+    "局部地形",
+    "平台",
+    "階梯"
+  ],
+  "identity_confirmed_by_user": "2026-11-10",
+  "model": {
+    "id": "08-prayer-hill",
+    "name": "禱告山",
+    "focus": [
+      0,
+      0,
+      2
+    ],
+    "distance": 43,
+    "parts": [
+      "Local hillside",
+      "Round prayer platform",
+      "Crown stones",
+      "Benches",
+      "Ascending stair flights"
+    ],
+    "sources": [
+      "hill-06",
+      "hill-08",
+      "hill-09",
+      "holy-14"
+    ],
+    "estimate": "局部示意範圍20×24m，階梯總高差約4.7m；非實測、非DEM重建。",
+    "unknown": "照片中被松樹遮住的道路連接、平台後方及石塊數量位置為簡化推定。不包含禱告奇蹟松模型。",
+    "status": "照片輔助的簡化初稿，待風格確認",
+    "method": "Blender原生網格建模；未使用Meshy/Tripo，未上傳原照片",
+    "unit": "metre",
+    "bounds_blender_z_up": [
+      [
+        -10.0,
+        -12.0,
+        -0.44999998807907104
+      ],
+      [
+        10.0,
+        12.0,
+        5.196139335632324
+      ]
+    ],
+    "user_identity_confirmed": "2026-11-10",
+    "dimensions_estimated": true,
+    "texture": "solid PBR palette; no external textures",
+    "modular_exports": [
+      "terrain.glb",
+      "stairs.glb",
+      "platform.glb"
+    ],
+    "triangles": 13378,
+    "files": [
+      "landmark.glb",
+      "landmark.blend",
+      "front.png",
+      "right.png",
+      "back.png",
+      "left.png"
+    ]
+  }
+}

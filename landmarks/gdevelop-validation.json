@@ -1,0 +1,125 @@
+{
+  "success": true,
+  "status": "passed",
+  "testName": "LandmarkModelsAndCamera",
+  "framesExecuted": 62,
+  "durationMs": 3371,
+  "loadingMs": 2626,
+  "timeoutMs": 60000,
+  "hiddenStallMs": 0,
+  "gameTimeMs": 1033,
+  "assertions": [
+    {
+      "message": "駱駝石 has one native model",
+      "passed": true
+    },
+    {
+      "message": "駱駝石 GLB renders after reopening",
+      "passed": true
+    },
+    {
+      "message": "圓山八角亭 has one native model",
+      "passed": true
+    },
+    {
+      "message": "圓山八角亭 GLB renders after reopening",
+      "passed": true
+    },
+    {
+      "message": "禱告山 has one native model",
+      "passed": true
+    },
+    {
+      "message": "禱告山 GLB renders after reopening",
+      "passed": true
+    },
+    {
+      "message": "WASD pans camera",
+      "passed": true
+    },
+    {
+      "message": "Left drag rotates",
+      "passed": true
+    },
+    {
+      "message": "Right drag pans",
+      "passed": true
+    },
+    {
+      "message": "Zoom button moves closer",
+      "passed": true
+    },
+    {
+      "message": "2 switches to pavilion",
+      "passed": true
+    },
+    {
+      "message": "3 switches to prayer hill",
+      "passed": true
+    },
+    {
+      "message": "1 switches to camel rock",
+      "passed": true
+    },
+    {
+      "message": "Home resets model view",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "consoleLogs": [
+    "[log] 駱駝石 {\"minX\":-11.999999999999998,\"minY\":-3.3499999046325675,\"minZ\":-0.15000000596046453,\"maxX\":11.999999999999998,\"maxY\":3.349999904632569,\"maxZ\":4.289355278015135}",
+    "[warn] [PIXI Image manager] Unable to find texture for resource \"\".",
+    "[log] 圓山八角亭 {\"minX\":-3.917577743530274,\"minY\":-3.9175777055114067,\"minZ\":-0.15999999737866802,\"maxX\":3.917577743530274,\"maxY\":6.900000133386299,\"maxZ\":7.329999922751108}",
+    "[warn] [PIXI Image manager] Unable to find texture for resource \"\".",
+    "[log] 禱告山 {\"minX\":-10.000000000000002,\"minY\":-12.000000000000007,\"minZ\":-0.44999996663814207,\"maxX\":10.000000000000002,\"maxY\":12,\"maxZ\":5.1961393570732515}"
+  ],
+  "eventLog": [
+    {
+      "frame": 1,
+      "event": "sceneChanged",
+      "sceneName": "駱駝石",
+      "cause": "harness"
+    },
+    {
+      "frame": 7,
+      "event": "sceneChanged",
+      "sceneName": "圓山八角亭",
+      "cause": "harness"
+    },
+    {
+      "frame": 13,
+      "event": "sceneChanged",
+      "sceneName": "禱告山",
+      "cause": "harness"
+    },
+    {
+      "frame": 19,
+      "event": "sceneChanged",
+      "sceneName": "駱駝石",
+      "cause": "harness"
+    },
+    {
+      "frame": 49,
+      "event": "sceneChanged",
+      "sceneName": "圓山八角亭",
+      "cause": "game"
+    },
+    {
+      "frame": 53,
+      "event": "sceneChanged",
+      "sceneName": "禱告山",
+      "cause": "game"
+    },
+    {
+      "frame": 57,
+      "event": "sceneChanged",
+      "sceneName": "駱駝石",
+      "cause": "game"
+    }
+  ],
+  "screenshotsTakenCount": 3,
+  "droppedScreenshots": [],
+  "profiles": []
+}

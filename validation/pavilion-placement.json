@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "placement": {
+    "landmark": "圓山八角亭",
+    "object": "RoundHillPavilion",
+    "scene": "月明洞核心區",
+    "user_instruction": "草皮西側的山頂",
+    "location_status": "依使用者方位指示，選用現有DEM草皮西南側局部高點；非實測地標GPS。",
+    "position": [
+      1828.0,
+      2270.0,
+      223.74978088148794
+    ],
+    "ground_z_at_origin": 223.67526654756344,
+    "approx_elevation_m": 373.6752665475634,
+    "angle_deg": -154.9067282717337,
+    "stairs_facing": "toward lawn",
+    "fixed_model_size_m": [
+      7.835155487060547,
+      10.817577838897705,
+      7.489999920129776
+    ],
+    "foundation": "獨立貼地石基座；未改寫地形高度或筆刷資料。",
+    "focus_button": "FocusPavilion",
+    "source_model_sha256": "74f4aa6aa96ea8cd51f22bcf30b6bc4233159125bbc0d12e04cd5bc31a5dbc35"
+  },
+  "native_model_count": 1,
+  "native_focus_button": true,
+  "terrain_and_existing_surface_objects_unchanged": true,
+  "relative_resources_valid": true,
+  "runtime_preview": "passed: native core preview inspected close and wide; focus button works; pavilion pivot corrected and saved",
+  "core_asset_checks": "tools/check_core.py passed",
+  "rotation_pivot_fix": "ObjectCenter changed to ModelOrigin to align pavilion with plinth",
+  "interactive_preview_left_open": true,
+  "last_view": "八角亭入口階梯側近景"
+}

@@ -167,6 +167,20 @@
         "metadata": "",
         "name": "core-lawn.glb",
         "userAdded": true
+      },
+      {
+        "file": "assets/landmarks/round-hill-pavilion.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "round-hill-pavilion.glb",
+        "userAdded": true
+      },
+      {
+        "file": "assets/landmarks/round-hill-pavilion-base.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "round-hill-pavilion-base.glb",
+        "userAdded": true
       }
     ]
   },
@@ -3139,86 +3153,103 @@
       "variables": [
         {
           "name": "MapTrailZ",
+          "persistentUuid": "3e03f7e9-d61d-4aee-aa31-bdd322260d73",
           "type": "number",
           "value": 0
         },
         {
           "name": "MapRoadZ",
+          "persistentUuid": "3ab49383-ccb2-4475-a4ce-81427c3ea8c8",
           "type": "number",
           "value": 0
         },
         {
           "name": "MapLakeZ",
+          "persistentUuid": "4b1e2650-19b7-4a28-ba3f-a40132fb97c4",
           "type": "number",
           "value": 0
         },
         {
           "name": "ToggleWalk",
+          "persistentUuid": "554a9c03-0b94-4390-afe9-af55040c45f0",
           "type": "number",
           "value": 0
         },
         {
           "name": "InLake",
+          "persistentUuid": "99254f17-678d-4ec0-aa1a-e9be5ad56124",
           "type": "number",
           "value": 0
         },
         {
           "name": "NextWalkY",
+          "persistentUuid": "c59f3134-3380-407e-9dec-49d6c5c0cdd3",
           "type": "number",
           "value": 0
         },
         {
           "name": "NextWalkX",
+          "persistentUuid": "86c7e532-72dd-4ab4-9d05-95d97a0fadb9",
           "type": "number",
           "value": 0
         },
         {
           "name": "WalkLength",
+          "persistentUuid": "df82c1d5-bf09-4e41-8b26-30183e9a045f",
           "type": "number",
           "value": 0
         },
         {
           "name": "WalkSpeed",
+          "persistentUuid": "44d3d3f5-966f-4f3d-988b-6b907443436e",
           "type": "number",
           "value": 0
         },
         {
           "name": "WalkDY",
+          "persistentUuid": "01bf50d3-5d17-429f-890a-eb3d2bb73ef6",
           "type": "number",
           "value": 0
         },
         {
           "name": "WalkDX",
+          "persistentUuid": "8a1cd299-381e-4f52-9755-9bdbf62f3847",
           "type": "number",
           "value": 0
         },
         {
           "name": "WalkPitch",
+          "persistentUuid": "4e42b8ad-dde2-4338-ac5f-b1d3858f82d9",
           "type": "number",
           "value": 0
         },
         {
           "name": "WalkYaw",
+          "persistentUuid": "dbc87b3a-27e6-4f9e-bc17-507df1e9b38c",
           "type": "number",
           "value": 0
         },
         {
           "name": "WalkZ",
+          "persistentUuid": "bb7702ba-5399-4b32-82a7-c606adcffb07",
           "type": "number",
           "value": 0
         },
         {
           "name": "WalkY",
+          "persistentUuid": "7da30ca0-793a-4fa7-9620-4edf11298da4",
           "type": "number",
           "value": 0
         },
         {
           "name": "WalkX",
+          "persistentUuid": "d976a455-c844-47a8-84a3-4208dfc6c640",
           "type": "number",
           "value": 0
         },
         {
           "name": "WalkMode",
+          "persistentUuid": "4a5d15bc-74f7-4460-928f-607e70f7a94f",
           "type": "number",
           "value": 0
         },
@@ -3625,6 +3656,56 @@
           "persistentUuid": "76fb4bf8-6345-4002-91f5-d53039908c44",
           "width": 300,
           "x": 720,
+          "y": 230,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -154.9067282717337,
+          "customSize": true,
+          "depth": 7.489999920129776,
+          "height": 10.817577838897705,
+          "layer": "",
+          "name": "RoundHillPavilion",
+          "persistentUuid": "7472629f-27d9-4891-9ec5-24a915cd034b",
+          "width": 7.835155487060547,
+          "x": 1828,
+          "y": 2270,
+          "z": 223.74978088148794,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.6373501256720147,
+          "height": 10.610261467594682,
+          "layer": "",
+          "name": "RoundHillPavilionBase",
+          "persistentUuid": "3121c9ec-be9d-43e2-b53d-4757225ddefe",
+          "width": 7.81741340353301,
+          "x": 1824.7033795633267,
+          "y": 2262.686358969079,
+          "z": 222.11243075581592,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "FocusPavilion",
+          "persistentUuid": "92f68c8c-9fd6-4212-8a9c-9dfda27695d3",
+          "width": 420,
+          "x": 1060,
           "y": 230,
           "zOrder": 0,
           "numberProperties": [],
@@ -4451,6 +4532,102 @@
             "lineHeight": 0,
             "color": "32;62;53"
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "RoundHillPavilion",
+          "persistentUuid": "12c10b20-457a-4fa9-a0e5-d9bdf19d8b9d",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 7.489999920129776,
+            "height": 10.817577838897705,
+            "isCastingShadow": false,
+            "isReceivingShadow": false,
+            "keepAspectRatio": false,
+            "materialType": "KeepOriginal",
+            "modelResourceName": "round-hill-pavilion.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 7.835155487060547,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "RoundHillPavilionBase",
+          "persistentUuid": "14b4f170-3e1b-4eb2-856b-8736f9d11f57",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 1.6373501256720147,
+            "height": 10.610261467594682,
+            "isCastingShadow": false,
+            "isReceivingShadow": false,
+            "keepAspectRatio": false,
+            "materialType": "KeepOriginal",
+            "modelResourceName": "round-hill-pavilion-base.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 7.81741340353301,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "FocusPavilion",
+          "persistentUuid": "94157201-a13d-4059-a527-f69bea00010b",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "[ 圓山八角亭 ]",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 53,
+            "g": 62,
+            "r": 32
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "247;250;247",
+            "outlineThickness": 3,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "[ 圓山八角亭 ]",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "32;62;53"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -4533,6 +4710,15 @@
           },
           {
             "objectName": "FocusLake"
+          },
+          {
+            "objectName": "RoundHillPavilion"
+          },
+          {
+            "objectName": "RoundHillPavilionBase"
+          },
+          {
+            "objectName": "FocusPavilion"
           }
         ]
       },
@@ -5275,6 +5461,112 @@
                     "Elevation",
                     "=",
                     "55"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "FocusPavilion",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "WasLeft",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "WalkMode",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MousePointerLock::ExitPointerLock"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TargetX",
+                    "=",
+                    "1828.0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TargetY",
+                    "=",
+                    "2270.0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Distance",
+                    "=",
+                    "52"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Yaw",
+                    "=",
+                    "30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Elevation",
+                    "=",
+                    "32"
                   ]
                 }
               ]

@@ -1,0 +1,78 @@
+{
+  "id": "06-first-waterfall",
+  "name": "第一瀑布／제1폭포",
+  "status": "照片整理；尚未核對／建模",
+  "missing_angles": [
+    "落水口俯視",
+    "岩壁背側與水池輪廓"
+  ],
+  "photos": [
+    {
+      "id": "first-02",
+      "source_page": "https://www.wolmyeongdong.kr/works/waterfall",
+      "image_url": "https://www.wolmyeongdong.kr/img/works/waterfall/water01_01.png",
+      "source_caption": "월명동 제1폭포 오아시스 폭포 전경 - 하나님의 구상으로 만든 자연스러운 폭포",
+      "nearby_text": "사항 만남과 대화 CGM 한국어 English 日本語 中文(简体) Bahasa Indonesia ไทย Tiếng Việt العربية Français Español Deutsch Русский Português Family Sites 만남과 대화 CGM 신과 인간의 대 합작품 월명동 소개 폭포 작품 월명동 소개 작품 체험 소식 폭포 형상돌 작품나무 폭포 지형 제1폭포 작품 월명동 소개 작품 체험 소식 폭포 형상돌 작품나무 폭포 지형 제1폭포",
+      "publication_date": null,
+      "photo_date": null,
+      "retrieved": "2026-11-10",
+      "rights": "未發現明確開放授權；著作權屬原權利人。限參考整理，公開散布、AI上傳與衍生使用前需確認權限。",
+      "identity": "依來源章節及圖說分類",
+      "file": "06-first-waterfall/photos/first-02.png",
+      "width": 1200,
+      "height": 800,
+      "sha256": "4bc90dbbcc0c9c90b961f42368de0d56655cf8e233a0e7910dc94bdb9a5de147"
+    },
+    {
+      "id": "first-03",
+      "source_page": "https://www.wolmyeongdong.kr/works/waterfall",
+      "image_url": "https://www.wolmyeongdong.kr/img/works/waterfall/water01_06.png",
+      "source_caption": "제1폭포 돌조경 - 하나님 구상대로 세운 큰 돌 4개와 소나무",
+      "nearby_text": " 끝에 ‘큰 바위 4개’를 갖다 놓고 하나님께 구상을 간구했습니다.\n        이에 하나님은 구상을 주셨습니다. \"납작한 것은 폭포수 밑에 놓고, 사람들이 거기 앉아서 놀게 하는 장소로 만들고, 큰 돌 두 개는 세우고, 호피석은 가운데 튀어나오게 세워라.”\n        하나님의 구상 주신 그대로 쌓았습니다. 폭포수가 멋있도록 조금이라도 더 높게 쌓고 싶었지만, 그렇게 해서는 사람들이 놀 수 있는 신선 장소가 없어지니 더 높이지 못했습니다.",
+      "publication_date": null,
+      "photo_date": null,
+      "retrieved": "2026-11-10",
+      "rights": "未發現明確開放授權；著作權屬原權利人。限參考整理，公開散布、AI上傳與衍生使用前需確認權限。",
+      "identity": "依來源章節及圖說分類",
+      "file": "06-first-waterfall/photos/first-03.png",
+      "width": 1200,
+      "height": 800,
+      "sha256": "6c5bd995b78e5ceec65a393544569c01cd8df5e29feb4de9316ce96e8a53c7b9"
+    },
+    {
+      "id": "first-04",
+      "source_page": "https://www.wolmyeongdong.kr/works/waterfall",
+      "image_url": "https://www.wolmyeongdong.kr/img/works/waterfall/water01_05.png",
+      "source_caption": "제1폭포 여섯 계단 폭포수 - 선녀탕처럼 아름다운 자연폭포",
+      "nearby_text": " 끝에 ‘큰 바위 4개’를 갖다 놓고 하나님께 구상을 간구했습니다.\n        이에 하나님은 구상을 주셨습니다. \"납작한 것은 폭포수 밑에 놓고, 사람들이 거기 앉아서 놀게 하는 장소로 만들고, 큰 돌 두 개는 세우고, 호피석은 가운데 튀어나오게 세워라.”\n        하나님의 구상 주신 그대로 쌓았습니다. 폭포수가 멋있도록 조금이라도 더 높게 쌓고 싶었지만, 그렇게 해서는 사람들이 놀 수 있는 신선 장소가 없어지니 더 높이지 못했습니다.",
+      "publication_date": null,
+      "photo_date": null,
+      "retrieved": "2026-11-10",
+      "rights": "未發現明確開放授權；著作權屬原權利人。限參考整理，公開散布、AI上傳與衍生使用前需確認權限。",
+      "identity": "依來源章節及圖說分類",
+      "file": "06-first-waterfall/photos/first-04.png",
+      "width": 1200,
+      "height": 800,
+      "sha256": "7168a8dcc2e9b12aa936bf987626ae69078e63e98429b0b16c223535394d3b17"
+    },
+    {
+      "id": "first-06",
+      "source_page": "https://www.wolmyeongdong.kr/works/waterfall",
+      "image_url": "https://www.wolmyeongdong.kr/img/works/waterfall/water01_03.png",
+      "source_caption": "제1폭포 측면 모습 - 무(無)에서 유(有)를 창조한 7m 높이 폭포",
+      "nearby_text": " 만들 만큼 높은 곳이 아니었습니다. 높이 1m가 되는 언덕조차 없었죠. 정명석 목사가 어렸던 시절, 밀짚으로 작은 물레방아를 만들었지만 한 뼘 높이의 경사진 곳도 없어 물레방아를 돌릴 수가 없었다고 합니다. 그랬던 이 장소도 개발하여 지금은 높이 7m의 자연스러운 아름다움을 발하는 폭포가 세워졌습니다. \n이처럼 ‘여기까지가 나의 한계야’하며 포기하지 마세요, 당신도 오아시스 폭포처럼 무(無)에서 유(有)를 창조한 인생으로 변화할 수 있습니다.",
+      "publication_date": null,
+      "photo_date": null,
+      "retrieved": "2026-11-10",
+      "rights": "未發現明確開放授權；著作權屬原權利人。限參考整理，公開散布、AI上傳與衍生使用前需確認權限。",
+      "identity": "依來源章節及圖說分類",
+      "file": "06-first-waterfall/photos/first-06.png",
+      "width": 1200,
+      "height": 800,
+      "sha256": "dfc59003beb3912a0f0b5b36bd4d3f3b475c6504cbd11571236f52ccabd32baa"
+    }
+  ],
+  "parts": [
+    "主體；細分待照片核對"
+  ]
+}

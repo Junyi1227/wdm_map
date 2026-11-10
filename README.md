@@ -75,3 +75,11 @@ GDevelop 原生可雕刻、可塗色的 3D Terrain 專案。現在優先製作�
 資產工具需要 Python 3 與 Pillow，日常使用 GDevelop 不必執行。沒有執行時重新生成地圖的 JavaScript 場景。舊 `yue-ming-terrain/` 已移除，尚未加入建築、亭子或植栽。
 
 本次修改前的 Git 還原點是 `e202f26`（原生全區地形與第一人稱版本）。
+
+## 地標素材準備
+
+[地標照片圖冊](landmarks/index.html) 已整理十組地標的公開參考圖、來源與缺圖。已依使用者確認製作駱駝石、圓山八角亭、禱告山三個簡化模型初稿，包含GLB、Blender檔與獨立GDevelop檢視專案；尚未放入核心區。詳見 [模型圖冊](landmarks/models.html) 與 [素材庫說明](landmarks/README.md)。
+
+## 圓山八角亭配置
+
+已依使用者指示放在草坪西側、略偏西南的局部山頂。預覽核心區後點「圓山八角亭」可定位；階梯朝向草皮，並有貼地石基座。亭子保持原模型公尺比例，未改寫地形筆刷或既有場地。這是依目前DEM與方位指示的遊戲配置，不是實測地標GPS。位置與朝向記錄於 `source-data/landmark-placements.json`，可在場景選取 `RoundHillPavilion` 調整。

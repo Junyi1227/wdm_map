@@ -1,0 +1,19 @@
+{
+  "phase": "model-style-review",
+  "ai_attempts": 0,
+  "reason": "使用者無法登入Meshy；以照片輔助的Blender網格製作初稿。",
+  "game_modified": false,
+  "identity_confirmed": [
+    "10-round-hill-pavilion",
+    "09-camel-rock",
+    "08-prayer-hill"
+  ],
+  "pending_identity": [
+    "02-hall-316"
+  ],
+  "models_require_style_review": [
+    "08-prayer-hill",
+    "09-camel-rock",
+    "10-round-hill-pavilion"
+  ]
+}

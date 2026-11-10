@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-10",
+  "groups": 10,
+  "reference_images": 37,
+  "image_decode_and_hash": "passed",
+  "browser": {
+    "sections": 10,
+    "images": 37,
+    "broken_images": 0,
+    "horizontal_overflow": false
+  },
+  "game_project_sha256": "6581f3c6f8454f8dff925fc4c1d4efdb41b597b4ddf7d106c8c50711ae3e7b08",
+  "game_project_unchanged": true,
+  "models_generated": 3,
+  "ai_uploads": 0,
+  "ai_generation_attempts": 0,
+  "gdevelop_model_tests": "三個模型及鏡頭操作通過；詳見gdevelop-validation.json"
+}

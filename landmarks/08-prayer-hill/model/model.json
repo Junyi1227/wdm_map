@@ -1,0 +1,57 @@
+{
+  "id": "08-prayer-hill",
+  "name": "禱告山",
+  "focus": [
+    0,
+    0,
+    2
+  ],
+  "distance": 43,
+  "parts": [
+    "Local hillside",
+    "Round prayer platform",
+    "Crown stones",
+    "Benches",
+    "Ascending stair flights"
+  ],
+  "sources": [
+    "hill-06",
+    "hill-08",
+    "hill-09",
+    "holy-14"
+  ],
+  "estimate": "局部示意範圍20×24m，階梯總高差約4.7m；非實測、非DEM重建。",
+  "unknown": "照片中被松樹遮住的道路連接、平台後方及石塊數量位置為簡化推定。不包含禱告奇蹟松模型。",
+  "status": "照片輔助的簡化初稿，待風格確認",
+  "method": "Blender原生網格建模；未使用Meshy/Tripo，未上傳原照片",
+  "unit": "metre",
+  "bounds_blender_z_up": [
+    [
+      -10.0,
+      -12.0,
+      -0.44999998807907104
+    ],
+    [
+      10.0,
+      12.0,
+      5.196139335632324
+    ]
+  ],
+  "user_identity_confirmed": "2026-11-10",
+  "dimensions_estimated": true,
+  "texture": "solid PBR palette; no external textures",
+  "modular_exports": [
+    "terrain.glb",
+    "stairs.glb",
+    "platform.glb"
+  ],
+  "triangles": 13378,
+  "files": [
+    "landmark.glb",
+    "landmark.blend",
+    "front.png",
+    "right.png",
+    "back.png",
+    "left.png"
+  ]
+}

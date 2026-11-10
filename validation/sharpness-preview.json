@@ -1,0 +1,141 @@
+{
+  "success": true,
+  "status": "passed",
+  "testName": "Sharper native terrain verification",
+  "framesExecuted": 31,
+  "durationMs": 1009,
+  "loadingMs": 899,
+  "timeoutMs": 120000,
+  "hiddenStallMs": 0,
+  "gameTimeMs": 517,
+  "assertions": [
+    {
+      "message": "Temporary brush bump fully restored",
+      "passed": true
+    },
+    {
+      "message": "DEM north/south orientation and altitude conversion match source control points",
+      "passed": true
+    },
+    {
+      "message": "Core view retained",
+      "passed": true
+    },
+    {
+      "message": "Lake footprint sits above terrain without intersections",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "consoleLogs": [
+    "[log] DEM_CONTROLS [{\"x\":0,\"y\":0,\"expected\":145.00343327992675,\"actual\":145.00342905521393},{\"x\":3556.7188910705504,\"y\":0,\"expected\":47.00389105058366,\"actual\":47.003889083862305},{\"x\":0,\"y\":4403.325177247912,\"expected\":275.0011444266422,\"actual\":275.00115036964417},{\"x\":3556.7188910705504,\"y\":4403.325177247912,\"expected\":311.9981689173724,\"actual\":311.9981646537781},{\"x\":1778.3594455352752,\"y\":2201.662588623956,\"expected\":207.00389105058366,\"actual\":207.00389742851257}]",
+    "[log] LAKE_CLEARANCE {\"min\":2.0079506362281165,\"max\":3.0621428724894884,\"count\":10272}"
+  ],
+  "eventLog": [
+    {
+      "frame": 1,
+      "event": "sceneChanged",
+      "sceneName": "月明洞地形圖",
+      "cause": "harness"
+    }
+  ],
+  "finalState": {
+    "sceneName": "月明洞地形圖",
+    "objectCounts": {
+      "WolmyeongTerrain": 1,
+      "MapTitle": 1,
+      "MapCredit": 1,
+      "MapHelp": 1,
+      "ViewAll": 1,
+      "ViewCore": 1,
+      "RotateLeft": 1,
+      "RotateRight": 1,
+      "ZoomIn": 1,
+      "ZoomOut": 1,
+      "LakeLabel": 1,
+      "MoonLake": 1
+    },
+    "watchedObjects": {},
+    "sceneVariables": [
+      {
+        "name": "Mode",
+        "type": "number",
+        "value": 1
+      },
+      {
+        "name": "WasRight",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "WasLeft",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "PrevY",
+        "type": "number",
+        "value": 87.49999997949999
+      },
+      {
+        "name": "PrevX",
+        "type": "number",
+        "value": 285
+      },
+      {
+        "name": "Elevation",
+        "type": "number",
+        "value": 55
+      },
+      {
+        "name": "Yaw",
+        "type": "number",
+        "value": 45
+      },
+      {
+        "name": "Distance",
+        "type": "number",
+        "value": 2050
+      },
+      {
+        "name": "TargetZ",
+        "type": "number",
+        "value": 190
+      },
+      {
+        "name": "TargetY",
+        "type": "number",
+        "value": 2234.965896
+      },
+      {
+        "name": "TargetX",
+        "type": "number",
+        "value": 2155.5872067
+      }
+    ]
+  },
+  "screenshots": [
+    {
+      "label": "全區總覽",
+      "frame": 26,
+      "width": 1280,
+      "height": 800,
+      "image": "attached below"
+    },
+    {
+      "label": "核心區",
+      "frame": 31,
+      "width": 1280,
+      "height": 800,
+      "image": "attached below"
+    }
+  ],
+  "screenshotsTakenCount": 2,
+  "droppedScreenshots": [],
+  "profiles": [],
+  "performance": {
+    "avgStepMs": 0.25,
+    "worstStepMs": 4.1
+  }
+}

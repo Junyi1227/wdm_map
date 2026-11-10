@@ -1,0 +1,233 @@
+{
+  "success": true,
+  "status": "passed",
+  "testName": "Final close detail and free navigation",
+  "framesExecuted": 171,
+  "durationMs": 1439,
+  "loadingMs": 1252,
+  "timeoutMs": 120000,
+  "hiddenStallMs": 0,
+  "gameTimeMs": 2850,
+  "assertions": [
+    {
+      "message": "Preview renders at 2560x1600",
+      "passed": true
+    },
+    {
+      "message": "Left pans camera across terrain",
+      "passed": true
+    },
+    {
+      "message": "Left preserves orbit heading",
+      "passed": true
+    },
+    {
+      "message": "Right pans camera across terrain",
+      "passed": true
+    },
+    {
+      "message": "Right preserves orbit heading",
+      "passed": true
+    },
+    {
+      "message": "Up pans camera across terrain",
+      "passed": true
+    },
+    {
+      "message": "Up preserves orbit heading",
+      "passed": true
+    },
+    {
+      "message": "Down pans camera across terrain",
+      "passed": true
+    },
+    {
+      "message": "Down preserves orbit heading",
+      "passed": true
+    },
+    {
+      "message": "w pans camera across terrain",
+      "passed": true
+    },
+    {
+      "message": "w preserves orbit heading",
+      "passed": true
+    },
+    {
+      "message": "a pans camera across terrain",
+      "passed": true
+    },
+    {
+      "message": "a preserves orbit heading",
+      "passed": true
+    },
+    {
+      "message": "s pans camera across terrain",
+      "passed": true
+    },
+    {
+      "message": "s preserves orbit heading",
+      "passed": true
+    },
+    {
+      "message": "d pans camera across terrain",
+      "passed": true
+    },
+    {
+      "message": "d preserves orbit heading",
+      "passed": true
+    },
+    {
+      "message": "Shift left drag pans",
+      "passed": true
+    },
+    {
+      "message": "Shift drag does not rotate",
+      "passed": true
+    },
+    {
+      "message": "Right drag pans",
+      "passed": true
+    },
+    {
+      "message": "Close view reached through real zoom buttons",
+      "passed": true
+    },
+    {
+      "message": "Independent vector route detail meshes loaded",
+      "passed": true
+    },
+    {
+      "message": "Minimum distance close-up reached",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "consoleLogs": [
+    "[log] PAN {\"key\":\"Left\",\"dx\":-544.4722215136408,\"dy\":-544.4722215136408,\"cameraDX\":-544.4722215136408,\"cameraDY\":-544.4722215136408}",
+    "[log] PAN {\"key\":\"Right\",\"dx\":544.4722215136408,\"dy\":544.4722215136408,\"cameraDX\":544.4722215136408,\"cameraDY\":544.4722215136408}",
+    "[log] PAN {\"key\":\"Up\",\"dx\":446.00553331146716,\"dy\":-446.00553331146875,\"cameraDX\":446.00553331146716,\"cameraDY\":-446.00553331146875}",
+    "[log] PAN {\"key\":\"Down\",\"dx\":-446.00553331146693,\"dy\":446.00553331146875,\"cameraDX\":-446.00553331146693,\"cameraDY\":446.00553331146875}",
+    "[log] PAN {\"key\":\"w\",\"dx\":446.00553331146693,\"dy\":-446.00553331146875,\"cameraDX\":446.00553331146693,\"cameraDY\":-446.00553331146875}",
+    "[log] PAN {\"key\":\"a\",\"dx\":-544.4722215136408,\"dy\":-544.4722215136408,\"cameraDX\":-544.4722215136408,\"cameraDY\":-544.4722215136412}",
+    "[log] PAN {\"key\":\"s\",\"dx\":-446.00553331146693,\"dy\":446.00553331146966,\"cameraDX\":-446.00553331146693,\"cameraDY\":446.0055333114692}",
+    "[log] PAN {\"key\":\"d\",\"dx\":544.4722215136408,\"dy\":544.4722215136408,\"cameraDX\":544.4722215136408,\"cameraDY\":544.4722215136408}",
+    "[log] CLOSE {\"distance\":537.3952000000002,\"target\":[2155.5872067,2234.965896,195.11466729002439],\"camera\":{\"x\":1937.6305755877047,\"y\":2452.9225271122955,\"z\":635.3230439611161,\"rotationX\":35,\"rotationY\":0,\"angle\":45,\"zoom\":3.039982365281059}}"
+  ],
+  "eventLog": [
+    {
+      "frame": 1,
+      "event": "sceneChanged",
+      "sceneName": "月明洞地形圖",
+      "cause": "harness"
+    }
+  ],
+  "finalState": {
+    "sceneName": "月明洞地形圖",
+    "objectCounts": {
+      "WolmyeongTerrain": 1,
+      "MapTitle": 1,
+      "MapCredit": 1,
+      "MapHelp": 1,
+      "ViewAll": 1,
+      "ViewCore": 1,
+      "RotateLeft": 1,
+      "RotateRight": 1,
+      "ZoomIn": 1,
+      "ZoomOut": 1,
+      "LakeLabel": 1,
+      "MoonLake": 1,
+      "RoadDetail": 1,
+      "TrailDetail": 1
+    },
+    "watchedObjects": {},
+    "sceneVariables": [
+      {
+        "name": "Mode",
+        "type": "number",
+        "value": 1
+      },
+      {
+        "name": "WasRight",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "WasLeft",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "PrevY",
+        "type": "number",
+        "value": 85.09999997504002
+      },
+      {
+        "name": "PrevX",
+        "type": "number",
+        "value": 700
+      },
+      {
+        "name": "Elevation",
+        "type": "number",
+        "value": 55
+      },
+      {
+        "name": "Yaw",
+        "type": "number",
+        "value": 45
+      },
+      {
+        "name": "Distance",
+        "type": "number",
+        "value": 200
+      },
+      {
+        "name": "TargetZ",
+        "type": "number",
+        "value": 195.11466729002439
+      },
+      {
+        "name": "TargetY",
+        "type": "number",
+        "value": 2234.965896
+      },
+      {
+        "name": "TargetX",
+        "type": "number",
+        "value": 2155.5872067
+      }
+    ]
+  },
+  "screenshots": [
+    {
+      "label": "核心區清晰路網",
+      "frame": 149,
+      "width": 1600,
+      "height": 1000,
+      "image": "attached below"
+    },
+    {
+      "label": "拉近到約537公尺",
+      "frame": 161,
+      "width": 1600,
+      "height": 1000,
+      "image": "attached below"
+    },
+    {
+      "label": "最靠近的200公尺視角",
+      "frame": 171,
+      "width": 1600,
+      "height": 1000,
+      "image": "attached below"
+    }
+  ],
+  "screenshotsTakenCount": 3,
+  "droppedScreenshots": [],
+  "profiles": [],
+  "performance": {
+    "avgStepMs": 0.13,
+    "worstStepMs": 5.8
+  }
+}

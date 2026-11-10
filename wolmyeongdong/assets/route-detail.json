@@ -1,0 +1,33 @@
+{
+  "RoadDetail": {
+    "file": "roads-detail.glb",
+    "position": [
+      -4.806651012604382,
+      -4.9561010496758495,
+      25.873202220727524
+    ],
+    "size": [
+      3566.8588161670596,
+      4412.880913271168,
+      231.72825012943827
+    ],
+    "vertices": 393648,
+    "display_half_width_m": 6
+  },
+  "TrailDetail": {
+    "file": "trails-detail.glb",
+    "position": [
+      -2.8510442583839133,
+      397.34070287028595,
+      38.98282816754361
+    ],
+    "size": [
+      3377.201263398493,
+      4008.972908382555,
+      439.77213417794337
+    ],
+    "vertices": 411384,
+    "display_half_width_m": 3
+  },
+  "notice": "Display ribbons over initial DEM; hide or rebuild after terrain edits beneath routes. Widths are illustrative."
+}

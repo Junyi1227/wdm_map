@@ -1,0 +1,121 @@
+{
+  "success": true,
+  "status": "passed",
+  "testName": "Overview depth precision",
+  "framesExecuted": 21,
+  "durationMs": 1055,
+  "loadingMs": 1010,
+  "timeoutMs": 120000,
+  "hiddenStallMs": 0,
+  "gameTimeMs": 350,
+  "assertions": [
+    {
+      "message": "Road detail remains loaded",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "consoleLogs": [],
+  "eventLog": [
+    {
+      "frame": 1,
+      "event": "sceneChanged",
+      "sceneName": "月明洞地形圖",
+      "cause": "harness"
+    }
+  ],
+  "finalState": {
+    "sceneName": "月明洞地形圖",
+    "objectCounts": {
+      "WolmyeongTerrain": 1,
+      "MapTitle": 1,
+      "MapCredit": 1,
+      "MapHelp": 1,
+      "ViewAll": 1,
+      "ViewCore": 1,
+      "RotateLeft": 1,
+      "RotateRight": 1,
+      "ZoomIn": 1,
+      "ZoomOut": 1,
+      "LakeLabel": 1,
+      "MoonLake": 1,
+      "RoadDetail": 1,
+      "TrailDetail": 1
+    },
+    "watchedObjects": {},
+    "sceneVariables": [
+      {
+        "name": "Mode",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "WasRight",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "WasLeft",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "PrevY",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "PrevX",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "Elevation",
+        "type": "number",
+        "value": 55
+      },
+      {
+        "name": "Yaw",
+        "type": "number",
+        "value": 45
+      },
+      {
+        "name": "Distance",
+        "type": "number",
+        "value": 7000
+      },
+      {
+        "name": "TargetZ",
+        "type": "number",
+        "value": 215.00389741749552
+      },
+      {
+        "name": "TargetY",
+        "type": "number",
+        "value": 2201.6625886
+      },
+      {
+        "name": "TargetX",
+        "type": "number",
+        "value": 1778.3594455
+      }
+    ]
+  },
+  "screenshots": [
+    {
+      "label": "全區總覽深度精度修正",
+      "frame": 21,
+      "width": 1600,
+      "height": 1000,
+      "image": "attached below"
+    }
+  ],
+  "screenshotsTakenCount": 1,
+  "droppedScreenshots": [],
+  "profiles": [],
+  "performance": {
+    "avgStepMs": 0.58,
+    "worstStepMs": 7.7
+  }
+}

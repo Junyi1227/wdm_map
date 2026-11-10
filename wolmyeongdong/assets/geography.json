@@ -1,0 +1,50 @@
+{
+  "bbox_wsen": [
+    127.3454,
+    36.105,
+    127.385,
+    36.1446
+  ],
+  "origin_lon_lat": [
+    127.3454,
+    36.1446
+  ],
+  "width_m": 3556.7188910705504,
+  "height_m": 4403.325177247912,
+  "datum_m_egm96": 150,
+  "height_span_m": 600,
+  "axes": {
+    "x": "east",
+    "y": "south",
+    "z": "up"
+  },
+  "heightmap_size": 513,
+  "terrain_resolution": 1024,
+  "core_blend_width_m": 100,
+  "heightmap_encoding": "16-bit normalized height: R=MSB, G=LSB, B=0; no grayscale or gamma conversion",
+  "road_edit_count": 1683,
+  "road_display_radius_m": 6,
+  "trail_display_radius_m": 3,
+  "lake_anchor": [
+    2086.347949307665,
+    2234.0425959875092,
+    186.7822040422697
+  ],
+  "lake_size": [
+    55.1471060381964,
+    70.55327840860673,
+    4.116385879430908
+  ],
+  "lake_vertex_min": [
+    0.0,
+    1.1999999999999886,
+    0.0
+  ],
+  "lake_label": [
+    2117.8644305912208,
+    2270.6035383681115
+  ],
+  "lake_triangles": 3424,
+  "notice": "Approximate terrain; interpolation does not add survey accuracy. Lake is a draped footprint, not surveyed water level.",
+  "lake_display_offset_m": 3.2
+}

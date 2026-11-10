@@ -1,0 +1,300 @@
+{
+  "success": true,
+  "status": "passed",
+  "testName": "First-person terrain walking and 5m zoom",
+  "framesExecuted": 1438,
+  "durationMs": 1723,
+  "loadingMs": 1312,
+  "timeoutMs": 120000,
+  "hiddenStallMs": 0,
+  "gameTimeMs": 23967,
+  "assertions": [
+    {
+      "message": "Map zoom reaches 5m instead of former 200m limit",
+      "passed": true
+    },
+    {
+      "message": "Visible button enters first-person",
+      "passed": true
+    },
+    {
+      "message": "Mouse look locks through native input",
+      "passed": true
+    },
+    {
+      "message": "Camera starts at terrain plus 1.7m",
+      "passed": true
+    },
+    {
+      "message": "W walks forward at 1.8m per second aligned with view",
+      "passed": true
+    },
+    {
+      "message": "Walking follows varying terrain elevation without flying or sinking",
+      "passed": true
+    },
+    {
+      "message": "S walks backward to same position",
+      "passed": true
+    },
+    {
+      "message": "D strafes right",
+      "passed": true
+    },
+    {
+      "message": "A strafes left",
+      "passed": true
+    },
+    {
+      "message": "Diagonal speed is normalized",
+      "passed": true
+    },
+    {
+      "message": "Shift increases walking speed to 4m per second",
+      "passed": true
+    },
+    {
+      "message": "Mouse rotates heading and vertical view",
+      "passed": true
+    },
+    {
+      "message": "Esc releases cursor without changing location",
+      "passed": true
+    },
+    {
+      "message": "Clicking terrain resumes mouse look",
+      "passed": true
+    },
+    {
+      "message": "F returns to orbit map and releases mouse",
+      "passed": true
+    },
+    {
+      "message": "F re-enters walking mode",
+      "passed": true
+    },
+    {
+      "message": "Home exits first-person and restores overview",
+      "passed": true
+    },
+    {
+      "message": "Lake footprint blocks walking into blue water area",
+      "passed": true
+    },
+    {
+      "message": "Lake footprint uses close-view clearance",
+      "passed": true
+    },
+    {
+      "message": "Map restores original lake display height",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "consoleLogs": [
+    "[log] LAKE_EDGE {\"x\":2138.679999999951,\"y\":2269}"
+  ],
+  "eventLog": [
+    {
+      "frame": 1,
+      "event": "sceneChanged",
+      "sceneName": "月明洞地形圖",
+      "cause": "harness"
+    }
+  ],
+  "finalState": {
+    "sceneName": "月明洞地形圖",
+    "objectCounts": {
+      "WolmyeongTerrain": 1,
+      "MapTitle": 1,
+      "MapCredit": 1,
+      "MapHelp": 1,
+      "ViewAll": 1,
+      "ViewCore": 1,
+      "RotateLeft": 1,
+      "RotateRight": 1,
+      "ZoomIn": 1,
+      "ZoomOut": 1,
+      "LakeLabel": 1,
+      "MoonLake": 1,
+      "RoadDetail": 1,
+      "TrailDetail": 1,
+      "ViewWalk": 1,
+      "WalkCrosshair": 1
+    },
+    "watchedObjects": {},
+    "sceneVariables": [
+      {
+        "name": "MapTrailZ",
+        "type": "number",
+        "value": 38.98282816754361
+      },
+      {
+        "name": "MapRoadZ",
+        "type": "number",
+        "value": 25.873202220727524
+      },
+      {
+        "name": "MapLakeZ",
+        "type": "number",
+        "value": 186.7822040422697
+      },
+      {
+        "name": "ToggleWalk",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "InLake",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "NextWalkY",
+        "type": "number",
+        "value": 2269
+      },
+      {
+        "name": "NextWalkX",
+        "type": "number",
+        "value": 2138.679999999951
+      },
+      {
+        "name": "WalkLength",
+        "type": "number",
+        "value": 1
+      },
+      {
+        "name": "WalkSpeed",
+        "type": "number",
+        "value": 1.8
+      },
+      {
+        "name": "WalkDY",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "WalkDX",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "WalkPitch",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "WalkYaw",
+        "type": "number",
+        "value": 180
+      },
+      {
+        "name": "WalkZ",
+        "type": "number",
+        "value": 187.46231441221985
+      },
+      {
+        "name": "WalkY",
+        "type": "number",
+        "value": 2269
+      },
+      {
+        "name": "WalkX",
+        "type": "number",
+        "value": 2138.679999999951
+      },
+      {
+        "name": "WalkMode",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "Mode",
+        "type": "number",
+        "value": 1
+      },
+      {
+        "name": "WasRight",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "WasLeft",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "PrevY",
+        "type": "number",
+        "value": 85.09999997504002
+      },
+      {
+        "name": "PrevX",
+        "type": "number",
+        "value": 285
+      },
+      {
+        "name": "Elevation",
+        "type": "number",
+        "value": 55
+      },
+      {
+        "name": "Yaw",
+        "type": "number",
+        "value": 45
+      },
+      {
+        "name": "Distance",
+        "type": "number",
+        "value": 2050
+      },
+      {
+        "name": "TargetZ",
+        "type": "number",
+        "value": 188.11466729002439
+      },
+      {
+        "name": "TargetY",
+        "type": "number",
+        "value": 2234.965896
+      },
+      {
+        "name": "TargetX",
+        "type": "number",
+        "value": 2155.5872067
+      }
+    ]
+  },
+  "screenshots": [
+    {
+      "label": "地圖模式5公尺近看",
+      "frame": 83,
+      "width": 1600,
+      "height": 1000,
+      "image": "attached below"
+    },
+    {
+      "label": "第一人稱湖邊步行",
+      "frame": 1434,
+      "width": 1600,
+      "height": 1000,
+      "image": "attached below"
+    },
+    {
+      "label": "地圖與第一人稱切換介面",
+      "frame": 1438,
+      "width": 1600,
+      "height": 1000,
+      "image": "attached below"
+    }
+  ],
+  "screenshotsTakenCount": 3,
+  "droppedScreenshots": [],
+  "profiles": [],
+  "performance": {
+    "avgStepMs": 0.08,
+    "worstStepMs": 11.1
+  }
+}

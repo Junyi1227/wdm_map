@@ -1,0 +1,76 @@
+[
+  {
+    "id": "NAVER-USER",
+    "name": "使用者提供的Naver截圖",
+    "url": "https://map.naver.com/p/entry/place/17725687",
+    "retrieved": "2026-11-09",
+    "role": "景區輪廓與可見道路粗描",
+    "limitations": "截圖沒有地理座標格網、比例尺與影像拍攝日期；未正式配準"
+  },
+  {
+    "id": "OSM",
+    "name": "OpenStreetMap contributors",
+    "url": "https://www.openstreetmap.org/copyright",
+    "download_url": "https://api.openstreetmap.org/api/0.6/map?bbox=127.345,36.105,127.385,36.145",
+    "retrieved": "2026-11-10",
+    "role": "可下載路網、水域、建築參考",
+    "limitations": "最後編輯日期不等於現地調查日期；保留原始分類與ID",
+    "license": "ODbL 1.0",
+    "processed_bbox_wsen": [
+      127.3454,
+      36.105,
+      127.385,
+      36.1446
+    ]
+  },
+  {
+    "id": "SRTM",
+    "name": "SRTM v3 via Open Topo Data",
+    "url": "https://www.opentopodata.org/datasets/srtm/",
+    "retrieved": "2026-11-10",
+    "role": "大致山勢與海拔",
+    "limitations": "主要觀測於2000年；約30m來源網格，植被與人工地形有影響"
+  },
+  {
+    "id": "USGS",
+    "name": "USGS SRTM datum",
+    "url": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-digital-elevation-shuttle-radar-topography-mission-srtm",
+    "role": "WGS84水平、EGM96垂直基準說明"
+  },
+  {
+    "id": "GOOGLE",
+    "name": "Google Maps 月明洞自然聖殿",
+    "url": "https://www.google.com/maps/search/?api=1&query=월명동%20자연성전&query_place_id=ChIJx-GWYu5VZTURGcxjsGAVxD4",
+    "role": "前一階段已核對名稱、地址與照片入口；沒有匯出Google地形或3D模型"
+  },
+  {
+    "id": "THRILL",
+    "name": "月明洞官方 스릴 코스",
+    "url": "https://wolmyeongdong.or.kr/experience/thrill-course",
+    "role": "11個景點順序與2.3km標示；不據此猜GPS"
+  },
+  {
+    "id": "HEALING",
+    "name": "月明洞官方 힐링 코스",
+    "url": "https://wolmyeongdong.or.kr/experience/healing-course",
+    "role": "7個景點順序與1.5km標示；不據此猜GPS"
+  },
+  {
+    "id": "STAR",
+    "name": "官方星峰亭",
+    "url": "https://wolmyeongdong.or.kr/intro/scenic-spots/the-star-peak",
+    "role": "五條山稜交會；亭子12m為建築高度，不是海拔"
+  },
+  {
+    "id": "SCHOOL-HISTORY",
+    "name": "珍山國小校史（分校沿革）",
+    "url": "https://encykorea.aks.ac.kr/Article/E0067606",
+    "role": "佐證石幕分校沿革；不能據此指定舊校區GPS"
+  },
+  {
+    "id": "PARKING-GUIDE",
+    "name": "月明洞官方停車指引",
+    "url": "https://www.wolmyeongdong.or.kr/experience/faq",
+    "role": "確認訪客使用명막골停車場；尚未確認你所指停車場的實際輪廓"
+  }
+]

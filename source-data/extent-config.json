@@ -1,0 +1,13 @@
+{
+  "bbox_wsen": [
+    127.3454,
+    36.105,
+    127.385,
+    36.1446
+  ],
+  "rows": 45,
+  "columns": 45,
+  "step_degrees": 0.0009,
+  "prepared_date": "2026-11-10",
+  "note": "Expanded context with original 30m sampled core retained separately. School campus identity/footprint awaits map confirmation."
+}

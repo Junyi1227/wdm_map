@@ -1,0 +1,157 @@
+{
+  "success": true,
+  "status": "passed",
+  "testName": "Final sharp rendering and route draping",
+  "framesExecuted": 45,
+  "durationMs": 1635,
+  "loadingMs": 1448,
+  "timeoutMs": 120000,
+  "hiddenStallMs": 0,
+  "gameTimeMs": 750,
+  "assertions": [
+    {
+      "message": "Native editable terrain retained",
+      "passed": true
+    },
+    {
+      "message": "Actual 3D drawing buffer uses full resolution",
+      "passed": true
+    },
+    {
+      "message": "RoadDetail follows native terrain with display clearance",
+      "passed": true
+    },
+    {
+      "message": "TrailDetail follows native terrain with display clearance",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "consoleLogs": [
+    "[log] ROUTE_HEIGHT {\"name\":\"RoadDetail\",\"min\":0.9812844940321099,\"max\":1.019568880624547,\"samples\":6556}",
+    "[log] ROUTE_HEIGHT {\"name\":\"TrailDetail\",\"min\":1.01877482299642,\"max\":1.0789542193381862,\"samples\":6855}"
+  ],
+  "eventLog": [
+    {
+      "frame": 1,
+      "event": "sceneChanged",
+      "sceneName": "月明洞地形圖",
+      "cause": "harness"
+    }
+  ],
+  "finalState": {
+    "sceneName": "月明洞地形圖",
+    "objectCounts": {
+      "WolmyeongTerrain": 1,
+      "MapTitle": 1,
+      "MapCredit": 1,
+      "MapHelp": 1,
+      "ViewAll": 1,
+      "ViewCore": 1,
+      "RotateLeft": 1,
+      "RotateRight": 1,
+      "ZoomIn": 1,
+      "ZoomOut": 1,
+      "LakeLabel": 1,
+      "MoonLake": 1,
+      "RoadDetail": 1,
+      "TrailDetail": 1
+    },
+    "watchedObjects": {},
+    "sceneVariables": [
+      {
+        "name": "Mode",
+        "type": "number",
+        "value": 1
+      },
+      {
+        "name": "WasRight",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "WasLeft",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "PrevY",
+        "type": "number",
+        "value": 85.09999997504002
+      },
+      {
+        "name": "PrevX",
+        "type": "number",
+        "value": 700
+      },
+      {
+        "name": "Elevation",
+        "type": "number",
+        "value": 55
+      },
+      {
+        "name": "Yaw",
+        "type": "number",
+        "value": 45
+      },
+      {
+        "name": "Distance",
+        "type": "number",
+        "value": 200
+      },
+      {
+        "name": "TargetZ",
+        "type": "number",
+        "value": 195.11466729002439
+      },
+      {
+        "name": "TargetY",
+        "type": "number",
+        "value": 2234.965896
+      },
+      {
+        "name": "TargetX",
+        "type": "number",
+        "value": 2155.5872067
+      }
+    ]
+  },
+  "screenshots": [
+    {
+      "label": "全區總覽",
+      "frame": 21,
+      "width": 1600,
+      "height": 1000,
+      "image": "attached below"
+    },
+    {
+      "label": "核心區",
+      "frame": 23,
+      "width": 1600,
+      "height": 1000,
+      "image": "attached below"
+    },
+    {
+      "label": "近看道路與湖",
+      "frame": 35,
+      "width": 1600,
+      "height": 1000,
+      "image": "attached below"
+    },
+    {
+      "label": "最近視角",
+      "frame": 45,
+      "width": 1600,
+      "height": 1000,
+      "image": "attached below"
+    }
+  ],
+  "screenshotsTakenCount": 4,
+  "droppedScreenshots": [],
+  "profiles": [],
+  "performance": {
+    "avgStepMs": 0.31,
+    "worstStepMs": 6
+  }
+}

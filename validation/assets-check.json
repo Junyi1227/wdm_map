@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "control_points": [
+    {
+      "name": "northwest",
+      "x": 0.0,
+      "y": 0.0,
+      "expected_z": 145.00343327992675,
+      "source_elevation_m": 295.0,
+      "encoding_error_m": 0.00343327992675313
+    },
+    {
+      "name": "northeast",
+      "x": 3556.7188910705504,
+      "y": 0.0,
+      "expected_z": 47.00389105058366,
+      "source_elevation_m": 197.0,
+      "encoding_error_m": 0.0038910505836611264
+    },
+    {
+      "name": "southwest",
+      "x": 0.0,
+      "y": 4403.325177247912,
+      "expected_z": 275.0011444266422,
+      "source_elevation_m": 425.0,
+      "encoding_error_m": 0.0011444266422131477
+    },
+    {
+      "name": "southeast",
+      "x": 3556.7188910705504,
+      "y": 4403.325177247912,
+      "expected_z": 311.9981689173724,
+      "source_elevation_m": 462.0,
+      "encoding_error_m": 0.0018310826275751424
+    },
+    {
+      "name": "retained core sample",
+      "x": 1778.3594455352752,
+      "y": 2201.662588623956,
+      "expected_z": 207.00389105058366,
+      "source_elevation_m": 357.0,
+      "encoding_error_m": 0.0038910505836611264
+    }
+  ],
+  "heightmap_size": [
+    513,
+    513
+  ],
+  "native_resolution": 1024,
+  "native_terrain_instances": 1,
+  "paint_edits": 1683,
+  "relative_resources": 8,
+  "old_output_deleted": true,
+  "scene_uses_native_events": true,
+  "temporary_brush_test_reverted": true,
+  "project_sha256": "bf8215cb880bef2d8b310338838dbaa621836c50e126bbd6eb44bdd6134d4632"
+}

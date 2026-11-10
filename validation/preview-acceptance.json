@@ -1,0 +1,156 @@
+{
+  "success": true,
+  "status": "passed",
+  "testName": "Terrain and orbit acceptance",
+  "framesExecuted": 157,
+  "durationMs": 404,
+  "loadingMs": 288,
+  "timeoutMs": 120000,
+  "hiddenStallMs": 0,
+  "gameTimeMs": 2617,
+  "assertions": [
+    {
+      "message": "Native sculptable terrain exists",
+      "passed": true
+    },
+    {
+      "message": "Lake region uses DEM, not flat farmland",
+      "passed": true
+    },
+    {
+      "message": "Keyboard rotates camera",
+      "passed": true
+    },
+    {
+      "message": "Keyboard zoom works",
+      "passed": true
+    },
+    {
+      "message": "Core view button works",
+      "passed": true
+    },
+    {
+      "message": "Left drag rotates",
+      "passed": true
+    },
+    {
+      "message": "Right drag pans",
+      "passed": true
+    },
+    {
+      "message": "Home resets overview",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "consoleLogs": [
+    "[log] DATA [\"resolution\",\"size\",\"heights\",\"splat\",\"colors\"] LOADED 256|Flat|1|heightmap-rg16.png|[{\"tool\":\"paint\",\"x\":0.6459672,\"y\":0.0099192,\"toX\":0.6393384,\"toY\":0.0109091,\"radius\":0.0033739,\"layer\":3,\"strength\":1},{\"tool\":\"paint\",\"x\":0.6393384,\"y\":0.0109091,\"toX\":0.5861086,\"toY\":0.0346566,\"radius\":0.0033739,\"layer\":3,\"strength\":1},{\"tool\":\"paint\",\"x\":0.5861086,\"y\":0.0346566,\"toX\":0.5612929,\"toY\":0.0574217,\"radius\":0.0033739,\"layer\":3,\"strength\":1},{\"tool\":\"paint\",\"x\":0.5612929,\"y\":0.0574217,\"toX\":0.5270884,\"toY\":0.081904,\"radius\":0.0033739,\"layer\":3,\"strength\":1},{\"tool\":\"paint\",\"x\":0.5270884,\"y\":0.081904,\"toX\":0.5114293,\"toY\":0.1009697,\"radius\":0.0033739,\"layer\":3,\"strength\":1},{\"tool\":\"paint\",\"x\":0.5114293,\"y\":0.1009697,\"toX\":0.4898106,\"toY\":0.1170076,\"radius\":0.0033739,\"layer\":3,\"strength\":1},{\"tool\":\"paint\",\"x\":0.5229419,\"y\":0.1248662,\"toX\":0.5246389,\"toY\":0.1332399,\"radius\":0.0033739,\"layer\":3,\"strength\":1},{\"tool\":\"paint\",\"x\":0.5246389,\"y\":0.1332399,\"toX\":0.5329217,\"toY\":0.1422955,\""
+  ],
+  "eventLog": [
+    {
+      "frame": 1,
+      "event": "sceneChanged",
+      "sceneName": "月明洞地形圖",
+      "cause": "harness"
+    }
+  ],
+  "finalState": {
+    "sceneName": "月明洞地形圖",
+    "objectCounts": {
+      "WolmyeongTerrain": 1,
+      "MapTitle": 1,
+      "MapCredit": 1,
+      "MapHelp": 1,
+      "ViewAll": 1,
+      "ViewCore": 1,
+      "RotateLeft": 1,
+      "RotateRight": 1,
+      "ZoomIn": 1,
+      "ZoomOut": 1,
+      "LakeLabel": 1,
+      "MoonLake": 1
+    },
+    "watchedObjects": {},
+    "sceneVariables": [
+      {
+        "name": "Mode",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "WasRight",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "WasLeft",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "PrevY",
+        "type": "number",
+        "value": 440
+      },
+      {
+        "name": "PrevX",
+        "type": "number",
+        "value": 700
+      },
+      {
+        "name": "Elevation",
+        "type": "number",
+        "value": 55
+      },
+      {
+        "name": "Yaw",
+        "type": "number",
+        "value": 45
+      },
+      {
+        "name": "Distance",
+        "type": "number",
+        "value": 7000
+      },
+      {
+        "name": "TargetZ",
+        "type": "number",
+        "value": 200
+      },
+      {
+        "name": "TargetY",
+        "type": "number",
+        "value": 2201.6625886
+      },
+      {
+        "name": "TargetX",
+        "type": "number",
+        "value": 1778.3594455
+      }
+    ]
+  },
+  "screenshots": [
+    {
+      "label": "月明湖核心區",
+      "frame": 107,
+      "width": 1280,
+      "height": 800,
+      "image": "attached below"
+    },
+    {
+      "label": "全區總覽",
+      "frame": 157,
+      "width": 1280,
+      "height": 800,
+      "image": "attached below"
+    }
+  ],
+  "screenshotsTakenCount": 2,
+  "droppedScreenshots": [],
+  "profiles": [],
+  "performance": {
+    "avgStepMs": 0.12,
+    "worstStepMs": 2.8
+  }
+}

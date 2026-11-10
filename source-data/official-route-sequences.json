@@ -1,0 +1,38 @@
+[
+  {
+    "id": "OFFICIAL-THRILL",
+    "name": "官方 스릴 코스",
+    "source_url": "https://wolmyeongdong.or.kr/experience/thrill-course",
+    "distance_km_published": 2.3,
+    "status": "景點順序有官方依據；線形與GPS尚未對位",
+    "stops": [
+      "운동장 입구",
+      "성자바위",
+      "큰바위얼굴",
+      "코끼리바위",
+      "야심작",
+      "낙타바위",
+      "기도동산",
+      "기도표적소나무",
+      "소나무산책로",
+      "뿌리왕소나무",
+      "별봉정"
+    ]
+  },
+  {
+    "id": "OFFICIAL-HEALING",
+    "name": "官方 힐링 코스",
+    "source_url": "https://wolmyeongdong.or.kr/experience/healing-course",
+    "distance_km_published": 1.5,
+    "status": "景點順序有官方依據；線形與GPS尚未對位",
+    "stops": [
+      "운동장 입구",
+      "깨닫다솔",
+      "성령사연소나무",
+      "상징솔",
+      "기도동산",
+      "전망대",
+      "성령길"
+    ]
+  }
+]

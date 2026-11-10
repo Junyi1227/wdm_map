@@ -1,0 +1,104 @@
+group "01 初始視角":
+  if SceneJustBegins():
+    SetNumberVariable(WalkMode, =, 0)
+    Hide(WalkCrosshair)
+    SetNumberVariable(MapLakeZ, =, MoonLake.Object3D::Z())
+    SetNumberVariable(MapRoadZ, =, RoadDetail.Object3D::Z())
+    SetNumberVariable(MapTrailZ, =, TrailDetail.Object3D::Z())
+    SetNumberVariable(TargetX, =, 1778.3594455)
+    SetNumberVariable(TargetY, =, 2201.6625886)
+    SetNumberVariable(TargetZ, =, 200)
+    SetNumberVariable(Distance, =, 7000)
+    SetNumberVariable(Yaw, =, 45)
+    SetNumberVariable(Elevation, =, 55)
+    ZoomCamera(1, "UI", 0)
+    SetCameraCenterX(=, 1280, "UI", 0)
+    SetCameraCenterY(=, 800, "UI", 0)
+    SetNumberVariable(PrevX, =, (CursorX("UI", 0) / 2))
+    SetNumberVariable(PrevY, =, (CursorY("UI", 0) / 2))
+    Scene3D::SetCameraFarPlane(=, 30000, "", 0)
+    Scene3D::SetCameraNearPlane(=, 20, "", 0)
+    Scene3D::SetCameraFov(=, 45, "", 0)
+group "02 區域索引導航":
+  if MouseButtonFromTextReleased("Left") and IsCursorOnObject(ViewAll) and NumberVariable(WasLeft, =, 1) or KeyFromTextJustPressed("Home"):
+    SetNumberVariable(TargetX, =, 1778.3594455)
+    SetNumberVariable(TargetY, =, 2201.6625886)
+    SetNumberVariable(Distance, =, 7000)
+    SetNumberVariable(Yaw, =, 45)
+    SetNumberVariable(Elevation, =, 55)
+  if MouseButtonFromTextReleased("Left") and IsCursorOnObject(ViewCore) and NumberVariable(WasLeft, =, 1):
+    Scene("月明洞核心區", no)
+  if MouseButtonFromTextReleased("Left") and IsCursorOnObject(ViewWalk) and NumberVariable(WasLeft, =, 1) or KeyFromTextJustPressed("f"):
+    Scene("月明洞核心區", no)
+group "03 旋轉與縮放按鈕":
+  if NumberVariable(WalkMode, =, 0):
+    if MouseButtonFromTextReleased("Left") and IsCursorOnObject(RotateLeft) and NumberVariable(WasLeft, =, 1):
+      SetNumberVariable(Yaw, +, 15)
+    if MouseButtonFromTextReleased("Left") and IsCursorOnObject(RotateRight) and NumberVariable(WasLeft, =, 1):
+      SetNumberVariable(Yaw, -, 15)
+    if MouseButtonFromTextReleased("Left") and IsCursorOnObject(ZoomIn) and NumberVariable(WasLeft, =, 1):
+      SetNumberVariable(Distance, *, 0.8)
+    if MouseButtonFromTextReleased("Left") and IsCursorOnObject(ZoomOut) and NumberVariable(WasLeft, =, 1):
+      SetNumberVariable(Distance, *, 1.25)
+group "04 鍵盤平移與滾輪":
+  if NumberVariable(WalkMode, =, 0):
+    if KeyFromTextPressed("Left") or KeyFromTextPressed("a"):
+      SetNumberVariable(TargetX, +, -1 * Scene3D::CameraRightX("", 0) * Distance * 0.55 * TimeDelta())
+      SetNumberVariable(TargetY, +, -1 * Scene3D::CameraRightY("", 0) * Distance * 0.55 * TimeDelta())
+    if KeyFromTextPressed("Right") or KeyFromTextPressed("d"):
+      SetNumberVariable(TargetX, +, 1 * Scene3D::CameraRightX("", 0) * Distance * 0.55 * TimeDelta())
+      SetNumberVariable(TargetY, +, 1 * Scene3D::CameraRightY("", 0) * Distance * 0.55 * TimeDelta())
+    if KeyFromTextPressed("Up") or KeyFromTextPressed("w"):
+      SetNumberVariable(TargetX, +, 1 * Scene3D::CameraUpX("", 0) * Distance * 0.55 * TimeDelta())
+      SetNumberVariable(TargetY, +, 1 * Scene3D::CameraUpY("", 0) * Distance * 0.55 * TimeDelta())
+    if KeyFromTextPressed("Down") or KeyFromTextPressed("s"):
+      SetNumberVariable(TargetX, +, -1 * Scene3D::CameraUpX("", 0) * Distance * 0.55 * TimeDelta())
+      SetNumberVariable(TargetY, +, -1 * Scene3D::CameraUpY("", 0) * Distance * 0.55 * TimeDelta())
+    if KeyFromTextPressed("j"):
+      SetNumberVariable(Yaw, +, 60 * TimeDelta())
+    if KeyFromTextPressed("l"):
+      SetNumberVariable(Yaw, -, 60 * TimeDelta())
+    if KeyFromTextPressed("i"):
+      SetNumberVariable(Elevation, +, 35 * TimeDelta())
+    if KeyFromTextPressed("k"):
+      SetNumberVariable(Elevation, -, 35 * TimeDelta())
+    if KeyFromTextPressed("q"):
+      SetNumberVariable(Distance, *, 1 + TimeDelta())
+    if KeyFromTextPressed("e"):
+      SetNumberVariable(Distance, /, 1 + TimeDelta())
+    if IsMouseWheelScrollingUp():
+      SetNumberVariable(Distance, *, 0.9)
+    if IsMouseWheelScrollingDown():
+      SetNumberVariable(Distance, *, 1.111111111)
+group "05 左鍵旋轉與右鍵平移":
+  if NumberVariable(WalkMode, =, 0):
+    if MouseButtonFromTextPressed("Left") and not KeyFromTextPressed("LShift") and not KeyFromTextPressed("RShift") and NumberVariable(WasLeft, =, 1) and BuiltinCommonInstructions::CompareNumbers((CursorY("UI", 0) / 2), >, 150) and BuiltinCommonInstructions::CompareNumbers((CursorY("UI", 0) / 2), <, 730):
+      SetNumberVariable(Yaw, -, ((CursorX("UI", 0) / 2) - PrevX) * 0.3)
+      SetNumberVariable(Elevation, +, ((CursorY("UI", 0) / 2) - PrevY) * 0.2)
+    if MouseButtonFromTextPressed("Right") and NumberVariable(WasRight, =, 1) and BuiltinCommonInstructions::CompareNumbers((CursorY("UI", 0) / 2), >, 150) and BuiltinCommonInstructions::CompareNumbers((CursorY("UI", 0) / 2), <, 730):
+      SetNumberVariable(TargetX, -, (((CursorX("UI", 0) / 2) - PrevX) * Scene3D::CameraRightX("", 0) - ((CursorY("UI", 0) / 2) - PrevY) * Scene3D::CameraUpX("", 0)) * Distance * 0.001)
+      SetNumberVariable(TargetY, -, (((CursorX("UI", 0) / 2) - PrevX) * Scene3D::CameraRightY("", 0) - ((CursorY("UI", 0) / 2) - PrevY) * Scene3D::CameraUpY("", 0)) * Distance * 0.001)
+    if MouseButtonFromTextPressed("Left") and NumberVariable(WasLeft, =, 1) and KeyFromTextPressed("LShift") and BuiltinCommonInstructions::CompareNumbers((CursorY("UI", 0) / 2), >, 150) and BuiltinCommonInstructions::CompareNumbers((CursorY("UI", 0) / 2), <, 730):
+      SetNumberVariable(TargetX, -, (((CursorX("UI", 0) / 2) - PrevX) * Scene3D::CameraRightX("", 0) - ((CursorY("UI", 0) / 2) - PrevY) * Scene3D::CameraUpX("", 0)) * Distance * 0.001)
+      SetNumberVariable(TargetY, -, (((CursorX("UI", 0) / 2) - PrevX) * Scene3D::CameraRightY("", 0) - ((CursorY("UI", 0) / 2) - PrevY) * Scene3D::CameraUpY("", 0)) * Distance * 0.001)
+group "06 鏡頭與輸入狀態":
+  if NumberVariable(WalkMode, =, 0):
+    Scene3D::SetCameraNearPlane(=, clamp(Distance * 0.004, 0.05, 20), "", 0)
+    Scene3D::SetCameraFarPlane(=, 30000, "", 0)
+    Scene3D::SetCameraFov(=, 45, "", 0)
+    SetNumberVariable(Distance, =, clamp(Distance, 2500, 14000))
+    SetNumberVariable(Elevation, =, clamp(Elevation, 20, 85))
+    SetNumberVariable(TargetX, =, clamp(TargetX, 0, 3556.7188911))
+    SetNumberVariable(TargetY, =, clamp(TargetY, 0, 4403.3251772))
+    SetNumberVariable(TargetZ, =, WolmyeongTerrain.GroundZ(TargetX, TargetY) + 1)
+    ThirdPersonCamera::LookFromDistanceAtPosition3D(TargetX, TargetY, TargetZ, Distance, Yaw, Elevation, "")
+group "09 輸入狀態":
+  always:
+    SetNumberVariable(PrevX, =, (CursorX("UI", 0) / 2))
+    SetNumberVariable(PrevY, =, (CursorY("UI", 0) / 2))
+    SetNumberVariable(WasLeft, =, 0)
+    SetNumberVariable(WasRight, =, 0)
+  if MouseButtonFromTextPressed("Left"):
+    SetNumberVariable(WasLeft, =, 1)
+  if MouseButtonFromTextPressed("Right"):
+    SetNumberVariable(WasRight, =, 1)

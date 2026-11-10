@@ -1,0 +1,82 @@
+{
+  "passed": true,
+  "default_scene": "月明洞核心區",
+  "extent_m": [
+    628.7129352893077,
+    611.5729412841907
+  ],
+  "native_terrain_instances": 1,
+  "contour_areas": [
+    {
+      "name": "MoonLake",
+      "source_area_m2": 2960.881795586087,
+      "render_mesh_area_m2": 2960.8817938721513
+    },
+    {
+      "name": "SportsGround",
+      "source_area_m2": 12712.954534353688,
+      "render_mesh_area_m2": 12712.9545435016
+    },
+    {
+      "name": "Lawn",
+      "source_area_m2": 8702.13832115382,
+      "render_mesh_area_m2": 8702.138316189212
+    }
+  ],
+  "route_width_checks": [
+    {
+      "name": "RoadDetail",
+      "stripe_widths_m": [
+        0.9333333333333332
+      ],
+      "matched": [
+        true
+      ]
+    },
+    {
+      "name": "TrailDetail",
+      "stripe_widths_m": [
+        0.6
+      ],
+      "matched": [
+        true
+      ]
+    }
+  ],
+  "dem_controls": [
+    {
+      "x": 1742.4329920902085,
+      "y": 1901.4358719933266,
+      "z": 189.48958571755549,
+      "source_error_m": 0.0036991568201187874
+    },
+    {
+      "x": 2371.1459273795163,
+      "y": 1901.4358719933266,
+      "z": 168.13000686655985,
+      "source_error_m": 0.0027743674572207055
+    },
+    {
+      "x": 1742.4329920902085,
+      "y": 2513.008813277517,
+      "z": 186.0013733119707,
+      "source_error_m": 0.0024969308228719456
+    },
+    {
+      "x": 2371.1459273795163,
+      "y": 2513.008813277517,
+      "z": 171.81963836118103,
+      "source_error_m": 0.0021578412332132757
+    },
+    {
+      "x": 2056.7894597348622,
+      "y": 2207.222342635422,
+      "z": 186.0563057907988,
+      "source_error_m": 0.0019999733874271897
+    }
+  ],
+  "scene_uses_native_events": true,
+  "relative_resources": 14,
+  "checkpoint_commit": "e202f26",
+  "project_sha256": "6581f3c6f8454f8dff925fc4c1d4efdb41b597b4ddf7d106c8c50711ae3e7b08"
+}

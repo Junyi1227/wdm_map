@@ -1,0 +1,332 @@
+{
+  "success": true,
+  "status": "passed",
+  "testName": "Core region fixed widths fields and fast walking",
+  "framesExecuted": 419,
+  "durationMs": 2130,
+  "loadingMs": 1623,
+  "timeoutMs": 120000,
+  "hiddenStallMs": 0,
+  "gameTimeMs": 6983,
+  "assertions": [
+    {
+      "message": "Single native sculptable core terrain",
+      "passed": true
+    },
+    {
+      "message": "Core DEM direction and metre altitude at 1742.4,1901.4",
+      "passed": true
+    },
+    {
+      "message": "Core DEM direction and metre altitude at 2371.1,1901.4",
+      "passed": true
+    },
+    {
+      "message": "Core DEM direction and metre altitude at 1742.4,2513.0",
+      "passed": true
+    },
+    {
+      "message": "Core DEM direction and metre altitude at 2371.1,2513.0",
+      "passed": true
+    },
+    {
+      "message": "Core DEM direction and metre altitude at 2056.8,2207.2",
+      "passed": true
+    },
+    {
+      "message": "Lawn has near-view repeating texture",
+      "passed": true
+    },
+    {
+      "message": "SportsGround has near-view repeating texture",
+      "passed": true
+    },
+    {
+      "message": "RoadDetail has near-view repeating texture",
+      "passed": true
+    },
+    {
+      "message": "TrailDetail has near-view repeating texture",
+      "passed": true
+    },
+    {
+      "message": "Sports ground focus matches public contour",
+      "passed": true
+    },
+    {
+      "message": "Lawn focus matches public contour",
+      "passed": true
+    },
+    {
+      "message": "Core walking mode enabled",
+      "passed": true
+    },
+    {
+      "message": "Normal speed increased to 8m/s",
+      "passed": true
+    },
+    {
+      "message": "Fast walking remains 1.7m above terrain",
+      "passed": true
+    },
+    {
+      "message": "Shift speed increased to 24m/s",
+      "passed": true
+    },
+    {
+      "message": "Diagonal speed remains normalized",
+      "passed": true
+    },
+    {
+      "message": "Walking respects cropped core boundary",
+      "passed": true
+    },
+    {
+      "message": "Core links to separate regional index",
+      "passed": true
+    },
+    {
+      "message": "Regional index stays at overview scale",
+      "passed": true
+    },
+    {
+      "message": "Index returns to fresh core overview",
+      "passed": true
+    },
+    {
+      "message": "Core retains 5m near zoom",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "consoleLogs": [
+    "[warn] [PIXI Image manager] Unable to find texture for resource \"\"."
+  ],
+  "eventLog": [
+    {
+      "frame": 1,
+      "event": "sceneChanged",
+      "sceneName": "月明洞核心區",
+      "cause": "harness"
+    },
+    {
+      "frame": 279,
+      "event": "sceneChanged",
+      "sceneName": "月明洞地形圖",
+      "cause": "game"
+    },
+    {
+      "frame": 328,
+      "event": "sceneChanged",
+      "sceneName": "月明洞核心區",
+      "cause": "game"
+    }
+  ],
+  "finalState": {
+    "sceneName": "月明洞核心區",
+    "objectCounts": {
+      "WolmyeongTerrain": 1,
+      "MapTitle": 1,
+      "MapCredit": 1,
+      "MapHelp": 1,
+      "ViewAll": 1,
+      "ViewCore": 1,
+      "RotateLeft": 1,
+      "RotateRight": 1,
+      "ZoomIn": 1,
+      "ZoomOut": 1,
+      "LakeLabel": 1,
+      "MoonLake": 1,
+      "RoadDetail": 1,
+      "TrailDetail": 1,
+      "ViewWalk": 1,
+      "WalkCrosshair": 1,
+      "SportsGround": 1,
+      "Lawn": 1,
+      "FocusSports": 1,
+      "FocusLawn": 1,
+      "FocusLake": 1
+    },
+    "watchedObjects": {},
+    "sceneVariables": [
+      {
+        "name": "MapTrailZ",
+        "type": "number",
+        "value": 154.1157487367522
+      },
+      {
+        "name": "MapRoadZ",
+        "type": "number",
+        "value": 156.952712387513
+      },
+      {
+        "name": "MapLakeZ",
+        "type": "number",
+        "value": 184.96540070689687
+      },
+      {
+        "name": "ToggleWalk",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "InLake",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "NextWalkY",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "NextWalkX",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "WalkLength",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "WalkSpeed",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "WalkDY",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "WalkDX",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "WalkPitch",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "WalkYaw",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "WalkZ",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "WalkY",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "WalkX",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "WalkMode",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "Mode",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "WasRight",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "WasLeft",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "PrevY",
+        "type": "number",
+        "value": 85
+      },
+      {
+        "name": "PrevX",
+        "type": "number",
+        "value": 700
+      },
+      {
+        "name": "Elevation",
+        "type": "number",
+        "value": 55
+      },
+      {
+        "name": "Yaw",
+        "type": "number",
+        "value": 45
+      },
+      {
+        "name": "Distance",
+        "type": "number",
+        "value": 1100
+      },
+      {
+        "name": "TargetZ",
+        "type": "number",
+        "value": 187.0563099384308
+      },
+      {
+        "name": "TargetY",
+        "type": "number",
+        "value": 2207.222342635422
+      },
+      {
+        "name": "TargetX",
+        "type": "number",
+        "value": 2056.7894597348622
+      }
+    ]
+  },
+  "screenshots": [
+    {
+      "label": "核心區總覽",
+      "frame": 21,
+      "width": 1600,
+      "height": 1000,
+      "image": "attached below"
+    },
+    {
+      "label": "運動場與月明湖",
+      "frame": 24,
+      "width": 1600,
+      "height": 1000,
+      "image": "attached below"
+    },
+    {
+      "label": "草坪輪廓",
+      "frame": 27,
+      "width": 1600,
+      "height": 1000,
+      "image": "attached below"
+    },
+    {
+      "label": "核心區草坪快速步行",
+      "frame": 213,
+      "width": 1600,
+      "height": 1000,
+      "image": "attached below"
+    }
+  ],
+  "screenshotsTakenCount": 4,
+  "droppedScreenshots": [],
+  "profiles": [],
+  "performance": {
+    "avgStepMs": 0.35,
+    "worstStepMs": 97.2
+  }
+}

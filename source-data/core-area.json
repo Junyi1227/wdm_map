@@ -1,0 +1,20 @@
+{
+  "bbox_wsen": [
+    127.3648,
+    36.122,
+    127.3718,
+    36.1275
+  ],
+  "global_origin_lon_lat": [
+    127.3454,
+    36.1446
+  ],
+  "terrain_position": [
+    1742.4329920902085,
+    1901.4358719933266,
+    0
+  ],
+  "width_m": 628.7129352893077,
+  "height_m": 611.5729412841907,
+  "notice": "Core crop of saved interpolated DEM; no added survey accuracy. Fixed metre widths are illustrative, independent of scene extent. Field ground follows DEM; no invented grading or court markings."
+}

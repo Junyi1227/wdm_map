@@ -1,0 +1,37 @@
+{
+  "researched": "2026-11-10",
+  "scope": "Public polygon contours for the core sports ground and lawn; no building or entrance placement",
+  "sources": [
+    {
+      "url": "https://www.openstreetmap.org/way/354325010",
+      "local_geometry": "context.geojson / OSM-354325010",
+      "name": "운동장",
+      "role": "運動場公開輪廓，位於月明湖西北側",
+      "last_edit_in_snapshot": "2023-10-04",
+      "license": "ODbL 1.0"
+    },
+    {
+      "url": "https://www.openstreetmap.org/way/354325014",
+      "local_geometry": "context.geojson / OSM-354325014",
+      "name": "잔디밭",
+      "role": "運動場西側草坪公開輪廓；中文標作草坪，陽光草皮別名仍待使用者確認",
+      "last_edit_in_snapshot": "2023-10-04",
+      "license": "ODbL 1.0"
+    },
+    {
+      "url": "https://www.wolmyeongdong.kr/experience/healing-course",
+      "role": "官方導覽確認運動場入口、園區道路及草地景觀；示意圖用來交叉核對相對方位",
+      "map_reference": "https://www.wolmyeongdong.kr/img/experience/healing-course/ae222.png"
+    },
+    {
+      "url": "https://dev.wolmyeongdong.kr/intro/seasonal-gallery",
+      "role": "官方相片說明分別提及草坪與運動場；以材質色塊作示意，未虛構跑道或球場線"
+    }
+  ],
+  "limitations": [
+    "OSM編輯日期不代表現況調查日期；輪廓不是測量成果",
+    "運動場與草坪的高低沿用DEM，不推定整地海拔或坡度",
+    "道路3.5m、支路2.8m、步道1.2m是固定公尺的顯示寬度，尚無實測路寬",
+    "316會館、舊校區、下方停車場與其他未確認地點未新增定位"
+  ]
+}

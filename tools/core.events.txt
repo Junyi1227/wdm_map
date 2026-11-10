@@ -1,0 +1,262 @@
+group "01 初始視角":
+  if SceneJustBegins():
+    SetNumberVariable(WalkMode, =, 0)
+    Hide(WalkCrosshair)
+    SetNumberVariable(MapLakeZ, =, MoonLake.Object3D::Z())
+    SetNumberVariable(MapRoadZ, =, RoadDetail.Object3D::Z())
+    SetNumberVariable(MapTrailZ, =, TrailDetail.Object3D::Z())
+    SetNumberVariable(TargetX, =, 2056.7894597348622)
+    SetNumberVariable(TargetY, =, 2207.222342635422)
+    SetNumberVariable(TargetZ, =, 200)
+    SetNumberVariable(Distance, =, 1100)
+    SetNumberVariable(Yaw, =, 45)
+    SetNumberVariable(Elevation, =, 55)
+    ZoomCamera(1, "UI", 0)
+    SetCameraCenterX(=, 1280, "UI", 0)
+    SetCameraCenterY(=, 800, "UI", 0)
+    SetNumberVariable(PrevX, =, (CursorX("UI", 0) / 2))
+    SetNumberVariable(PrevY, =, (CursorY("UI", 0) / 2))
+    Scene3D::SetCameraFarPlane(=, 30000, "", 0)
+    Scene3D::SetCameraNearPlane(=, 20, "", 0)
+    Scene3D::SetCameraFov(=, 45, "", 0)
+group "02 核心區與場地導航":
+  if MouseButtonFromTextReleased("Left") and IsCursorOnObject(ViewAll) and NumberVariable(WasLeft, =, 1):
+    MousePointerLock::ExitPointerLock()
+    Scene("月明洞地形圖", no)
+  if MouseButtonFromTextReleased("Left") and IsCursorOnObject(ViewCore) and NumberVariable(WasLeft, =, 1) or KeyFromTextJustPressed("Home"):
+    SetNumberVariable(WalkMode, =, 0)
+    MousePointerLock::ExitPointerLock()
+    SetNumberVariable(TargetX, =, 2056.7894597348622)
+    SetNumberVariable(TargetY, =, 2207.222342635422)
+    SetNumberVariable(Distance, =, 1100)
+    SetNumberVariable(Yaw, =, 45)
+    SetNumberVariable(Elevation, =, 55)
+  if MouseButtonFromTextReleased("Left") and IsCursorOnObject(FocusSports) and NumberVariable(WasLeft, =, 1):
+    SetNumberVariable(WalkMode, =, 0)
+    MousePointerLock::ExitPointerLock()
+    SetNumberVariable(TargetX, =, 2049.202562619976)
+    SetNumberVariable(TargetY, =, 2182.2091681868606)
+    SetNumberVariable(Distance, =, 360)
+    SetNumberVariable(Yaw, =, 45)
+    SetNumberVariable(Elevation, =, 55)
+  if MouseButtonFromTextReleased("Left") and IsCursorOnObject(FocusLawn) and NumberVariable(WasLeft, =, 1):
+    SetNumberVariable(WalkMode, =, 0)
+    MousePointerLock::ExitPointerLock()
+    SetNumberVariable(TargetX, =, 1869.6589772039722)
+    SetNumberVariable(TargetY, =, 2181.0404135044523)
+    SetNumberVariable(Distance, =, 330)
+    SetNumberVariable(Yaw, =, 45)
+    SetNumberVariable(Elevation, =, 55)
+  if MouseButtonFromTextReleased("Left") and IsCursorOnObject(FocusLake) and NumberVariable(WasLeft, =, 1):
+    SetNumberVariable(WalkMode, =, 0)
+    MousePointerLock::ExitPointerLock()
+    SetNumberVariable(TargetX, =, 2118.515597560539)
+    SetNumberVariable(TargetY, =, 2271.564758062033)
+    SetNumberVariable(Distance, =, 300)
+    SetNumberVariable(Yaw, =, 45)
+    SetNumberVariable(Elevation, =, 55)
+group "02b 地圖與第一人稱切換":
+  always:
+    SetNumberVariable(ToggleWalk, =, 0)
+  if KeyFromTextJustPressed("f"):
+    SetNumberVariable(ToggleWalk, =, 1)
+  if MouseButtonFromTextReleased("Left") and IsCursorOnObject(ViewWalk) and NumberVariable(WasLeft, =, 1):
+    SetNumberVariable(ToggleWalk, =, 1)
+  if NumberVariable(ToggleWalk, =, 1):
+    if NumberVariable(WalkMode, =, 0):
+      SetNumberVariable(WalkX, =, clamp(TargetX, 1747.4329920902085, 2366.1459273795163))
+      SetNumberVariable(WalkY, =, clamp(TargetY, 1906.4358719933266, 2508.008813277517))
+      SetNumberVariable(WalkYaw, =, Yaw - 90)
+      SetNumberVariable(WalkPitch, =, 0)
+      SetNumberVariable(WalkMode, =, 1)
+      MousePointerLock::RequestPointerLock()
+      if NumberVariable(WalkX, >=, 2086.3479493076647) and NumberVariable(WalkX, <=, 2141.4950553458616) and NumberVariable(WalkY, >=, 2234.042595987509) and NumberVariable(WalkY, <=, 2304.5958743961155):
+        SetNumberVariable(WalkX, =, 2145.4950553458616)
+    else:
+      SetNumberVariable(WalkMode, =, 0)
+      SetNumberVariable(TargetX, =, WalkX)
+      SetNumberVariable(TargetY, =, WalkY)
+      SetNumberVariable(Distance, =, 80)
+      SetNumberVariable(Elevation, =, 55)
+      SetNumberVariable(Yaw, =, WalkYaw + 90)
+      MousePointerLock::ExitPointerLock()
+  if KeyFromTextJustPressed("Escape"):
+    MousePointerLock::ExitPointerLock()
+  if NumberVariable(WalkMode, =, 1):
+    Show(WalkCrosshair)
+    Scene3D::Base3DBehavior::SetZ(MoonLake, Object3D, =, MapLakeZ)
+    Scene3D::Base3DBehavior::SetZ(RoadDetail, Object3D, =, MapRoadZ)
+    Scene3D::Base3DBehavior::SetZ(TrailDetail, Object3D, =, MapTrailZ)
+    Hide(RotateLeft)
+    Hide(RotateRight)
+    Hide(ZoomIn)
+    Hide(ZoomOut)
+    TextContainerCapability::TextContainerBehavior::SetValue(ViewWalk, Text, =, "[ 回地圖 F ]")
+    TextContainerCapability::TextContainerBehavior::SetValue(MapHelp, Text, =, "WASD／方向鍵行走 · Shift 加速 · 滑鼠轉頭 · Esc 放開滑鼠 · F 回地圖")
+  else:
+    Hide(WalkCrosshair)
+    Scene3D::Base3DBehavior::SetZ(MoonLake, Object3D, =, MapLakeZ)
+    Scene3D::Base3DBehavior::SetZ(RoadDetail, Object3D, =, MapRoadZ)
+    Scene3D::Base3DBehavior::SetZ(TrailDetail, Object3D, =, MapTrailZ)
+    Show(RotateLeft)
+    Show(RotateRight)
+    Show(ZoomIn)
+    Show(ZoomOut)
+    TextContainerCapability::TextContainerBehavior::SetValue(ViewWalk, Text, =, "[ 第一人稱 F ]")
+    TextContainerCapability::TextContainerBehavior::SetValue(MapHelp, Text, =, "左鍵旋轉 · 右鍵／Shift＋左鍵平移 · WASD／方向鍵移動 · 滾輪縮放 · F 步行")
+group "03 旋轉與縮放按鈕":
+  if NumberVariable(WalkMode, =, 0):
+    if MouseButtonFromTextReleased("Left") and IsCursorOnObject(RotateLeft) and NumberVariable(WasLeft, =, 1):
+      SetNumberVariable(Yaw, +, 15)
+    if MouseButtonFromTextReleased("Left") and IsCursorOnObject(RotateRight) and NumberVariable(WasLeft, =, 1):
+      SetNumberVariable(Yaw, -, 15)
+    if MouseButtonFromTextReleased("Left") and IsCursorOnObject(ZoomIn) and NumberVariable(WasLeft, =, 1):
+      SetNumberVariable(Distance, *, 0.8)
+    if MouseButtonFromTextReleased("Left") and IsCursorOnObject(ZoomOut) and NumberVariable(WasLeft, =, 1):
+      SetNumberVariable(Distance, *, 1.25)
+group "04 鍵盤平移與滾輪":
+  if NumberVariable(WalkMode, =, 0):
+    if KeyFromTextPressed("Left") or KeyFromTextPressed("a"):
+      SetNumberVariable(TargetX, +, -1 * Scene3D::CameraRightX("", 0) * Distance * 0.55 * TimeDelta())
+      SetNumberVariable(TargetY, +, -1 * Scene3D::CameraRightY("", 0) * Distance * 0.55 * TimeDelta())
+    if KeyFromTextPressed("Right") or KeyFromTextPressed("d"):
+      SetNumberVariable(TargetX, +, 1 * Scene3D::CameraRightX("", 0) * Distance * 0.55 * TimeDelta())
+      SetNumberVariable(TargetY, +, 1 * Scene3D::CameraRightY("", 0) * Distance * 0.55 * TimeDelta())
+    if KeyFromTextPressed("Up") or KeyFromTextPressed("w"):
+      SetNumberVariable(TargetX, +, 1 * Scene3D::CameraUpX("", 0) * Distance * 0.55 * TimeDelta())
+      SetNumberVariable(TargetY, +, 1 * Scene3D::CameraUpY("", 0) * Distance * 0.55 * TimeDelta())
+    if KeyFromTextPressed("Down") or KeyFromTextPressed("s"):
+      SetNumberVariable(TargetX, +, -1 * Scene3D::CameraUpX("", 0) * Distance * 0.55 * TimeDelta())
+      SetNumberVariable(TargetY, +, -1 * Scene3D::CameraUpY("", 0) * Distance * 0.55 * TimeDelta())
+    if KeyFromTextPressed("j"):
+      SetNumberVariable(Yaw, +, 60 * TimeDelta())
+    if KeyFromTextPressed("l"):
+      SetNumberVariable(Yaw, -, 60 * TimeDelta())
+    if KeyFromTextPressed("i"):
+      SetNumberVariable(Elevation, +, 35 * TimeDelta())
+    if KeyFromTextPressed("k"):
+      SetNumberVariable(Elevation, -, 35 * TimeDelta())
+    if KeyFromTextPressed("q"):
+      SetNumberVariable(Distance, *, 1 + TimeDelta())
+    if KeyFromTextPressed("e"):
+      SetNumberVariable(Distance, /, 1 + TimeDelta())
+    if IsMouseWheelScrollingUp():
+      SetNumberVariable(Distance, *, 0.9)
+    if IsMouseWheelScrollingDown():
+      SetNumberVariable(Distance, *, 1.111111111)
+group "05 左鍵旋轉與右鍵平移":
+  if NumberVariable(WalkMode, =, 0):
+    if MouseButtonFromTextPressed("Left") and not KeyFromTextPressed("LShift") and not KeyFromTextPressed("RShift") and NumberVariable(WasLeft, =, 1) and BuiltinCommonInstructions::CompareNumbers((CursorY("UI", 0) / 2), >, 150) and BuiltinCommonInstructions::CompareNumbers((CursorY("UI", 0) / 2), <, 730):
+      SetNumberVariable(Yaw, -, ((CursorX("UI", 0) / 2) - PrevX) * 0.3)
+      SetNumberVariable(Elevation, +, ((CursorY("UI", 0) / 2) - PrevY) * 0.2)
+    if MouseButtonFromTextPressed("Right") and NumberVariable(WasRight, =, 1) and BuiltinCommonInstructions::CompareNumbers((CursorY("UI", 0) / 2), >, 150) and BuiltinCommonInstructions::CompareNumbers((CursorY("UI", 0) / 2), <, 730):
+      SetNumberVariable(TargetX, -, (((CursorX("UI", 0) / 2) - PrevX) * Scene3D::CameraRightX("", 0) - ((CursorY("UI", 0) / 2) - PrevY) * Scene3D::CameraUpX("", 0)) * Distance * 0.001)
+      SetNumberVariable(TargetY, -, (((CursorX("UI", 0) / 2) - PrevX) * Scene3D::CameraRightY("", 0) - ((CursorY("UI", 0) / 2) - PrevY) * Scene3D::CameraUpY("", 0)) * Distance * 0.001)
+    if MouseButtonFromTextPressed("Left") and NumberVariable(WasLeft, =, 1) and KeyFromTextPressed("LShift") and BuiltinCommonInstructions::CompareNumbers((CursorY("UI", 0) / 2), >, 150) and BuiltinCommonInstructions::CompareNumbers((CursorY("UI", 0) / 2), <, 730):
+      SetNumberVariable(TargetX, -, (((CursorX("UI", 0) / 2) - PrevX) * Scene3D::CameraRightX("", 0) - ((CursorY("UI", 0) / 2) - PrevY) * Scene3D::CameraUpX("", 0)) * Distance * 0.001)
+      SetNumberVariable(TargetY, -, (((CursorX("UI", 0) / 2) - PrevX) * Scene3D::CameraRightY("", 0) - ((CursorY("UI", 0) / 2) - PrevY) * Scene3D::CameraUpY("", 0)) * Distance * 0.001)
+group "06 鏡頭與輸入狀態":
+  if NumberVariable(WalkMode, =, 0):
+    Scene3D::SetCameraNearPlane(=, clamp(Distance * 0.004, 0.05, 20), "", 0)
+    Scene3D::SetCameraFarPlane(=, 30000, "", 0)
+    Scene3D::SetCameraFov(=, 45, "", 0)
+    SetNumberVariable(Distance, =, clamp(Distance, 5, 14000))
+    SetNumberVariable(Elevation, =, clamp(Elevation, 20, 85))
+    SetNumberVariable(TargetX, =, clamp(TargetX, 1742.4329920902085, 2371.1459273795163))
+    SetNumberVariable(TargetY, =, clamp(TargetY, 1901.4358719933266, 2513.008813277517))
+    SetNumberVariable(TargetZ, =, WolmyeongTerrain.GroundZ(TargetX, TargetY) + 1)
+    ThirdPersonCamera::LookFromDistanceAtPosition3D(TargetX, TargetY, TargetZ, Distance, Yaw, Elevation, "")
+group "07 第一人稱行走與轉頭":
+  if NumberVariable(WalkMode, =, 1):
+    SetNumberVariable(WalkDX, =, 0)
+    SetNumberVariable(WalkDY, =, 0)
+    SetNumberVariable(WalkSpeed, =, 8)
+    if MousePointerLock::isPointerLocked():
+      SetNumberVariable(WalkYaw, +, MousePointerLock::MovementX() * 0.12)
+      SetNumberVariable(WalkPitch, -, MousePointerLock::MovementY() * 0.12)
+    if MouseButtonFromTextReleased("Left") and BuiltinCommonInstructions::CompareNumbers((CursorY("UI", 0) / 2), >, 150) and NumberVariable(WasLeft, =, 1):
+      MousePointerLock::RequestPointerLock()
+    if KeyFromTextPressed("j"):
+      SetNumberVariable(WalkYaw, -, 65 * TimeDelta())
+    if KeyFromTextPressed("l"):
+      SetNumberVariable(WalkYaw, +, 65 * TimeDelta())
+    if KeyFromTextPressed("i"):
+      SetNumberVariable(WalkPitch, +, 50 * TimeDelta())
+    if KeyFromTextPressed("k"):
+      SetNumberVariable(WalkPitch, -, 50 * TimeDelta())
+    if KeyFromTextPressed("LShift") or KeyFromTextPressed("RShift"):
+      SetNumberVariable(WalkSpeed, =, 24)
+    if KeyFromTextPressed("w") or KeyFromTextPressed("Up"):
+      SetNumberVariable(WalkDX, +, cos(WalkYaw * 0.017453292519943295))
+      SetNumberVariable(WalkDY, +, sin(WalkYaw * 0.017453292519943295))
+    if KeyFromTextPressed("s") or KeyFromTextPressed("Down"):
+      SetNumberVariable(WalkDX, -, cos(WalkYaw * 0.017453292519943295))
+      SetNumberVariable(WalkDY, -, sin(WalkYaw * 0.017453292519943295))
+    if KeyFromTextPressed("a") or KeyFromTextPressed("Left"):
+      SetNumberVariable(WalkDX, +, sin(WalkYaw * 0.017453292519943295))
+      SetNumberVariable(WalkDY, -, cos(WalkYaw * 0.017453292519943295))
+    if KeyFromTextPressed("d") or KeyFromTextPressed("Right"):
+      SetNumberVariable(WalkDX, -, sin(WalkYaw * 0.017453292519943295))
+      SetNumberVariable(WalkDY, +, cos(WalkYaw * 0.017453292519943295))
+    SetNumberVariable(WalkLength, =, max(1, sqrt(WalkDX * WalkDX + WalkDY * WalkDY)))
+    SetNumberVariable(NextWalkX, =, clamp(WalkX + WalkDX / WalkLength * WalkSpeed * TimeDelta(), 1747.4329920902085, 2366.1459273795163))
+    SetNumberVariable(NextWalkY, =, clamp(WalkY + WalkDY / WalkLength * WalkSpeed * TimeDelta(), 1906.4358719933266, 2508.008813277517))
+    SetNumberVariable(InLake, =, 0)
+    if NumberVariable(NextWalkY, >=, 2289.5178215164347) and NumberVariable(NextWalkY, <, 2290.2294700295547) and BuiltinCommonInstructions::CompareNumbers(NextWalkX, <, 2135.665988273276 + (NextWalkY - 2289.5178215164347) * 7.812309825219904):
+      SetNumberVariable(InLake, =, 1 - InLake)
+    if NumberVariable(NextWalkY, >=, 2290.2294700295547) and NumberVariable(NextWalkY, <, 2300.081354138023) and BuiltinCommonInstructions::CompareNumbers(NextWalkX, <, 2141.225606944427 + (NextWalkY - 2290.2294700295547) * -0.04649489133161784):
+      SetNumberVariable(InLake, =, 1 - InLake)
+    if NumberVariable(NextWalkY, >=, 2300.081354138023) and NumberVariable(NextWalkY, <, 2304.5958743961155) and BuiltinCommonInstructions::CompareNumbers(NextWalkX, <, 2140.767544663392 + (NextWalkY - 2300.081354138023) * -0.9370519239291677):
+      SetNumberVariable(InLake, =, 1 - InLake)
+    if NumberVariable(NextWalkY, >=, 2302.727797047694) and NumberVariable(NextWalkY, <, 2304.5958743961155) and BuiltinCommonInstructions::CompareNumbers(NextWalkX, <, 2136.5372047699293 + (NextWalkY - 2304.5958743961155) * 12.673743322278515):
+      SetNumberVariable(InLake, =, 1 - InLake)
+    if NumberVariable(NextWalkY, >=, 2296.7566212396914) and NumberVariable(NextWalkY, <, 2302.727797047694) and BuiltinCommonInstructions::CompareNumbers(NextWalkX, <, 2112.8616719498714 + (NextWalkY - 2302.727797047694) * 0.5430023378841438):
+      SetNumberVariable(InLake, =, 1 - InLake)
+    if NumberVariable(NextWalkY, >=, 2289.2620728312795) and NumberVariable(NextWalkY, <, 2296.7566212396914) and BuiltinCommonInstructions::CompareNumbers(NextWalkX, <, 2109.619309526209 + (NextWalkY - 2296.7566212396914) * 0.44461365454771706):
+      SetNumberVariable(InLake, =, 1 - InLake)
+    if NumberVariable(NextWalkY, >=, 2289.2620728312795) and NumberVariable(NextWalkY, <, 2289.451104468305) and BuiltinCommonInstructions::CompareNumbers(NextWalkX, <, 2106.28713096916 + (NextWalkY - 2289.2620728312795) * -32.64198774497832):
+      SetNumberVariable(InLake, =, 1 - InLake)
+    if NumberVariable(NextWalkY, >=, 2283.7912748838544) and NumberVariable(NextWalkY, <, 2289.451104468305) and BuiltinCommonInstructions::CompareNumbers(NextWalkX, <, 2100.1167625899625 + (NextWalkY - 2289.451104468305) * 0.3824441687119035):
+      SetNumberVariable(InLake, =, 1 - InLake)
+    if NumberVariable(NextWalkY, >=, 2265.82214991829) and NumberVariable(NextWalkY, <, 2283.7912748838544) and BuiltinCommonInstructions::CompareNumbers(NextWalkX, <, 2097.9521937694863 + (NextWalkY - 2283.7912748838544) * 0.3538838019247194):
+      SetNumberVariable(InLake, =, 1 - InLake)
+    if NumberVariable(NextWalkY, >=, 2252.7900865151128) and NumberVariable(NextWalkY, <, 2265.82214991829) and BuiltinCommonInstructions::CompareNumbers(NextWalkX, <, 2091.593211509412 + (NextWalkY - 2265.82214991829) * 0.4024890026600381):
+      SetNumberVariable(InLake, =, 1 - InLake)
+    if NumberVariable(NextWalkY, >=, 2237.055982662289) and NumberVariable(NextWalkY, <, 2252.7900865151128) and BuiltinCommonInstructions::CompareNumbers(NextWalkX, <, 2086.3479493076647 + (NextWalkY - 2252.7900865151128) * -0.141567650351205):
+      SetNumberVariable(InLake, =, 1 - InLake)
+    if NumberVariable(NextWalkY, >=, 2236.5778438172274) and NumberVariable(NextWalkY, <, 2237.055982662289) and BuiltinCommonInstructions::CompareNumbers(NextWalkX, <, 2088.575389420491 + (NextWalkY - 2237.055982662289) * -43.542539969902):
+      SetNumberVariable(InLake, =, 1 - InLake)
+    if NumberVariable(NextWalkY, >=, 2234.042595987509) and NumberVariable(NextWalkY, <, 2236.5778438172274) and BuiltinCommonInstructions::CompareNumbers(NextWalkX, <, 2109.3947691927438 + (NextWalkY - 2236.5778438172274) * -5.264446851072667):
+      SetNumberVariable(InLake, =, 1 - InLake)
+    if NumberVariable(NextWalkY, >=, 2234.042595987509) and NumberVariable(NextWalkY, <, 2236.7446364371567) and BuiltinCommonInstructions::CompareNumbers(NextWalkX, <, 2122.741446646595 + (NextWalkY - 2234.042595987509) * 4.354454984471688):
+      SetNumberVariable(InLake, =, 1 - InLake)
+    if NumberVariable(NextWalkY, >=, 2236.7446364371567) and NumberVariable(NextWalkY, <, 2242.304390449018) and BuiltinCommonInstructions::CompareNumbers(NextWalkX, <, 2134.5073601508084 + (NextWalkY - 2236.7446364371567) * 1.2568353168406052):
+      SetNumberVariable(InLake, =, 1 - InLake)
+    if NumberVariable(NextWalkY, >=, 2242.304390449018) and NumberVariable(NextWalkY, <, 2258.8279793720353) and BuiltinCommonInstructions::CompareNumbers(NextWalkX, <, 2141.4950553458616 + (NextWalkY - 2242.304390449018) * -0.07664239832900897):
+      SetNumberVariable(InLake, =, 1 - InLake)
+    if NumberVariable(NextWalkY, >=, 2258.8279793720353) and NumberVariable(NextWalkY, <, 2277.5865894070025) and BuiltinCommonInstructions::CompareNumbers(NextWalkX, <, 2140.228647861799 + (NextWalkY - 2258.8279793720353) * -0.15273704490072235):
+      SetNumberVariable(InLake, =, 1 - InLake)
+    if NumberVariable(NextWalkY, >=, 2277.5865894070025) and NumberVariable(NextWalkY, <, 2289.5178215164347) and BuiltinCommonInstructions::CompareNumbers(NextWalkX, <, 2137.363513198613 + (NextWalkY - 2277.5865894070025) * -0.14227574401095838):
+      SetNumberVariable(InLake, =, 1 - InLake)
+    if NumberVariable(InLake, =, 0):
+      SetNumberVariable(WalkX, =, NextWalkX)
+      SetNumberVariable(WalkY, =, NextWalkY)
+    SetNumberVariable(WalkPitch, =, clamp(WalkPitch, -80, 80))
+    SetNumberVariable(WalkZ, =, WolmyeongTerrain.GroundZ(WalkX, WalkY) + 1.7)
+    SetCameraCenterX(=, WalkX, "", 0)
+    SetCameraCenterY(=, WalkY, "", 0)
+    Scene3D::SetCameraZ(=, WalkZ, "", 0)
+    Scene3D::SetCameraNearPlane(=, 0.25, "", 0)
+    Scene3D::SetCameraFarPlane(=, 6000, "", 0)
+    Scene3D::SetCameraFov(=, 70, "", 0)
+    Scene3D::TurnCameraTowardPosition(WalkX + cos(WalkYaw * 0.017453292519943295) * 100, WalkY + sin(WalkYaw * 0.017453292519943295) * 100, WalkZ + tan(WalkPitch * 0.017453292519943295) * 100, "", 0, no)
+group "09 輸入狀態":
+  always:
+    SetNumberVariable(PrevX, =, (CursorX("UI", 0) / 2))
+    SetNumberVariable(PrevY, =, (CursorY("UI", 0) / 2))
+    SetNumberVariable(WasLeft, =, 0)
+    SetNumberVariable(WasRight, =, 0)
+  if MouseButtonFromTextPressed("Left"):
+    SetNumberVariable(WasLeft, =, 1)
+  if MouseButtonFromTextPressed("Right"):
+    SetNumberVariable(WasRight, =, 1)

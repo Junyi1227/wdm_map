@@ -1,0 +1,20 @@
+{
+  "coordinate_policy": "All scenes retain metre coordinates relative to the original research northwest origin; extents do not scale route widths.",
+  "regions": [
+    {
+      "id": "overview",
+      "scene": "月明洞地形圖",
+      "purpose": "區域索引與後續分區規劃，保留原有擴大範圍",
+      "walkable": false
+    },
+    {
+      "id": "core",
+      "scene": "月明洞核心區",
+      "purpose": "目前優先製作的月明湖、運動場、草坪與周邊步道",
+      "bbox_wsen": [127.3648, 36.1220, 127.3718, 36.1275],
+      "walkable": true,
+      "default": true
+    }
+  ],
+  "future_regions": "後續分區範圍另行確認；不將未定位的舊校區或下方停車場自動加入。"
+}

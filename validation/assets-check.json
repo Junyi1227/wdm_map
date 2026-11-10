@@ -49,9 +49,9 @@
   "native_resolution": 1024,
   "native_terrain_instances": 1,
   "paint_edits": 1683,
-  "relative_resources": 8,
+  "relative_resources": 14,
   "old_output_deleted": true,
   "scene_uses_native_events": true,
   "temporary_brush_test_reverted": true,
-  "project_sha256": "bf8215cb880bef2d8b310338838dbaa621836c50e126bbd6eb44bdd6134d4632"
+  "project_sha256": "6581f3c6f8454f8dff925fc4c1d4efdb41b597b4ddf7d106c8c50711ae3e7b08"
 }

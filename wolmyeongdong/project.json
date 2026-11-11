@@ -181,6 +181,41 @@
         "metadata": "",
         "name": "round-hill-pavilion-base.glb",
         "userAdded": true
+      },
+      {
+        "file": "assets/landmarks/hall316.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "hall316.glb",
+        "userAdded": true
+      },
+      {
+        "file": "assets/landmarks/hall316-foundation.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "hall316-foundation.glb",
+        "userAdded": true
+      },
+      {
+        "file": "assets/landmarks/lake-rocks-upper-rocks.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "lake-rocks-upper-rocks.glb",
+        "userAdded": true
+      },
+      {
+        "file": "assets/landmarks/lake-rocks-water.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "lake-rocks-water.glb",
+        "userAdded": true
+      },
+      {
+        "file": "assets/landmarks/lake-rocks-summit-pavilion.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "lake-rocks-summit-pavilion.glb",
+        "userAdded": true
       }
     ]
   },
@@ -3711,6 +3746,123 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 108.40357083209142,
+          "customSize": true,
+          "depth": 22.450000762939453,
+          "height": 25.818557739257812,
+          "layer": "",
+          "name": "Hall316",
+          "persistentUuid": "a20d8579-8cfe-4007-b750-52e3f2d3a4c4",
+          "width": 36.20000076293945,
+          "x": 2176.6796472854744,
+          "y": 2284.4560273042434,
+          "z": 189.1631047772713,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.326578062277406,
+          "height": 40.12368937948304,
+          "layer": "",
+          "name": "Hall316Foundation",
+          "persistentUuid": "36165957-d530-4622-b3ee-4e5800ca7c36",
+          "width": 30.499837275207028,
+          "x": 2161.429728647871,
+          "y": 2264.394182614502,
+          "z": 187.83652671499388,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "FocusHall316",
+          "persistentUuid": "9081e9ae-6f77-494f-aa56-33a455e92fa5",
+          "width": 360,
+          "x": 1510,
+          "y": 230,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 8,
+          "customSize": true,
+          "depth": 16.630839228630066,
+          "height": 49.431288719177246,
+          "layer": "",
+          "name": "LakeUpperRocks",
+          "persistentUuid": "7bf4961e-6e38-465c-b96d-4baaaf422891",
+          "width": 51.53106498718262,
+          "x": 2035.0545917907066,
+          "y": 2251.9773561972315,
+          "z": 190.27229694838576,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 8,
+          "customSize": true,
+          "depth": 15.708136081695557,
+          "height": 16.928842544555664,
+          "layer": "",
+          "name": "LakeRockWater",
+          "persistentUuid": "f204ecf4-88dd-4d34-9e3f-bb9ae0d52d26",
+          "width": 16.410568714141846,
+          "x": 2057.272543507523,
+          "y": 2264.1722259117932,
+          "z": 190.67819349284224,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 8,
+          "customSize": true,
+          "depth": 7.59999942779541,
+          "height": 9.463135719299316,
+          "layer": "",
+          "name": "LakeRockPavilion",
+          "persistentUuid": "0c113418-2271-46bd-8480-9f2ed1e86428",
+          "width": 9.533986568450928,
+          "x": 2051.059808937151,
+          "y": 2275.9205331744656,
+          "z": 205.7187737655168,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "FocusLakeRocks",
+          "persistentUuid": "179f361e-4550-4d79-aced-323587f7bf15",
+          "width": 480,
+          "x": 1900,
+          "y": 230,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -4628,6 +4780,224 @@
             "lineHeight": 0,
             "color": "32;62;53"
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Hall316",
+          "persistentUuid": "29148664-1dd4-4bad-b8f3-3b81a1c1951f",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 22.450000762939453,
+            "height": 25.818557739257812,
+            "isCastingShadow": false,
+            "isReceivingShadow": false,
+            "keepAspectRatio": false,
+            "materialType": "KeepOriginal",
+            "modelResourceName": "hall316.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 36.20000076293945,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Hall316Foundation",
+          "persistentUuid": "4d0faa7a-106d-4336-b5bf-d23760a42794",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 1.326578062277406,
+            "height": 40.12368937948304,
+            "isCastingShadow": false,
+            "isReceivingShadow": false,
+            "keepAspectRatio": false,
+            "materialType": "KeepOriginal",
+            "modelResourceName": "hall316-foundation.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 30.499837275207028,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "FocusHall316",
+          "persistentUuid": "b2063d95-0639-4a86-a3c5-87a741c955aa",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "[ 316會館 ]",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 53,
+            "g": 62,
+            "r": 32
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "247;250;247",
+            "outlineThickness": 3,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "[ 316會館 ]",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "32;62;53"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "LakeUpperRocks",
+          "persistentUuid": "da15f451-f01f-4bdd-95c7-f9631cb30463",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 16.630839228630066,
+            "height": 49.431288719177246,
+            "isCastingShadow": false,
+            "isReceivingShadow": false,
+            "keepAspectRatio": false,
+            "materialType": "KeepOriginal",
+            "modelResourceName": "lake-rocks-upper-rocks.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 51.53106498718262,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "LakeRockWater",
+          "persistentUuid": "00df8474-edd6-417e-abc4-4771ba959c38",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 15.708136081695557,
+            "height": 16.928842544555664,
+            "isCastingShadow": false,
+            "isReceivingShadow": false,
+            "keepAspectRatio": false,
+            "materialType": "KeepOriginal",
+            "modelResourceName": "lake-rocks-water.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 16.410568714141846,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "LakeRockPavilion",
+          "persistentUuid": "9145f120-647f-42b7-a550-1b93936d9dd5",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 7.59999942779541,
+            "height": 9.463135719299316,
+            "isCastingShadow": false,
+            "isReceivingShadow": false,
+            "keepAspectRatio": false,
+            "materialType": "KeepOriginal",
+            "modelResourceName": "lake-rocks-summit-pavilion.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 9.533986568450928,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "FocusLakeRocks",
+          "persistentUuid": "d2737f9c-263d-49dd-b604-585387d5628d",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "[ 湖畔石景 ]",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 53,
+            "g": 62,
+            "r": 32
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "247;250;247",
+            "outlineThickness": 3,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "[ 湖畔石景 ]",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "32;62;53"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -4719,6 +5089,27 @@
           },
           {
             "objectName": "FocusPavilion"
+          },
+          {
+            "objectName": "Hall316"
+          },
+          {
+            "objectName": "Hall316Foundation"
+          },
+          {
+            "objectName": "FocusHall316"
+          },
+          {
+            "objectName": "LakeUpperRocks"
+          },
+          {
+            "objectName": "LakeRockWater"
+          },
+          {
+            "objectName": "LakeRockPavilion"
+          },
+          {
+            "objectName": "FocusLakeRocks"
           }
         ]
       },
@@ -5567,6 +5958,219 @@
                     "Elevation",
                     "=",
                     "32"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "FocusHall316",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "WasLeft",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "WalkMode",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MousePointerLock::ExitPointerLock"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TargetX",
+                    "=",
+                    "2176.6796472854744"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TargetY",
+                    "=",
+                    "2284.4560273042434"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Distance",
+                    "=",
+                    "90"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Yaw",
+                    "=",
+                    "108.40357083209142"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Elevation",
+                    "=",
+                    "28"
+                  ]
+                }
+              ]
+            },
+            {
+              "aiGeneratedEventId": "01M74HW08XN4R2BR3A7DGH4Y56",
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "FocusLakeRocks",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "WasLeft",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "WalkMode",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MousePointerLock::ExitPointerLock"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TargetX",
+                    "=",
+                    "2068.0313732"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TargetY",
+                    "=",
+                    "2270.2084976"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Distance",
+                    "=",
+                    "112"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Yaw",
+                    "=",
+                    "230"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Elevation",
+                    "=",
+                    "24"
                   ]
                 }
               ]

@@ -1,0 +1,71 @@
+{
+  "success": true,
+  "status": "passed",
+  "testName": "三角形石景修正版驗收",
+  "framesExecuted": 9,
+  "durationMs": 2500,
+  "loadingMs": 2183,
+  "timeoutMs": 60000,
+  "hiddenStallMs": 0,
+  "gameTimeMs": 150,
+  "assertions": [
+    {
+      "message": "LakeUpperRocks正常載入",
+      "passed": true
+    },
+    {
+      "message": "LakeRockWater正常載入",
+      "passed": true
+    },
+    {
+      "message": "LakeRockPavilion正常載入",
+      "passed": true
+    },
+    {
+      "message": "LakeRearRamp已移除",
+      "passed": true
+    },
+    {
+      "message": "LakeShoreRocks已移除",
+      "passed": true
+    },
+    {
+      "message": "EnterLakeRamp已移除",
+      "passed": true
+    },
+    {
+      "message": "原有前後道路保留",
+      "passed": true
+    },
+    {
+      "message": "石景定位按鈕有效",
+      "passed": true
+    },
+    {
+      "message": "亭子保持岩壁上方的高度",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "consoleLogs": [
+    "[log] [RuntimeInstanceContainer] RuntimeInstanceContainer.getObjects: No instances called \"LakeRearRamp\"! Adding it.",
+    "[log] [RuntimeInstanceContainer] RuntimeInstanceContainer.getObjects: No instances called \"LakeShoreRocks\"! Adding it.",
+    "[log] [RuntimeInstanceContainer] RuntimeInstanceContainer.getObjects: No instances called \"EnterLakeRamp\"! Adding it."
+  ],
+  "eventLog": [
+    {
+      "frame": 1,
+      "event": "sceneChanged",
+      "sceneName": "月明洞核心區",
+      "cause": "harness"
+    }
+  ],
+  "screenshotsTakenCount": 2,
+  "droppedScreenshots": [],
+  "profiles": [],
+  "performance": {
+    "avgStepMs": 3.97,
+    "worstStepMs": 19.6
+  }
+}

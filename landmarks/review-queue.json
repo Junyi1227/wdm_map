@@ -2,16 +2,22 @@
   "phase": "model-style-review",
   "ai_attempts": 0,
   "reason": "使用者無法登入Meshy；以照片輔助的Blender網格製作初稿。",
-  "game_modified": false,
+  "core_map_landmarks": [
+    "10-round-hill-pavilion",
+    "02-hall-316",
+    "04-god-waterfall"
+  ],
   "identity_confirmed": [
     "10-round-hill-pavilion",
     "09-camel-rock",
-    "08-prayer-hill"
+    "08-prayer-hill",
+    "02-hall-316",
+    "04-god-waterfall"
   ],
-  "pending_identity": [
-    "02-hall-316"
-  ],
+  "pending_identity": [],
   "models_require_style_review": [
+    "02-hall-316",
+    "04-god-waterfall",
     "08-prayer-hill",
     "09-camel-rock",
     "10-round-hill-pavilion"

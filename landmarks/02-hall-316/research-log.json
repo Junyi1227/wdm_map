@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-11",
+  "building_identity": "user confirmed; independently linked by Chinese organization guide",
+  "reference_photos": 18,
+  "selected_upload_photos": 6,
+  "blocked_downloads": [
+    {
+      "id": "side2013-00",
+      "error": "HTTP Error 403: Forbidden",
+      "image_url": "https://t1.daumcdn.net/cfile/tistory/25566950526A419008",
+      "source_page": "https://jmsprovi.net/entry/PHOTO-월명동-성자-사랑의-집-옆모습"
+    },
+    {
+      "id": "construction-00",
+      "error": "HTTP Error 403: Forbidden",
+      "image_url": "https://t1.daumcdn.net/cfile/tistory/226B584D521774590E",
+      "source_page": "https://mannamdaehwa.tistory.com/278"
+    },
+    {
+      "id": "construction-01",
+      "error": "HTTP Error 403: Forbidden",
+      "image_url": "https://t1.daumcdn.net/cfile/tistory/250A7F4D5217745969",
+      "source_page": "https://mannamdaehwa.tistory.com/278"
+    }
+  ],
+  "duplicates_excluded": [
+    "official-view02_01.jpg identical to official-spring"
+  ],
+  "excluded_from_album": [
+    "front2013-01 near-duplicate landscaping",
+    "rear2013-01 and rear2013-02 mainly construction/rocks",
+    "tw-guide-24 distant context"
+  ],
+  "photo_edits": false,
+  "ai_uploads": 0,
+  "game_modified": false
+}

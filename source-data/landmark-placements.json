@@ -23,5 +23,58 @@
     "focus_button": "FocusPavilion",
     "source_model_sha256": "74f4aa6aa96ea8cd51f22bcf30b6bc4233159125bbc0d12e04cd5bc31a5dbc35",
     "rotation_pivot": "ModelOrigin；實機檢視後修正，避免旋轉時偏離基座。"
+  },
+  {
+    "landmark": "316會館／聖子愛之家／316紀念館",
+    "object": "Hall316",
+    "scene": "月明洞核心區",
+    "user_instruction": "放進地圖",
+    "location_source": "https://www.openstreetmap.org/way/354325017",
+    "location_status": "依已存OSM聖子愛之家建築輪廓及使用者同名確認定位；不是實測建築座標。",
+    "position": [
+      2176.6796472854744,
+      2284.4560273042434,
+      189.1631047772713
+    ],
+    "angle_deg": 108.40357083209142,
+    "front_facing": "月明湖",
+    "ground_z_at_origin": 190.10662873615664,
+    "ground_range_under_main": [
+      188.01139676240402,
+      192.3031047772713
+    ],
+    "fixed_model_size_m": [
+      36.20000076293945,
+      25.818557739257812,
+      22.450000762939453
+    ],
+    "scaled_to_osm_footprint": false,
+    "foundation": "山側下層與坡面相接；前側以獨立石基座補足高差。未改寫地形。",
+    "focus_button": "FocusHall316",
+    "model_sha256": "15fa560d9e84789136346afd625d81e66de854b02bf4b3949519971fa7b16406"
+  },
+  {
+    "object": "LakeUpperRocks",
+    "landmark": "月明湖對岸石頭造景／瀑布亭",
+    "scene": "月明洞核心區",
+    "position": [
+      2068.0313732,
+      2270.2084976,
+      191.01877395625166
+    ],
+    "parts": {
+      "upper-rocks": "LakeUpperRocks",
+      "water": "LakeRockWater",
+      "summit-pavilion": "LakeRockPavilion"
+    },
+    "status": "依使用者2026-11-11文字修正；前後通路沿用原圖，不包含模型道路、坡道或樓梯。",
+    "reference_photos": [
+      "photos/user-front-waterfall.png",
+      "photos/user-lake-context.png"
+    ],
+    "road_separation": "前後石景分開，中間保留湖岸道路，不合併成實心牆。",
+    "access": "山側原步道改線至亭後附近，再接回右側；高差為局部遊戲地形整平。模型本體未改。",
+    "focus_button": "FocusLakeRocks",
+    "angle_deg": 8.0
   }
 ]

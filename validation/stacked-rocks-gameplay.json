@@ -1,0 +1,51 @@
+{
+  "success": true,
+  "status": "passed",
+  "testName": "獨立堆石造景檢查",
+  "framesExecuted": 9,
+  "durationMs": 1294,
+  "loadingMs": 1172,
+  "timeoutMs": 60000,
+  "hiddenStallMs": 0,
+  "gameTimeMs": 150,
+  "assertions": [
+    {
+      "message": "LakeUpperRocks載入成功",
+      "passed": true
+    },
+    {
+      "message": "LakeRockWater載入成功",
+      "passed": true
+    },
+    {
+      "message": "LakeRockPavilion載入成功",
+      "passed": true
+    },
+    {
+      "message": "亭子仍在造景頂部",
+      "passed": true
+    },
+    {
+      "message": "石景定位正常",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "consoleLogs": [],
+  "eventLog": [
+    {
+      "frame": 1,
+      "event": "sceneChanged",
+      "sceneName": "月明洞核心區",
+      "cause": "harness"
+    }
+  ],
+  "screenshotsTakenCount": 3,
+  "droppedScreenshots": [],
+  "profiles": [],
+  "performance": {
+    "avgStepMs": 2.07,
+    "worstStepMs": 11.8
+  }
+}

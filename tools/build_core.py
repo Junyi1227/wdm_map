@@ -12,6 +12,8 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT/'source-data'
+if (SOURCE/'trail-adjustments.json').exists():
+    raise RuntimeError('Authored trail and terrain grading exists; do not overwrite it with the original DEM builder. See source-data/trail-adjustments.json.')
 OUT = ROOT/'wolmyeongdong/assets/core'
 OUT.mkdir(parents=True, exist_ok=True)
 global_meta = json.loads((OUT.parent/'geography.json').read_text())

@@ -1,0 +1,94 @@
+{
+  "id": "04-god-waterfall",
+  "name": "月明湖對岸石頭造景與瀑布亭",
+  "focus": [
+    0,
+    0,
+    8
+  ],
+  "distance": 90,
+  "parts": [
+    "Upper rock wall",
+    "Separate cascade ribbons",
+    "Individually stacked structural rocks, no backing plane",
+    "Square summit pavilion"
+  ],
+  "sources": [
+    "user-front-waterfall.png",
+    "user-lake-context.png"
+  ],
+  "user_identity_confirmed": "2026-11-11",
+  "estimate": "照片輔助概略配置；岩壁底寬約50m、底部前後深約21m、頂部約8×9m，上段瀑布高約15m；均為示意估計。",
+  "unknown": "主體由獨立石塊堆疊，無平面斜坡基體；前後通路沿用原圖，不含新增坡道、樓梯或湖岸下層石景。",
+  "placed_in_core_map": true,
+  "preview_yaw": 49,
+  "status": "照片輔助的簡化初稿，待風格確認",
+  "method": "Blender原生網格建模；未使用Meshy/Tripo，未上傳原照片",
+  "unit": "metre",
+  "bounds_blender_z_up": [
+    [
+      -35.33530807495117,
+      -36.29475402832031,
+      -1.4944090843200684
+    ],
+    [
+      16.683103561401367,
+      13.9022798538208,
+      22.299999237060547
+    ]
+  ],
+  "dimensions_estimated": true,
+  "texture": "solid PBR palette; no external textures",
+  "modular_exports": [
+    "upper-rocks.glb",
+    "water.glb",
+    "summit-pavilion.glb"
+  ],
+  "triangles": 21500,
+  "files": [
+    "landmark.glb",
+    "landmark.blend",
+    "front.png",
+    "right.png",
+    "back.png",
+    "left.png"
+  ],
+  "part_bounds_blender_z_up": {
+    "upper-rocks": [
+      [
+        -35.33530807495117,
+        -36.29475402832031,
+        -1.4944090843200684
+      ],
+      [
+        16.683103561401367,
+        13.9022798538208,
+        16.27368927001953
+      ]
+    ],
+    "water": [
+      [
+        -12.186880111694336,
+        -13.109054565429688,
+        -0.7081214189529419
+      ],
+      [
+        4.92875862121582,
+        4.492588996887207,
+        15.560041427612305
+      ]
+    ],
+    "summit-pavilion": [
+      [
+        -16.061044692993164,
+        -17.53117561340332,
+        14.699999809265137
+      ],
+      [
+        -6.427842140197754,
+        -7.9688239097595215,
+        22.299999237060547
+      ]
+    ]
+  }
+}

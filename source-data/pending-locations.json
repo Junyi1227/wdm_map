@@ -6,7 +6,8 @@
   },
   {
     "name": "316會館",
-    "status": "依使用者指示等待圈選，不指定位置"
+    "status": "使用者已確認與聖子愛之家同名，並指示放入地圖；已依既有OSM輪廓配置，精確實測座標仍待核對。",
+    "source_url": "https://www.openstreetmap.org/way/354325017"
   },
   {
     "name": "聖靈瀑布",

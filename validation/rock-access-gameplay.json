@@ -1,0 +1,87 @@
+{
+  "success": true,
+  "status": "passed",
+  "testName": "石景避路與亭後步道最終驗收",
+  "framesExecuted": 945,
+  "durationMs": 1685,
+  "loadingMs": 1318,
+  "timeoutMs": 60000,
+  "hiddenStallMs": 0,
+  "gameTimeMs": 15750,
+  "assertions": [
+    {
+      "message": "LakeUpperRocks共同旋轉8度",
+      "passed": true
+    },
+    {
+      "message": "LakeRockWater共同旋轉8度",
+      "passed": true
+    },
+    {
+      "message": "LakeRockPavilion共同旋轉8度",
+      "passed": true
+    },
+    {
+      "message": "鏡頭定位更新",
+      "passed": true
+    },
+    {
+      "message": "步道可走到控制點 1",
+      "passed": true
+    },
+    {
+      "message": "步道可走到控制點 2",
+      "passed": true
+    },
+    {
+      "message": "步道可走到控制點 3",
+      "passed": true
+    },
+    {
+      "message": "步道可走到控制點 4",
+      "passed": true
+    },
+    {
+      "message": "步道可走到控制點 5",
+      "passed": true
+    },
+    {
+      "message": "原生地形步道到達亭後高度",
+      "passed": true
+    },
+    {
+      "message": "步道可走到控制點 6",
+      "passed": true
+    },
+    {
+      "message": "步道可走到控制點 7",
+      "passed": true
+    },
+    {
+      "message": "步道可走到控制點 8",
+      "passed": true
+    },
+    {
+      "message": "步道可走到控制點 9",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "consoleLogs": [],
+  "eventLog": [
+    {
+      "frame": 1,
+      "event": "sceneChanged",
+      "sceneName": "月明洞核心區",
+      "cause": "harness"
+    }
+  ],
+  "screenshotsTakenCount": 2,
+  "droppedScreenshots": [],
+  "profiles": [],
+  "performance": {
+    "avgStepMs": 0.17,
+    "worstStepMs": 7.4
+  }
+}

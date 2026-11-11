@@ -1,5 +1,5 @@
 {
-  "firstLayout": "駱駝石",
+  "firstLayout": "316會館",
   "gdVersion": {
     "build": 287,
     "major": 5,
@@ -15,13 +15,13 @@
     "orientation": "landscape",
     "packageName": "com.example.gamename",
     "pixelsRounding": false,
-    "projectUuid": "97208dcc-fc0d-4db3-a13d-49eab27fb1cd",
+    "projectUuid": "3dd1816e-ce9f-47c4-a838-0a1f4759f6f9",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
     "version": "1.0.0",
     "name": "月明洞｜地標模型檢視",
-    "description": "三個照片輔助的簡化初稿；估計尺寸；未整合到核心區。",
+    "description": "地標模型獨立檢視；估計尺寸與推定背面；不會修改核心區。",
     "author": "",
     "windowWidth": 2560,
     "windowHeight": 1600,
@@ -84,6 +84,13 @@
         "metadata": "",
         "name": "08-prayer-hill.glb",
         "userAdded": true
+      },
+      {
+        "file": "../02-hall-316/model/landmark.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "02-hall-316.glb",
+        "userAdded": true
       }
     ]
   },
@@ -126,67 +133,67 @@
       "variables": [
         {
           "name": "WalkMode",
-          "persistentUuid": "ad78f024-e1b7-4df4-b9b6-548eead65784",
+          "persistentUuid": "f0c51eff-31db-4796-bfc4-8a39f209fa21",
           "type": "number",
           "value": 0
         },
         {
           "name": "TargetX",
-          "persistentUuid": "0c34f052-d998-415b-baba-5efd6db95573",
+          "persistentUuid": "50e6385b-203a-4a01-802d-e8aaca43117e",
           "type": "number",
           "value": 0
         },
         {
           "name": "TargetY",
-          "persistentUuid": "1e4b6036-f8b6-4cfa-84a5-75fa14495e08",
+          "persistentUuid": "ae9f3ab0-674c-49d8-9577-565198c9ddf4",
           "type": "number",
           "value": 0
         },
         {
           "name": "TargetZ",
-          "persistentUuid": "e0747a04-b316-42a0-a8cf-924d16911f63",
+          "persistentUuid": "c5c58c5b-7964-41cb-a73e-0ae78454f8cf",
           "type": "number",
           "value": 0
         },
         {
           "name": "Distance",
-          "persistentUuid": "b2f44e22-c5fa-4ee8-a76a-a3d705ced5eb",
+          "persistentUuid": "66ff3ffb-adf0-4726-8070-26c80224ff18",
           "type": "number",
           "value": 0
         },
         {
           "name": "Yaw",
-          "persistentUuid": "25750ba4-8ffe-4c2a-9cc5-67579dea60e0",
+          "persistentUuid": "6cccf935-638f-416d-90d2-b16de1100841",
           "type": "number",
           "value": 0
         },
         {
           "name": "Elevation",
-          "persistentUuid": "5b938fc9-3fb6-43ff-ba8a-f3ed7ab3d6c6",
+          "persistentUuid": "862b90c2-a49e-4ce6-aace-3a14dec504d6",
           "type": "number",
           "value": 0
         },
         {
           "name": "PrevX",
-          "persistentUuid": "cea4f41d-e049-495c-a3d7-9c43b877fb13",
+          "persistentUuid": "c222b150-e472-46bd-8b10-ddc4abd43666",
           "type": "number",
           "value": 0
         },
         {
           "name": "PrevY",
-          "persistentUuid": "ffb47cf5-657e-4f0b-8436-c6f12da42bb0",
+          "persistentUuid": "674ea380-ad56-4f5f-b40f-a6b2b1beadae",
           "type": "number",
           "value": 0
         },
         {
           "name": "WasLeft",
-          "persistentUuid": "3f8c9ca3-0cce-4dbb-b587-e0de326b5d1e",
+          "persistentUuid": "792d1a8e-14d0-48c6-aae2-ea5dffecd994",
           "type": "number",
           "value": 0
         },
         {
           "name": "WasRight",
-          "persistentUuid": "06757c46-f4fa-45a8-8516-7247305e5a77",
+          "persistentUuid": "f94c4801-1828-46f2-84c4-f5b8fde6c0e2",
           "type": "number",
           "value": 0
         }
@@ -199,7 +206,7 @@
           "height": 6.699999809265137,
           "layer": "",
           "name": "Landmark",
-          "persistentUuid": "1efe82dc-77f3-4201-97c2-dd31668c646b",
+          "persistentUuid": "1626a6a8-eee2-4821-bcc2-b1c13045ceab",
           "width": 24,
           "x": 0,
           "y": 0,
@@ -214,7 +221,7 @@
           "height": 90,
           "layer": "UI",
           "name": "MapTitle",
-          "persistentUuid": "259430f1-93a5-447b-9c08-17ae2b1557b8",
+          "persistentUuid": "0b69fb2a-e440-4d57-9e4e-f06d4a89ac45",
           "width": 1800,
           "x": 48,
           "y": 35,
@@ -229,7 +236,7 @@
           "height": 90,
           "layer": "UI",
           "name": "MapHelp",
-          "persistentUuid": "34b94918-1949-4bb2-9f8b-de24c7712c24",
+          "persistentUuid": "04e97b4a-7871-4f27-a7b2-428f9ef58559",
           "width": 1800,
           "x": 48,
           "y": 120,
@@ -244,7 +251,7 @@
           "height": 90,
           "layer": "UI",
           "name": "MapCredit",
-          "persistentUuid": "8f069532-b221-489f-9486-2e141d1f0045",
+          "persistentUuid": "1a9a235d-8fd5-4e9d-9cdd-625963325528",
           "width": 1800,
           "x": 48,
           "y": 1460,
@@ -259,7 +266,7 @@
           "height": 90,
           "layer": "UI",
           "name": "RotateLeft",
-          "persistentUuid": "a0cf140a-46e8-4181-a8ee-d2c42d92c3b6",
+          "persistentUuid": "d8b0e6fc-e70d-4477-ab3c-22805932efbe",
           "width": 1800,
           "x": 48,
           "y": 220,
@@ -274,7 +281,7 @@
           "height": 90,
           "layer": "UI",
           "name": "RotateRight",
-          "persistentUuid": "3a62fb90-1287-41d3-8552-8a4688a32b8a",
+          "persistentUuid": "ad7506a9-f3b7-4636-8932-dbb6a3c98f1d",
           "width": 1800,
           "x": 270,
           "y": 220,
@@ -289,7 +296,7 @@
           "height": 90,
           "layer": "UI",
           "name": "ZoomIn",
-          "persistentUuid": "36dcf634-9da1-4bbb-863b-509c6ce9587d",
+          "persistentUuid": "020d00db-cb30-4a38-8050-18d8d2f3f020",
           "width": 1800,
           "x": 490,
           "y": 220,
@@ -304,7 +311,7 @@
           "height": 90,
           "layer": "UI",
           "name": "ZoomOut",
-          "persistentUuid": "5d2a2ae9-1f8f-4646-9b34-91659f189b62",
+          "persistentUuid": "3dcf4b1f-5c36-422c-8c3a-d0ab0d94507d",
           "width": 1800,
           "x": 710,
           "y": 220,
@@ -318,13 +325,13 @@
         {
           "assetStoreId": "",
           "name": "Landmark",
-          "persistentUuid": "28f96690-1650-44e3-af0f-3cd054e3ff1a",
+          "persistentUuid": "0add57b6-ce3a-4064-9499-4a2af3c07ea0",
           "type": "Scene3D::Model3DObject",
           "variables": [],
           "effects": [],
           "behaviors": [],
           "content": {
-            "centerLocation": "ObjectCenter",
+            "centerLocation": "ModelOrigin",
             "crossfadeDuration": 0.10000000149011612,
             "depth": 4.439355283975601,
             "height": 6.699999809265137,
@@ -438,7 +445,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "照片輔助建模，尺寸與隱藏處為估計；未放入核心區地圖。\n1 駱駝石　2 圓山八角亭　3 禱告山",
+          "string": "照片輔助建模，尺寸與隱藏處為估計；獨立模型檢視，不會修改核心區。\n1 駱駝石　2 圓山八角亭　3 禱告山　4 316會館",
           "font": "",
           "textAlignment": "left",
           "characterSize": 30,
@@ -461,7 +468,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "照片輔助建模，尺寸與隱藏處為估計；未放入核心區地圖。\n1 駱駝石　2 圓山八角亭　3 禱告山",
+            "text": "照片輔助建模，尺寸與隱藏處為估計；獨立模型檢視，不會修改核心區。\n1 駱駝石　2 圓山八角亭　3 禱告山　4 316會館",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -963,6 +970,32 @@
               "parameters": [
                 "",
                 "\"禱告山\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Num4\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"316會館\"",
                 "no"
               ]
             }
@@ -2260,67 +2293,67 @@
       "variables": [
         {
           "name": "WalkMode",
-          "persistentUuid": "228004d6-92c8-437a-a2c9-16be174fd448",
+          "persistentUuid": "4a766057-73a8-4f58-8ccb-aa193c0d59bb",
           "type": "number",
           "value": 0
         },
         {
           "name": "TargetX",
-          "persistentUuid": "b302c204-abfc-4d42-851a-4b5653d43e56",
+          "persistentUuid": "106f07b9-d62e-4bcf-bc66-f18dd65261dc",
           "type": "number",
           "value": 0
         },
         {
           "name": "TargetY",
-          "persistentUuid": "4ebee2a3-d637-4242-8964-d3c316953937",
+          "persistentUuid": "b53b87dc-75a4-47ab-abee-b63063e9389f",
           "type": "number",
           "value": 0
         },
         {
           "name": "TargetZ",
-          "persistentUuid": "8d37f920-db96-4659-b1f0-6979f5351b06",
+          "persistentUuid": "4d5f7a55-eb77-431e-8a58-c5bbb64c6408",
           "type": "number",
           "value": 0
         },
         {
           "name": "Distance",
-          "persistentUuid": "dcb7bd86-ec53-4b44-90e3-272837e2471b",
+          "persistentUuid": "9b78c49c-f10f-4ffd-bfe2-f87676e5b582",
           "type": "number",
           "value": 0
         },
         {
           "name": "Yaw",
-          "persistentUuid": "2de7564b-ca6d-4534-b461-83b10e10922e",
+          "persistentUuid": "134adb1b-ee9f-431c-9f6b-500791417ed9",
           "type": "number",
           "value": 0
         },
         {
           "name": "Elevation",
-          "persistentUuid": "34628b72-68ce-4ee7-9d9b-43d3f9138b43",
+          "persistentUuid": "3e34df41-ae79-49a5-af24-b66cddcec8f9",
           "type": "number",
           "value": 0
         },
         {
           "name": "PrevX",
-          "persistentUuid": "ef2a1c07-ecb0-4823-92fc-950c27eeb0bd",
+          "persistentUuid": "12dfe23c-ade4-4098-967e-45fa93149e3c",
           "type": "number",
           "value": 0
         },
         {
           "name": "PrevY",
-          "persistentUuid": "6391424d-39c8-40bc-88b8-7c40637467e0",
+          "persistentUuid": "43bc2f69-4da7-466e-bffd-3dadf6448bc4",
           "type": "number",
           "value": 0
         },
         {
           "name": "WasLeft",
-          "persistentUuid": "b6c41402-94c9-4872-92b4-d181819d554d",
+          "persistentUuid": "efcf07bd-f87a-4710-97b7-8e5d1dec6bca",
           "type": "number",
           "value": 0
         },
         {
           "name": "WasRight",
-          "persistentUuid": "37d74e20-0715-4ce8-85bd-4f14c4337c79",
+          "persistentUuid": "014c9bfd-212a-4fd5-b4ab-48d4bd1c1610",
           "type": "number",
           "value": 0
         }
@@ -2333,7 +2366,7 @@
           "height": 10.817577838897705,
           "layer": "",
           "name": "Landmark",
-          "persistentUuid": "7c3d6c86-d764-462d-b172-c404087b6cba",
+          "persistentUuid": "74281cd8-5e79-4db6-9ca3-c5eedeef5e55",
           "width": 7.835155487060547,
           "x": 0,
           "y": 0,
@@ -2348,7 +2381,7 @@
           "height": 90,
           "layer": "UI",
           "name": "MapTitle",
-          "persistentUuid": "d71d1f86-a430-44b5-8657-a67146548753",
+          "persistentUuid": "a4f5f741-9f2b-4d37-8bfa-1be05ef59ca5",
           "width": 1800,
           "x": 48,
           "y": 35,
@@ -2363,7 +2396,7 @@
           "height": 90,
           "layer": "UI",
           "name": "MapHelp",
-          "persistentUuid": "b2ff9771-9882-4804-87f8-4030415e9ac4",
+          "persistentUuid": "c930107b-ad3b-4277-a9d1-07860f63b500",
           "width": 1800,
           "x": 48,
           "y": 120,
@@ -2378,7 +2411,7 @@
           "height": 90,
           "layer": "UI",
           "name": "MapCredit",
-          "persistentUuid": "56a924e1-4cdd-4b12-a545-67c6885368ce",
+          "persistentUuid": "2aefecc5-e270-4896-9226-71b91060c617",
           "width": 1800,
           "x": 48,
           "y": 1460,
@@ -2393,7 +2426,7 @@
           "height": 90,
           "layer": "UI",
           "name": "RotateLeft",
-          "persistentUuid": "55e8bc8d-1ac7-4d8e-a049-f4f6c6a81499",
+          "persistentUuid": "a36a3a5d-179e-4d43-b923-33476b206017",
           "width": 1800,
           "x": 48,
           "y": 220,
@@ -2408,7 +2441,7 @@
           "height": 90,
           "layer": "UI",
           "name": "RotateRight",
-          "persistentUuid": "862555e1-dc7f-445f-8ba7-08313a5ea1b1",
+          "persistentUuid": "8a838f30-752c-4e5e-844d-d5b666337b34",
           "width": 1800,
           "x": 270,
           "y": 220,
@@ -2423,7 +2456,7 @@
           "height": 90,
           "layer": "UI",
           "name": "ZoomIn",
-          "persistentUuid": "009e3efa-ee96-4658-8a49-2e5bb5b23da5",
+          "persistentUuid": "ded794ca-837c-409f-8747-d486338b7fc0",
           "width": 1800,
           "x": 490,
           "y": 220,
@@ -2438,7 +2471,7 @@
           "height": 90,
           "layer": "UI",
           "name": "ZoomOut",
-          "persistentUuid": "9b52a337-0f46-4311-84da-e331f705368e",
+          "persistentUuid": "31e51a42-6d6f-44b6-842c-f5795fbf04d4",
           "width": 1800,
           "x": 710,
           "y": 220,
@@ -2452,13 +2485,13 @@
         {
           "assetStoreId": "",
           "name": "Landmark",
-          "persistentUuid": "9889fa0f-efc9-422b-a62f-e36f712d3938",
+          "persistentUuid": "8c7ac6b1-ea71-46ef-a754-819879c5cf00",
           "type": "Scene3D::Model3DObject",
           "variables": [],
           "effects": [],
           "behaviors": [],
           "content": {
-            "centerLocation": "ObjectCenter",
+            "centerLocation": "ModelOrigin",
             "crossfadeDuration": 0.10000000149011612,
             "depth": 7.489999920129776,
             "height": 10.817577838897705,
@@ -2572,7 +2605,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "照片輔助建模，尺寸與隱藏處為估計；未放入核心區地圖。\n1 駱駝石　2 圓山八角亭　3 禱告山",
+          "string": "照片輔助建模，尺寸與隱藏處為估計；獨立模型檢視，不會修改核心區。\n1 駱駝石　2 圓山八角亭　3 禱告山　4 316會館",
           "font": "",
           "textAlignment": "left",
           "characterSize": 30,
@@ -2595,7 +2628,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "照片輔助建模，尺寸與隱藏處為估計；未放入核心區地圖。\n1 駱駝石　2 圓山八角亭　3 禱告山",
+            "text": "照片輔助建模，尺寸與隱藏處為估計；獨立模型檢視，不會修改核心區。\n1 駱駝石　2 圓山八角亭　3 禱告山　4 316會館",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -3097,6 +3130,32 @@
               "parameters": [
                 "",
                 "\"禱告山\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Num4\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"316會館\"",
                 "no"
               ]
             }
@@ -4394,67 +4453,67 @@
       "variables": [
         {
           "name": "WalkMode",
-          "persistentUuid": "58a6d003-e805-4f03-bd3b-d64e47f9ee9f",
+          "persistentUuid": "653c7ba6-c0bc-49e9-9f57-f2c2eab0486a",
           "type": "number",
           "value": 0
         },
         {
           "name": "TargetX",
-          "persistentUuid": "cab6271a-ff95-4929-b14c-708d1db49124",
+          "persistentUuid": "2e2bdeed-af41-4d44-9ba6-7295819c106d",
           "type": "number",
           "value": 0
         },
         {
           "name": "TargetY",
-          "persistentUuid": "9f1337e5-338d-4c00-9cef-50f1b3cab271",
+          "persistentUuid": "4928358b-9c98-4fb1-a5e5-9aee3a69730f",
           "type": "number",
           "value": 0
         },
         {
           "name": "TargetZ",
-          "persistentUuid": "4dcef3b6-b852-432d-9b5e-34ec37f8c452",
+          "persistentUuid": "7ec6484c-a3a0-417e-b9df-c2064098b725",
           "type": "number",
           "value": 0
         },
         {
           "name": "Distance",
-          "persistentUuid": "a43b4499-4b95-4fd0-be16-1a533eccfc65",
+          "persistentUuid": "8bf7b796-7d30-4980-8c3f-4e3a5d00d46b",
           "type": "number",
           "value": 0
         },
         {
           "name": "Yaw",
-          "persistentUuid": "79d5c8b9-f4c2-4140-8d3f-43df5f4f2067",
+          "persistentUuid": "73491b10-b17f-4d53-8424-c17eee5d88b4",
           "type": "number",
           "value": 0
         },
         {
           "name": "Elevation",
-          "persistentUuid": "acca8572-d4fc-4997-a7cc-b9b358ff5fea",
+          "persistentUuid": "9ac0d366-1f89-41c3-9bf9-00da7f0ea288",
           "type": "number",
           "value": 0
         },
         {
           "name": "PrevX",
-          "persistentUuid": "9892a002-e8fd-4d01-ac98-24ea640b13eb",
+          "persistentUuid": "d8fab5ac-6da6-4b4b-a6b3-24cedebd425b",
           "type": "number",
           "value": 0
         },
         {
           "name": "PrevY",
-          "persistentUuid": "a31b067f-a57b-4ef7-89a2-579fb8e08657",
+          "persistentUuid": "5bba7d92-0bd7-47c2-824e-4057fe66cc4a",
           "type": "number",
           "value": 0
         },
         {
           "name": "WasLeft",
-          "persistentUuid": "b949f007-f5aa-4e10-be29-592716eb54f9",
+          "persistentUuid": "cdcae30f-500d-44f3-841e-044af1e6c4dd",
           "type": "number",
           "value": 0
         },
         {
           "name": "WasRight",
-          "persistentUuid": "0ccb3eb1-0fad-4e2c-ace3-845dfb613aab",
+          "persistentUuid": "f50974e7-57da-4bc6-99f5-4c5cbd45d068",
           "type": "number",
           "value": 0
         }
@@ -4467,7 +4526,7 @@
           "height": 24,
           "layer": "",
           "name": "Landmark",
-          "persistentUuid": "30e445c2-6eeb-4c53-a040-9c47c878c95a",
+          "persistentUuid": "52e9b4e2-4e2b-46aa-978d-b3dcf1ef21d3",
           "width": 20,
           "x": 0,
           "y": 0,
@@ -4482,7 +4541,7 @@
           "height": 90,
           "layer": "UI",
           "name": "MapTitle",
-          "persistentUuid": "1534462d-99a9-445b-ae97-2e936137f357",
+          "persistentUuid": "46e22c9b-f4bf-4567-97d5-69e6aeaa8881",
           "width": 1800,
           "x": 48,
           "y": 35,
@@ -4497,7 +4556,7 @@
           "height": 90,
           "layer": "UI",
           "name": "MapHelp",
-          "persistentUuid": "8c4c882c-0bbc-449f-ada5-33ca9c1a6fac",
+          "persistentUuid": "c323fec1-6089-4d20-a96e-a771b3d94c2c",
           "width": 1800,
           "x": 48,
           "y": 120,
@@ -4512,7 +4571,7 @@
           "height": 90,
           "layer": "UI",
           "name": "MapCredit",
-          "persistentUuid": "5710ea67-e881-49ba-b21a-0e8fdedc6b9d",
+          "persistentUuid": "6e4107f0-6e16-42f6-aa9b-259274267602",
           "width": 1800,
           "x": 48,
           "y": 1460,
@@ -4527,7 +4586,7 @@
           "height": 90,
           "layer": "UI",
           "name": "RotateLeft",
-          "persistentUuid": "df8f7e9e-a9ba-4bac-bf93-02355ebd1c9c",
+          "persistentUuid": "9c2eecc9-1064-4a0b-bc05-e139ccc07dbc",
           "width": 1800,
           "x": 48,
           "y": 220,
@@ -4542,7 +4601,7 @@
           "height": 90,
           "layer": "UI",
           "name": "RotateRight",
-          "persistentUuid": "e3f8ee99-019b-45e6-883f-1e16e154668c",
+          "persistentUuid": "1dc97013-c5fa-4e52-baea-81732151d6cb",
           "width": 1800,
           "x": 270,
           "y": 220,
@@ -4557,7 +4616,7 @@
           "height": 90,
           "layer": "UI",
           "name": "ZoomIn",
-          "persistentUuid": "dbf99c74-b100-48f5-b3c9-30b98f1775d1",
+          "persistentUuid": "05703972-1fc4-49e7-8d59-06c6a7c4d479",
           "width": 1800,
           "x": 490,
           "y": 220,
@@ -4572,7 +4631,7 @@
           "height": 90,
           "layer": "UI",
           "name": "ZoomOut",
-          "persistentUuid": "157d2233-0f2f-4f8b-9777-9ee8baa8369a",
+          "persistentUuid": "e09f0387-fb7e-4ef5-938e-b15835166c9d",
           "width": 1800,
           "x": 710,
           "y": 220,
@@ -4586,13 +4645,13 @@
         {
           "assetStoreId": "",
           "name": "Landmark",
-          "persistentUuid": "0c068636-1936-415c-9f53-7d5a229b0d55",
+          "persistentUuid": "96bb23f0-0872-481d-bd08-cbecc8463a63",
           "type": "Scene3D::Model3DObject",
           "variables": [],
           "effects": [],
           "behaviors": [],
           "content": {
-            "centerLocation": "ObjectCenter",
+            "centerLocation": "ModelOrigin",
             "crossfadeDuration": 0.10000000149011612,
             "depth": 5.646139323711395,
             "height": 24,
@@ -4706,7 +4765,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "照片輔助建模，尺寸與隱藏處為估計；未放入核心區地圖。\n1 駱駝石　2 圓山八角亭　3 禱告山",
+          "string": "照片輔助建模，尺寸與隱藏處為估計；獨立模型檢視，不會修改核心區。\n1 駱駝石　2 圓山八角亭　3 禱告山　4 316會館",
           "font": "",
           "textAlignment": "left",
           "characterSize": 30,
@@ -4729,7 +4788,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "照片輔助建模，尺寸與隱藏處為估計；未放入核心區地圖。\n1 駱駝石　2 圓山八角亭　3 禱告山",
+            "text": "照片輔助建模，尺寸與隱藏處為估計；獨立模型檢視，不會修改核心區。\n1 駱駝石　2 圓山八角亭　3 禱告山　4 316會館",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -5231,6 +5290,32 @@
               "parameters": [
                 "",
                 "\"禱告山\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Num4\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"316會館\"",
                 "no"
               ]
             }
@@ -6495,6 +6580,2166 @@
         }
       ],
       "behaviorsSharedData": []
+    },
+    {
+      "b": 228,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "_5116_26371_39208",
+      "name": "316會館",
+      "r": 239,
+      "renderer3DWorldScale": 100,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "316會館",
+      "v": 241,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.875,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "embedded-game"
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "WalkMode",
+          "persistentUuid": "73633d34-56af-4e25-8d62-780c7d00477a",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "TargetX",
+          "persistentUuid": "76de0a3a-8855-4ff1-9098-0f28e55ed935",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "TargetY",
+          "persistentUuid": "a083df0c-18e7-44ce-b3be-47be263779de",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "TargetZ",
+          "persistentUuid": "ecc51ef0-317a-4a3a-bfcc-26cd732a2b76",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Distance",
+          "persistentUuid": "bdd65af2-3d97-44a8-be75-0f46fa30bbce",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Yaw",
+          "persistentUuid": "c306694d-725f-423c-981a-ee2795565101",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Elevation",
+          "persistentUuid": "b89486d4-c179-414e-9514-384529305452",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "PrevX",
+          "persistentUuid": "366268a3-d06c-4120-956c-217f11415f55",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "PrevY",
+          "persistentUuid": "9df92f30-c8c8-4c31-ac4a-ee579fbd8642",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "WasLeft",
+          "persistentUuid": "91b33c3b-e872-4861-96fc-24734f263d1b",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "WasRight",
+          "persistentUuid": "84d97d62-9986-4a2c-a4ef-54ffe67f499f",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 22.450000762939453,
+          "height": 25.818557739257812,
+          "layer": "",
+          "name": "Landmark",
+          "persistentUuid": "53d7d1b2-0969-43f5-824f-4b3b943af2dc",
+          "width": 36.20000076293945,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 90,
+          "layer": "UI",
+          "name": "MapTitle",
+          "persistentUuid": "36b32e74-89ef-463e-b8cd-618375cae5a1",
+          "width": 1800,
+          "x": 48,
+          "y": 35,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 90,
+          "layer": "UI",
+          "name": "MapHelp",
+          "persistentUuid": "cab2e78f-1831-4d6d-841c-340d270c443a",
+          "width": 1800,
+          "x": 48,
+          "y": 120,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 90,
+          "layer": "UI",
+          "name": "MapCredit",
+          "persistentUuid": "40b01d5f-a8ad-42f1-9b4d-d23762f511ac",
+          "width": 1800,
+          "x": 48,
+          "y": 1460,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 90,
+          "layer": "UI",
+          "name": "RotateLeft",
+          "persistentUuid": "ac864ddf-6085-4132-80b6-bd1cb7331b9b",
+          "width": 1800,
+          "x": 48,
+          "y": 220,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 90,
+          "layer": "UI",
+          "name": "RotateRight",
+          "persistentUuid": "fd35dd36-432e-4547-8d70-bec9ec64653a",
+          "width": 1800,
+          "x": 270,
+          "y": 220,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 90,
+          "layer": "UI",
+          "name": "ZoomIn",
+          "persistentUuid": "26432f47-e453-4620-a7cb-cec13078fc6a",
+          "width": 1800,
+          "x": 490,
+          "y": 220,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 90,
+          "layer": "UI",
+          "name": "ZoomOut",
+          "persistentUuid": "63cf2c43-a43c-41b2-8150-e0c0ff6c6751",
+          "width": 1800,
+          "x": 710,
+          "y": 220,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "Landmark",
+          "persistentUuid": "4b898c82-6d97-4d0a-9aa7-92dd0c6a1971",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 22.450000762939453,
+            "height": 25.818557739257812,
+            "isCastingShadow": false,
+            "isReceivingShadow": false,
+            "keepAspectRatio": false,
+            "materialType": "KeepOriginal",
+            "modelResourceName": "02-hall-316.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 36.20000076293945,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "MapTitle",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "316會館｜簡化初稿",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 56,
+          "color": {
+            "b": 53,
+            "g": 62,
+            "r": 32
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "247;250;247",
+            "outlineThickness": 3,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "316會館｜簡化初稿",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 56,
+            "lineHeight": 0,
+            "color": "32;62;53"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "MapHelp",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "左鍵拖曳旋轉 · 右鍵／Shift＋左鍵平移 · 滾輪縮放 · WASD平移 · Home重設",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 32,
+          "color": {
+            "b": 53,
+            "g": 62,
+            "r": 32
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "247;250;247",
+            "outlineThickness": 3,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "左鍵拖曳旋轉 · 右鍵／Shift＋左鍵平移 · 滾輪縮放 · WASD平移 · Home重設",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 32,
+            "lineHeight": 0,
+            "color": "32;62;53"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "MapCredit",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "照片輔助建模，尺寸與隱藏處為估計；獨立模型檢視，不會修改核心區。\n1 駱駝石　2 圓山八角亭　3 禱告山　4 316會館",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 53,
+            "g": 62,
+            "r": 32
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "247;250;247",
+            "outlineThickness": 3,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "照片輔助建模，尺寸與隱藏處為估計；獨立模型檢視，不會修改核心區。\n1 駱駝石　2 圓山八角亭　3 禱告山　4 316會館",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "lineHeight": 0,
+            "color": "32;62;53"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "RotateLeft",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "[ 左轉 ]",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 34,
+          "color": {
+            "b": 53,
+            "g": 62,
+            "r": 32
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "247;250;247",
+            "outlineThickness": 3,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "[ 左轉 ]",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 34,
+            "lineHeight": 0,
+            "color": "32;62;53"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "RotateRight",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "[ 右轉 ]",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 34,
+          "color": {
+            "b": 53,
+            "g": 62,
+            "r": 32
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "247;250;247",
+            "outlineThickness": 3,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "[ 右轉 ]",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 34,
+            "lineHeight": 0,
+            "color": "32;62;53"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ZoomIn",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "[ 拉近 ]",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 34,
+          "color": {
+            "b": 53,
+            "g": 62,
+            "r": 32
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "247;250;247",
+            "outlineThickness": 3,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "[ 拉近 ]",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 34,
+            "lineHeight": 0,
+            "color": "32;62;53"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ZoomOut",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "[ 拉遠 ]",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 34,
+          "color": {
+            "b": 53,
+            "g": 62,
+            "r": 32
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "247;250;247",
+            "outlineThickness": 3,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "[ 拉遠 ]",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 34,
+            "lineHeight": 0,
+            "color": "32;62;53"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Landmark"
+          },
+          {
+            "objectName": "MapTitle"
+          },
+          {
+            "objectName": "MapHelp"
+          },
+          {
+            "objectName": "MapCredit"
+          },
+          {
+            "objectName": "RotateLeft"
+          },
+          {
+            "objectName": "RotateRight"
+          },
+          {
+            "objectName": "ZoomIn"
+          },
+          {
+            "objectName": "ZoomOut"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "WalkMode",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "TargetX",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "TargetY",
+                "=",
+                "0.4"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "TargetZ",
+                "=",
+                "10.8"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Distance",
+                "=",
+                "65"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Yaw",
+                "=",
+                "30"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Elevation",
+                "=",
+                "35"
+              ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"UI\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "1280",
+                "\"UI\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "800",
+                "\"UI\"",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Home\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "WalkMode",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "TargetX",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "TargetY",
+                "=",
+                "0.4"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "TargetZ",
+                "=",
+                "10.8"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Distance",
+                "=",
+                "65"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Yaw",
+                "=",
+                "30"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Elevation",
+                "=",
+                "35"
+              ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"UI\"",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Num1\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"駱駝石\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Num2\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"圓山八角亭\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Num3\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"禱告山\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Num4\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"316會館\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M71TY0THQQ133Y8K602JBA3P",
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "03 旋轉與縮放按鈕",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "WalkMode",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "IsCursorOnObject"
+                      },
+                      "parameters": [
+                        "RotateLeft",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "WasLeft",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Yaw",
+                        "+",
+                        "15"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "IsCursorOnObject"
+                      },
+                      "parameters": [
+                        "RotateRight",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "WasLeft",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Yaw",
+                        "-",
+                        "15"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "IsCursorOnObject"
+                      },
+                      "parameters": [
+                        "ZoomIn",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "WasLeft",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Distance",
+                        "*",
+                        "0.8"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "IsCursorOnObject"
+                      },
+                      "parameters": [
+                        "ZoomOut",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "WasLeft",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Distance",
+                        "*",
+                        "1.25"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "aiGeneratedEventId": "01M71TQJPBPWXZDQXTXPS874NY",
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "04 鍵盤平移與滾輪",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "WalkMode",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Left\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "\"a\""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TargetX",
+                        "+",
+                        "-1 * Scene3D::CameraRightX(\"\", 0) * Distance * 0.55 * TimeDelta()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TargetY",
+                        "+",
+                        "-1 * Scene3D::CameraRightY(\"\", 0) * Distance * 0.55 * TimeDelta()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Right\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "\"d\""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TargetX",
+                        "+",
+                        "1 * Scene3D::CameraRightX(\"\", 0) * Distance * 0.55 * TimeDelta()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TargetY",
+                        "+",
+                        "1 * Scene3D::CameraRightY(\"\", 0) * Distance * 0.55 * TimeDelta()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Up\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "\"w\""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TargetX",
+                        "+",
+                        "1 * Scene3D::CameraUpX(\"\", 0) * Distance * 0.55 * TimeDelta()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TargetY",
+                        "+",
+                        "1 * Scene3D::CameraUpY(\"\", 0) * Distance * 0.55 * TimeDelta()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Down\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "\"s\""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TargetX",
+                        "+",
+                        "-1 * Scene3D::CameraUpX(\"\", 0) * Distance * 0.55 * TimeDelta()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TargetY",
+                        "+",
+                        "-1 * Scene3D::CameraUpY(\"\", 0) * Distance * 0.55 * TimeDelta()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"j\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Yaw",
+                        "+",
+                        "60 * TimeDelta()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"l\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Yaw",
+                        "-",
+                        "60 * TimeDelta()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"i\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Elevation",
+                        "+",
+                        "35 * TimeDelta()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"k\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Elevation",
+                        "-",
+                        "35 * TimeDelta()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"q\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Distance",
+                        "*",
+                        "1 + TimeDelta()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"e\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Distance",
+                        "/",
+                        "1 + TimeDelta()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "IsMouseWheelScrollingUp"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Distance",
+                        "*",
+                        "0.9"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "IsMouseWheelScrollingDown"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Distance",
+                        "*",
+                        "1.111111111"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "aiGeneratedEventId": "01M71TQJPBPWXZDQXTXPS874NY",
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "05 左鍵旋轉與右鍵平移",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "WalkMode",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"LShift\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"RShift\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "WasLeft",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "(CursorY(\"UI\", 0) / 2)",
+                        ">",
+                        "150"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "(CursorY(\"UI\", 0) / 2)",
+                        "<",
+                        "730"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Yaw",
+                        "-",
+                        "((CursorX(\"UI\", 0) / 2) - PrevX) * 0.3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Elevation",
+                        "+",
+                        "((CursorY(\"UI\", 0) / 2) - PrevY) * 0.2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Right\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "WasRight",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "(CursorY(\"UI\", 0) / 2)",
+                        ">",
+                        "150"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "(CursorY(\"UI\", 0) / 2)",
+                        "<",
+                        "730"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TargetX",
+                        "-",
+                        "(((CursorX(\"UI\", 0) / 2) - PrevX) * Scene3D::CameraRightX(\"\", 0) - ((CursorY(\"UI\", 0) / 2) - PrevY) * Scene3D::CameraUpX(\"\", 0)) * Distance * 0.001"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TargetY",
+                        "-",
+                        "(((CursorX(\"UI\", 0) / 2) - PrevX) * Scene3D::CameraRightY(\"\", 0) - ((CursorY(\"UI\", 0) / 2) - PrevY) * Scene3D::CameraUpY(\"\", 0)) * Distance * 0.001"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "WasLeft",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"LShift\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "(CursorY(\"UI\", 0) / 2)",
+                        ">",
+                        "150"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "(CursorY(\"UI\", 0) / 2)",
+                        "<",
+                        "730"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TargetX",
+                        "-",
+                        "(((CursorX(\"UI\", 0) / 2) - PrevX) * Scene3D::CameraRightX(\"\", 0) - ((CursorY(\"UI\", 0) / 2) - PrevY) * Scene3D::CameraUpX(\"\", 0)) * Distance * 0.001"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TargetY",
+                        "-",
+                        "(((CursorX(\"UI\", 0) / 2) - PrevX) * Scene3D::CameraRightY(\"\", 0) - ((CursorY(\"UI\", 0) / 2) - PrevY) * Scene3D::CameraUpY(\"\", 0)) * Distance * 0.001"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "aiGeneratedEventId": "01M721PA3X44S2MXNZQTTH090C",
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "06 鏡頭與輸入狀態",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "WalkMode",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene3D::SetCameraNearPlane"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "clamp(Distance * 0.004, 0.05, 20)",
+                    "\"\"",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene3D::SetCameraFarPlane"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "30000",
+                    "\"\"",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene3D::SetCameraFov"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "45",
+                    "\"\"",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Distance",
+                    "=",
+                    "clamp(Distance, 2, 160)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Elevation",
+                    "=",
+                    "clamp(Elevation, 20, 85)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TargetX",
+                    "=",
+                    "clamp(TargetX, -60, 60)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TargetY",
+                    "=",
+                    "clamp(TargetY, -60, 60)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TargetZ",
+                    "=",
+                    "10.8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ThirdPersonCamera::LookFromDistanceAtPosition3D"
+                  },
+                  "parameters": [
+                    "",
+                    "TargetX",
+                    "TargetY",
+                    "TargetZ",
+                    "Distance",
+                    "Yaw",
+                    "Elevation",
+                    "\"\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "aiGeneratedEventId": "01M71TQJPBPWXZDQXTXPS874NY",
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "09 輸入狀態",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PrevX",
+                    "=",
+                    "(CursorX(\"UI\", 0) / 2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PrevY",
+                    "=",
+                    "(CursorY(\"UI\", 0) / 2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "WasLeft",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "WasRight",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "WasLeft",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Right\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "WasRight",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 1000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.05,
+          "cameraType": "perspective",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "3d",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.9,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 50,
+                "frustumSize": 4000,
+                "intensity": 0.9,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": false
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "orthographic",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "2d",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
     }
   ],
   "layoutsFolderStructure": {
@@ -6508,6 +8753,9 @@
       },
       {
         "itemName": "禱告山"
+      },
+      {
+        "itemName": "316會館"
       }
     ]
   },
@@ -6525,6 +8773,16 @@
       "name": "LandmarkModelsAndCamera",
       "type": "gameplay",
       "source": "harness.setMaxScreenshots(3); for (const name of ['駱駝石','圓山八角亭','禱告山']) { await harness.goToScene(name); await harness.stepFrames(5); const objs=harness.getObjects('Landmark'); harness.assert(objs.length===1,name+' has one native model'); const b=harness.getRenderedBounds(objs[0].id); harness.assert(b && b.maxZ-b.minZ>1,name+' GLB renders after reopening'); console.log(name,b); await harness.takeScreenshot(name,{width:1000}); } await harness.goToScene('駱駝石'); await harness.stepFrames(3); const before=harness.getCameraState(''); harness.setKeyPressed('a',true); await harness.stepFrames(12); harness.releaseAllInputs(); const after=harness.getCameraState(''); harness.assert(Math.hypot(after.x-before.x,after.y-before.y)>0.1,'WASD pans camera'); harness.setMousePosition(1000,600,'UI'); harness.setMouseButtonPressed(true,'left'); await harness.stepFrames(2); const yaw=harness.getSceneVariable('Yaw').value; harness.setMousePosition(1250,650,'UI'); await harness.stepFrames(2); harness.releaseAllInputs(); await harness.stepFrames(1); harness.assert(Math.abs(harness.getSceneVariable('Yaw').value-yaw)>1,'Left drag rotates'); const x=harness.getSceneVariable('TargetX').value; harness.setMouseButtonPressed(true,'right'); await harness.stepFrames(2); harness.setMousePosition(1450,650,'UI'); await harness.stepFrames(2); harness.releaseAllInputs(); await harness.stepFrames(1); harness.assert(Math.abs(harness.getSceneVariable('TargetX').value-x)>0.1,'Right drag pans'); harness.setMousePosition(500,240,'UI'); harness.setMouseButtonPressed(true,'left'); await harness.stepFrames(2); const d=harness.getSceneVariable('Distance').value; harness.setMouseButtonPressed(false,'left'); await harness.stepFrames(2); harness.assert(harness.getSceneVariable('Distance').value<d,'Zoom button moves closer'); harness.setKeyPressed('Num2',true); await harness.stepFrames(2); harness.releaseAllInputs(); await harness.stepFrames(2); harness.assert(harness.getSceneName()==='圓山八角亭','2 switches to pavilion'); harness.setKeyPressed('Num3',true); await harness.stepFrames(2); harness.releaseAllInputs(); await harness.stepFrames(2); harness.assert(harness.getSceneName()==='禱告山','3 switches to prayer hill'); harness.setKeyPressed('Num1',true); await harness.stepFrames(2); harness.releaseAllInputs(); await harness.stepFrames(2); harness.assert(harness.getSceneName()==='駱駝石','1 switches to camel rock'); harness.setKeyPressed('Home',true); await harness.stepFrames(2); harness.releaseAllInputs(); harness.assert(harness.getSceneVariable('Distance').value===36,'Home resets model view');"
+    },
+    {
+      "description": "316會館GLB載入、尺寸、鏡頭及第4個場景切換。",
+      "lastRunAt": 1794363986398,
+      "lastRunDurationMs": 979,
+      "lastRunFramesExecuted": 28,
+      "lastRunStatus": "passed",
+      "name": "Hall316ModelPreview",
+      "type": "gameplay",
+      "source": "harness.setMaxScreenshots(3); await harness.goToScene('316會館'); await harness.stepFrames(5); const objects=harness.getObjects('Landmark'); harness.assert(objects.length===1,'One native hall model'); const b=harness.getRenderedBounds(objects[0].id); console.log('Hall bounds',b); harness.assert(b && b.maxZ-b.minZ>20 && b.maxZ-b.minZ<25,'Hall height retains metre scale'); harness.assert(b.maxX-b.minX>35 && b.maxX-b.minX<38,'Hall width retains metre scale'); await harness.takeScreenshot('316會館原生GDevelop預覽',{width:1300}); harness.lookAt({from:{x:32,y:55,z:26},to:{x:0,y:0,z:10.5},layer:''}); await harness.takeScreenshot('316會館柱廊近景',{width:1300}); harness.lookAt({from:{x:-35,y:-52,z:31},to:{x:0,y:0,z:11},layer:''}); await harness.takeScreenshot('316會館背側推定',{width:1300}); const before=harness.getCameraState(''); harness.setKeyPressed('a',true); await harness.stepFrames(8); harness.releaseAllInputs(); const after=harness.getCameraState(''); harness.assert(Math.hypot(after.x-before.x,after.y-before.y)>.1,'Camera pans'); harness.setMousePosition(500,240,'UI'); harness.setMouseButtonPressed(true,'left'); await harness.stepFrames(2); const d=harness.getSceneVariable('Distance').value; harness.setMouseButtonPressed(false,'left'); await harness.stepFrames(2); harness.assert(harness.getSceneVariable('Distance').value<d,'Zoom button works'); harness.setKeyPressed('Num1',true); await harness.stepFrames(2); harness.releaseAllInputs(); await harness.stepFrames(2); harness.setKeyPressed('Num4',true); await harness.stepFrames(2); harness.releaseAllInputs(); await harness.stepFrames(2); harness.assert(harness.getSceneName()==='316會館','4 selects hall'); harness.setKeyPressed('Home',true); await harness.stepFrames(2); harness.releaseAllInputs(); harness.assert(harness.getSceneVariable('Distance').value===65,'Home resets hall view');"
     }
   ],
   "testsFolderStructure": {
@@ -6532,6 +8790,9 @@
     "children": [
       {
         "itemName": "LandmarkModelsAndCamera"
+      },
+      {
+        "itemName": "Hall316ModelPreview"
       }
     ]
   },

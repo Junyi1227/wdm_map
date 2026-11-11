@@ -1,0 +1,36 @@
+316會館／聖子愛之家／316紀念館：3D建模AI照片包
+整理日期：2026-11-11
+
+這6張都是未修改的照片副本，不是AI補角度圖。未生成3D模型。
+
+【怎麼選圖】
+單張圖片轉3D：先用01-front-main.jpg。
+若服務把湖、山或樹一起生成，先使用服務提供的背景移除／物件選取功能，或改用02試驗。
+自由多圖：01＋02＋03是起點；05可補充上方白色退縮量體及露台。
+04是柱頭、柱腳與屋簷底部細節；06是屋頂露台棚架，適合人工核對。
+固定「正面／背面／左面／右面」服務：目前沒有可靠完整背面，不可把03或05硬當背面。
+recommended-views.jpg 是選圖聯絡表，請勿拿它當一張實拍輸入。
+
+【幾何必留】
+長方形三層主體；正面8根、兩側各4根外柱（來源列共16根）。
+柱列在外，玻璃立面退後；保留可見柱間、柱廊與入口的開放空間。
+白／淺灰石柱、深色綠藍玻璃、綠色大屋簷。
+上方白色退縮樓體、露台、小窗、長條頂棚／棚架。
+下方基座與側邊階梯／坡道可分開建模，先保留主要外形。
+不要生成三角山牆、宮殿尖塔或傳統八角亭屋頂。
+
+【不要當成建築的東西】
+湖、倒影、噴泉、湖中亭、樹木、山坡、行人、積雪、文字與浮水印。
+05的雪與網紋是照片狀態，不是建築表面材質。
+照片看不到的背面標為推定，不要當成考證完成。
+
+【若服務支援圖片附加文字，可使用以下提示；不支援則用來檢查結果】
+Create one recognizable, cute simplified low-poly exterior model of Wolmyeongdong's 316 Hall, also called the Holy Son's House of Love. Follow the reference photos rather than designing a generic temple. Preserve the elongated rectangular main block, the monumental freestanding pale round columns, recessed blue-green glazed facade, broad green overhanging canopy, set-back white upper volume, rooftop terrace and long narrow rooftop shelter. Sources describe eight columns on the lake-facing front and four on each side, sixteen in total. Keep visible gaps between the columns and the recessed facade; keep the entrances and portico open. Use warm off-white stone, restrained blue-green glass and a muted green canopy. Preserve the silhouette while simplifying small window divisions. Exclude the lake, reflections, fountain, nearby pavilion, trees, people, hills, snow, scan patterns, text and watermarks. Do not add a triangular pediment, traditional pavilion roof, towers or invented wings. Hidden rear geometry is provisional; do not invent detailed rear windows as verified architecture. Build separable main block, columns, canopy, upper block, terrace shelter and foundation where possible.
+
+【生成後檢查】
+旋轉看柱子是否與主牆黏成一片、上部白色樓體是否消失、屋頂是否變成八角亭。
+看是否長出重複建築、水面倒影模型、樹木或雪景材質。
+下載GLB（若服務支援），並保留原始輸出。AI尺寸通常沒有實測意義，之後再統一公尺尺度與減面。
+目標約5,000–20,000三角面，複雜單件不超過30,000；太大便拆件。原始高面數檔可另存，不直接取代遊戲用檔。
+
+來源對照見 sources.json。照片有原著作權，第三方AI上傳及公開用途請確認來源條款或使用自有照片。

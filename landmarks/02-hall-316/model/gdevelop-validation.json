@@ -1,0 +1,74 @@
+{
+  "success": true,
+  "status": "passed",
+  "testName": "Hall316ModelPreview",
+  "framesExecuted": 28,
+  "durationMs": 979,
+  "loadingMs": 808,
+  "timeoutMs": 60000,
+  "hiddenStallMs": 0,
+  "gameTimeMs": 467,
+  "assertions": [
+    {
+      "message": "One native hall model",
+      "passed": true
+    },
+    {
+      "message": "Hall height retains metre scale",
+      "passed": true
+    },
+    {
+      "message": "Hall width retains metre scale",
+      "passed": true
+    },
+    {
+      "message": "Camera pans",
+      "passed": true
+    },
+    {
+      "message": "Zoom button works",
+      "passed": true
+    },
+    {
+      "message": "4 selects hall",
+      "passed": true
+    },
+    {
+      "message": "Home resets hall view",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "consoleLogs": [
+    "[log] Hall bounds {\"minX\":-18.100000381469727,\"minY\":-10.300000136149885,\"minZ\":-1.9307436046190587e-15,\"maxX\":18.100000381469727,\"maxY\":15.518557596653244,\"maxZ\":22.450000762939453}",
+    "[warn] [PIXI Image manager] Unable to find texture for resource \"\"."
+  ],
+  "eventLog": [
+    {
+      "frame": 1,
+      "event": "sceneChanged",
+      "sceneName": "316會館",
+      "cause": "harness"
+    },
+    {
+      "frame": 19,
+      "event": "sceneChanged",
+      "sceneName": "駱駝石",
+      "cause": "game"
+    },
+    {
+      "frame": 23,
+      "event": "sceneChanged",
+      "sceneName": "316會館",
+      "cause": "game"
+    }
+  ],
+  "screenshotsTakenCount": 3,
+  "droppedScreenshots": [],
+  "profiles": [],
+  "performance": {
+    "avgStepMs": 0.73,
+    "worstStepMs": 7.2
+  }
+}

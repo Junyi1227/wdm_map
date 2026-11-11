@@ -1,0 +1,70 @@
+{
+  "id": "02-hall-316",
+  "name": "316會館／聖子愛之家",
+  "focus": [
+    0,
+    -0.4,
+    10.8
+  ],
+  "distance": 65,
+  "parts": [
+    "Recessed main facade",
+    "16 outer stone columns",
+    "Green wrapping canopy",
+    "Upper white block and rooftop terrace",
+    "Foundation and front stairs"
+  ],
+  "sources": [
+    "official-spring",
+    "official-corner-a",
+    "official-sky",
+    "official-pillar",
+    "user-winter",
+    "festival-31"
+  ],
+  "user_identity_confirmed": "2026-11-11",
+  "built_date": "2026-11-11",
+  "estimate": "工作比例約寬36.2m、含前階梯深約26m、高22.5m；全部為照片估計，非實測。柱徑約1m用作外形比例參考。",
+  "unknown": "完整背立面、內部格局、上部退縮精確尺寸與局部基座曲線仍為簡化推定。玻璃採不透明PBR色塊；柱廊保留實際間隙。",
+  "column_count": 16,
+  "front_column_count": 8,
+  "side_column_count_each": 4,
+  "placed_in_core_map": true,
+  "status": "照片輔助的簡化初稿，待風格確認",
+  "method": "Blender原生網格建模；未使用Meshy/Tripo，未上傳原照片",
+  "unit": "metre",
+  "bounds_blender_z_up": [
+    [
+      -18.100000381469727,
+      -15.51855754852295,
+      0.0
+    ],
+    [
+      18.100000381469727,
+      10.300000190734863,
+      22.450000762939453
+    ]
+  ],
+  "dimensions_estimated": true,
+  "texture": "solid PBR palette; no external textures",
+  "modular_exports": [
+    "base_stairs.glb",
+    "canopy.glb",
+    "columns.glb",
+    "main_body.glb",
+    "roof_terrace.glb"
+  ],
+  "triangles": 13928,
+  "files": [
+    "landmark.glb",
+    "landmark.blend",
+    "front.png",
+    "right.png",
+    "back.png",
+    "left.png",
+    "perspective.png",
+    "README.txt",
+    "validation.json",
+    "gdevelop-validation.json"
+  ]
+}

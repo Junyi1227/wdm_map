@@ -1,6 +1,30 @@
 {
   "date": "2026-11-10",
   "user_confirmation": "八角亭 駱駝石 禱告山 是對的 先做這幾個",
-  "landmark_ids": ["10-round-hill-pavilion", "09-camel-rock", "08-prayer-hill"],
-  "scope": "確認照片中的地標身分並先行建模；不代表已確認實測尺寸、GPS、背面或現況。"
+  "landmark_ids": [
+    "10-round-hill-pavilion",
+    "09-camel-rock",
+    "08-prayer-hill",
+    "02-hall-316",
+    "04-god-waterfall"
+  ],
+  "scope": "確認照片中的地標身分並先行建模；不代表已確認實測尺寸、GPS、背面或現況。",
+  "additional_confirmations": [
+    {
+      "date": "2026-11-11",
+      "id": "02-hall-316",
+      "aliases": [
+        "316空提紀念館",
+        "聖子愛之家",
+        "316會館",
+        "316紀念館",
+        "성자 사랑의 집",
+        "성자사랑의집",
+        "3.16관",
+        "316기념관",
+        "316휴거기념관"
+      ],
+      "note": "使用者提供冬季圖並確認同名建築。"
+    }
+  ]
 }

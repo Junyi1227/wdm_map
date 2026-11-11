@@ -1,0 +1,79 @@
+{
+  "source_feature": 120371436,
+  "status": "使用者要求的遊戲步道調整，非原始OSM或實測路線",
+  "waypoints_xyz": [
+    [
+      2038.4130788,
+      2260.0177667,
+      193.16722468948714
+    ],
+    [
+      2033,
+      2267,
+      195.65369697668586
+    ],
+    [
+      2034,
+      2275,
+      200
+    ],
+    [
+      2040,
+      2283,
+      204
+    ],
+    [
+      2048,
+      2287,
+      207.8
+    ],
+    [
+      2053,
+      2284,
+      208.143773956
+    ],
+    [
+      2058,
+      2289,
+      206
+    ],
+    [
+      2068,
+      2300,
+      201
+    ],
+    [
+      2080,
+      2309,
+      196
+    ],
+    [
+      2093.9194494,
+      2314.3143244,
+      192.41615606132095
+    ]
+  ],
+  "width_m": 1.2,
+  "native_heightmap_local_grading": true,
+  "protected_lakeside_road_half_width_m": 2.8,
+  "changed_heightmap_pixels": 0,
+  "heightmap_sha_before": "ce30585bb718457312aaaf29d3e24f8978a20b8f900afbff28fe1bb936ff5e12",
+  "heightmap_sha_after": "2484f4a5d2e598636781e0b37d9c65191f247e398790ee9ecea853eff8b843a3",
+  "model_file_hashes_unchanged": {
+    "lake-rocks-summit-pavilion.glb": "22303493944689dedc2ae76f1494d0869eae4134cae78877df5f4fcb06d2db2a",
+    "lake-rocks-water.glb": "2cb34aec499bcef9ee07d00c2697979ee3001356c4d727be1a683a86e7e9e033",
+    "lake-rocks-upper-rocks.glb": "19aa50f0593a8a484921e149bcc5b3c14050304cdec66bbf328ccaaae324c8fa"
+  },
+  "model_pose": {
+    "origin_xy": [
+      2068.0313732,
+      2270.2084976
+    ],
+    "angle_deg": 8.0,
+    "base_z": 191.01877395625166,
+    "reason": "左移並略往山側退，整組旋轉8度避開湖邊道路；模型幾何未修改。"
+  },
+  "pavilion_nearby_path_height": 208.08844910763335,
+  "model_projected_clearance_to_lakeside_centerline_m": 4.080338009466398,
+  "native_terrain_front_fit": true
+}

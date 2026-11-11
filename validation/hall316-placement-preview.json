@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "status": "passed",
+  "testName": "316會館地圖定位",
+  "framesExecuted": 11,
+  "durationMs": 1531,
+  "loadingMs": 1461,
+  "timeoutMs": 60000,
+  "hiddenStallMs": 0,
+  "gameTimeMs": 183,
+  "assertions": [
+    {
+      "message": "核心區只有一棟316會館",
+      "passed": true
+    },
+    {
+      "message": "坡面基座已載入",
+      "passed": true
+    },
+    {
+      "message": "原有八角亭保留",
+      "passed": true
+    },
+    {
+      "message": "模型高度22.45公尺且資源可載入",
+      "passed": true
+    },
+    {
+      "message": "定位按鈕指向會館X",
+      "passed": true
+    },
+    {
+      "message": "定位按鈕指向會館Y",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "consoleLogs": [
+    "[log] {\"bounds\":{\"minX\":2161.324941049493,\"minY\":2264.3746629656557,\"minZ\":189.1631047772713,\"maxX\":2191.7277435713777,\"maxY\":2304.4426791312403,\"maxZ\":211.61310554021077},\"hall\":{\"id\":26,\"name\":\"Hall316\",\"x\":2176.6796472854744,\"y\":2284.4560273042434,\"angle\":108.40357083209142,\"width\":36.20000076293945,\"height\":25.818557739257812,\"centerX\":2176.6796472854744,\"centerY\":2284.4560273042434,\"layer\":\"\",\"hidden\":false,\"variables\":[],\"state\":{},\"behaviors\":{\"Object3D\":{\"act\":true,\"state\":{\"FlippedZ\":false,\"CenterZ\":189.1631047772713,\"Depth\":22.450000762939453,\"ForwardX\":-0.3157081729221573,\"ForwardY\":0.9488563376771814,\"ForwardZ\":0,\"RightX\":0.9488563376771814,\"RightY\":0.3157081729221573,\"RightZ\":0,\"RotationX\":0,\"RotationY\":0,\"ScaleZ\":1,\"UpX\":0,\"UpY\":0,\"UpZ\":1,\"Z\":189.1631047772713}}},\"z\":189.1631047772713,\"centerZ\":189.1631047772713,\"rotationX\":0,\"rotationY\":0,\"depth\":22.450000762939453,\"animation\":\"\",\"flippedX\":false,\"flippedY\":false}}"
+  ],
+  "eventLog": [
+    {
+      "frame": 1,
+      "event": "sceneChanged",
+      "sceneName": "月明洞核心區",
+      "cause": "harness"
+    }
+  ],
+  "screenshotsTakenCount": 2,
+  "droppedScreenshots": [],
+  "profiles": [],
+  "performance": {
+    "avgStepMs": 1.29,
+    "worstStepMs": 9.4
+  }
+}

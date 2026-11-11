@@ -1,0 +1,29 @@
+{
+  "preserved_objects": [
+    "WolmyeongTerrain",
+    "MoonLake",
+    "RoadDetail",
+    "TrailDetail",
+    "Hall316",
+    "Hall316Foundation",
+    "RoundHillPavilion",
+    "RoundHillPavilionBase",
+    "SportsGround",
+    "Lawn"
+  ],
+  "native_events": true,
+  "runtime_js_added": false,
+  "relative_resources": true,
+  "origin_xy": [
+    2078.0,
+    2271.0
+  ],
+  "base_z": 191.01877395625166,
+  "model_parts": {
+    "upper-rocks": "LakeUpperRocks",
+    "water": "LakeRockWater",
+    "summit-pavilion": "LakeRockPavilion"
+  },
+  "triangles": 21500,
+  "position_is_approximate": true
+}

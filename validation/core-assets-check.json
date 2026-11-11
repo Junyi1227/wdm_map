@@ -76,7 +76,7 @@
     }
   ],
   "scene_uses_native_events": true,
-  "relative_resources": 16,
+  "relative_resources": 21,
   "checkpoint_commit": "e202f26",
-  "project_sha256": "e0e21adc4da9a7e14db8c4fd8cccd25833745b554f43200544741ee4a7797321"
+  "project_sha256": "37932747b592862c87dd620e1f4ff818d0f278f576bf47b197bfa75b95f088e3"
 }

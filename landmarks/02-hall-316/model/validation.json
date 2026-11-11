@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-11",
+  "editable_blend_reopened": true,
+  "glb_reimported": true,
+  "triangles": 13928,
+  "mesh_objects": 406,
+  "columns": 16,
+  "front_columns": 8,
+  "open_front_portico_clearance_m": 1.15,
+  "part_triangle_counts": {
+    "base_stairs.glb": 3844,
+    "canopy.glb": 804,
+    "columns.glb": 5056,
+    "main_body.glb": 2788,
+    "roof_terrace.glb": 1436,
+    "landmark.glb": 13928
+  },
+  "external_textures": 0,
+  "measured_dimensions": false,
+  "rear_geometry": "provisional",
+  "core_map_modified": false
+}

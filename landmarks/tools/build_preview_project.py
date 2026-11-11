@@ -1,21 +1,23 @@
 """Build a separate native GDevelop model review project. Never writes core game."""
 import pathlib,json,copy,uuid
 R=pathlib.Path(__file__).resolve().parents[1];P=json.loads((R.parent/'wolmyeongdong/project.json').read_text());base=P['layouts'][0]
+existing_path=R/'preview/project.json';existing=json.loads(existing_path.read_text()) if existing_path.exists() else {}
 def uid():return str(uuid.uuid4())
 def instruction(t,p):return {'type':{'value':t},'parameters':[str(x) for x in p]}
 def event(cond,acts):return {'type':'BuiltinCommonInstructions::Standard','conditions':cond,'actions':acts}
 def setvar(k,v):return instruction('SetNumberVariable',[k,'=',v])
 def key(k):return instruction('KeyFromTextJustPressed',['','"'+k+'"'])
-P['properties'].update(name='月明洞｜地標模型檢視',description='三個照片輔助的簡化初稿；估計尺寸；未整合到核心區。',projectUuid=uid(),latestCompilationDirectory='')
+P['properties'].update(name='月明洞｜地標模型檢視',description='地標模型獨立檢視；估計尺寸與推定背面；不會修改核心區。',projectUuid=uid(),latestCompilationDirectory='')
 P['resources']={'resources':[],'resourceFolders':[]};P['objects']=[];P['variables']=[];P['externalEvents']=[];P['externalLayouts']=[];P['eventsFunctionsExtensions']=[e for e in P['eventsFunctionsExtensions'] if e['name']=='ThirdPersonCamera'];P['layouts']=[]
 folders=['09-camel-rock','10-round-hill-pavilion','08-prayer-hill'];names=['駱駝石','圓山八角亭','禱告山']
+if (R/'02-hall-316/model/model.json').exists():folders.append('02-hall-316');names.append('316會館')
 for idx,(folder,name) in enumerate(zip(folders,names)):
  meta=json.loads((R/folder/'model/model.json').read_text());s=copy.deepcopy(base);s.update(name=name,title=name,mangledName='Landmark'+str(idx),instances=[],objects=[],objectsGroups=[],objectsFolderStructure={'folderName':'__ROOT','children':[]},events=[],behaviorsSharedData=[])
  # Same metre convention as the main game; models retain their own origin.
- lo,hi=meta['bounds_blender_z_up'];sizes=[hi[i]-lo[i] for i in range(3)];model=copy.deepcopy(next(o for o in base['objects'] if o['name']=='MoonLake'));model.update(name='Landmark',persistentUuid=uid());model['content'].update(modelResourceName=folder+'.glb',width=sizes[0],height=sizes[1],depth=sizes[2],rotationX=90,isCastingShadow=False,isReceivingShadow=False)
+ lo,hi=meta['bounds_blender_z_up'];sizes=[hi[i]-lo[i] for i in range(3)];model=copy.deepcopy(next(o for o in base['objects'] if o['name']=='MoonLake'));model.update(name='Landmark',persistentUuid=uid());model['content'].update(modelResourceName=folder+'.glb',width=sizes[0],height=sizes[1],depth=sizes[2],rotationX=90,centerLocation='ModelOrigin',isCastingShadow=False,isReceivingShadow=False)
  s['objects'].append(model);s['instances'].append({'name':'Landmark','persistentUuid':uid(),'x':0,'y':0,'z':0,'angle':0,'zOrder':0,'layer':'','customSize':True,'width':sizes[0],'height':sizes[1],'depth':sizes[2],'numberProperties':[],'stringProperties':[],'initialVariables':[]})
  P['resources']['resources'].append({'name':folder+'.glb','file':'../'+folder+'/model/landmark.glb','kind':'model3D','metadata':'','userAdded':True})
- for objname,text,x,y,size in [('MapTitle',name+'｜簡化初稿',48,35,56),('MapHelp','左鍵拖曳旋轉 · 右鍵／Shift＋左鍵平移 · 滾輪縮放 · WASD平移 · Home重設',48,120,32),('MapCredit','照片輔助建模，尺寸與隱藏處為估計；未放入核心區地圖。\n1 駱駝石　2 圓山八角亭　3 禱告山',48,1460,30),('RotateLeft','[ 左轉 ]',48,220,34),('RotateRight','[ 右轉 ]',270,220,34),('ZoomIn','[ 拉近 ]',490,220,34),('ZoomOut','[ 拉遠 ]',710,220,34)]:
+ for objname,text,x,y,size in [('MapTitle',name+'｜簡化初稿',48,35,56),('MapHelp','左鍵拖曳旋轉 · 右鍵／Shift＋左鍵平移 · 滾輪縮放 · WASD平移 · Home重設',48,120,32),('MapCredit','照片輔助建模，尺寸與隱藏處為估計；獨立模型檢視，不會修改核心區。\n1 駱駝石　2 圓山八角亭　3 禱告山　4 316會館',48,1460,30),('RotateLeft','[ 左轉 ]',48,220,34),('RotateRight','[ 右轉 ]',270,220,34),('ZoomIn','[ 拉近 ]',490,220,34),('ZoomOut','[ 拉遠 ]',710,220,34)]:
   o=copy.deepcopy(next(o for o in base['objects'] if o['name']=='MapTitle'));o.update(name=objname,string=text,characterSize=size);o['content'].update(text=text,characterSize=size);s['objects'].append(o)
   s['instances'].append({'name':objname,'persistentUuid':uid(),'x':x,'y':y,'zOrder':5,'angle':0,'layer':'UI','customSize':False,'width':1800,'height':90,'numberProperties':[],'stringProperties':[],'initialVariables':[]})
  focus=[meta['focus'][0],-meta['focus'][1],meta['focus'][2]];distance=22 if folder=='10-round-hill-pavilion' else meta['distance'];s['r']=239;s['v']=241;s['b']=228;s['layers'][0]['camera3DNearPlaneDistance']=.05;s['layers'][0]['camera3DFarPlaneDistance']=1000
@@ -39,5 +41,6 @@ for idx,(folder,name) in enumerate(zip(folders,names)):
   visit(e);s['events'].append(e)
  s['variables']=[{'name':v,'type':'number','value':0,'persistentUuid':uid()} for v in ['WalkMode','TargetX','TargetY','TargetZ','Distance','Yaw','Elevation','PrevX','PrevY','WasLeft','WasRight']]
  P['layouts'].append(s)
-P['firstLayout']=names[0];P['layoutsFolderStructure']={'folderName':'__ROOT','children':[{'type':'Layout','name':n} for n in names]};P['externalEventsFolderStructure']={'folderName':'__ROOT','children':[]};P['externalLayoutsFolderStructure']={'folderName':'__ROOT','children':[]};P['objectsFolderStructure']={'folderName':'__ROOT','children':[]};P['testsFolderStructure']={'folderName':'__ROOT','children':[]}
+P['tests']=existing.get('tests',[])
+P['firstLayout']='316會館' if '316會館' in names else names[0];P['layoutsFolderStructure']={'folderName':'__ROOT','children':[{'type':'Layout','name':n} for n in names]};P['externalEventsFolderStructure']={'folderName':'__ROOT','children':[]};P['externalLayoutsFolderStructure']={'folderName':'__ROOT','children':[]};P['objectsFolderStructure']={'folderName':'__ROOT','children':[]};P['testsFolderStructure']=existing.get('testsFolderStructure',{'folderName':'__ROOT','children':[]})
 out=R/'preview';out.mkdir(exist_ok=True);(out/'project.json').write_text(json.dumps(P,ensure_ascii=False,indent=2));print('Created separate GDevelop viewer with',len(P['layouts']),'scenes')

@@ -1,0 +1,111 @@
+{
+  "success": true,
+  "status": "passed",
+  "testName": "湖畔石景與後坡完整驗收",
+  "framesExecuted": 620,
+  "durationMs": 1702,
+  "loadingMs": 1328,
+  "timeoutMs": 60000,
+  "hiddenStallMs": 0,
+  "gameTimeMs": 10333,
+  "assertions": [
+    {
+      "message": "LakeUpperRocks正常載入",
+      "passed": true
+    },
+    {
+      "message": "LakeShoreRocks正常載入",
+      "passed": true
+    },
+    {
+      "message": "LakeRockWater正常載入",
+      "passed": true
+    },
+    {
+      "message": "LakeRearRamp正常載入",
+      "passed": true
+    },
+    {
+      "message": "LakeRockPavilion正常載入",
+      "passed": true
+    },
+    {
+      "message": "頂部亭子保持正確高度，不再縮進岩壁",
+      "passed": true
+    },
+    {
+      "message": "石景定位按鈕有效",
+      "passed": true
+    },
+    {
+      "message": "後坡入口按鈕切換第一人稱",
+      "passed": true
+    },
+    {
+      "message": "未輸入時步行位置穩定",
+      "passed": true
+    },
+    {
+      "message": "實測W沿當前視角前進",
+      "passed": true
+    },
+    {
+      "message": "沿坡道走到轉折點 1",
+      "passed": true
+    },
+    {
+      "message": "沿坡道走到轉折點 2",
+      "passed": true
+    },
+    {
+      "message": "沿坡道走到轉折點 3",
+      "passed": true
+    },
+    {
+      "message": "沿坡道走到轉折點 4",
+      "passed": true
+    },
+    {
+      "message": "沿坡道走到轉折點 5",
+      "passed": true
+    },
+    {
+      "message": "沿坡道走到轉折點 6",
+      "passed": true
+    },
+    {
+      "message": "坡道與亭前階梯帶動視點升高超過16公尺",
+      "passed": true
+    },
+    {
+      "message": "抵達亭內地板上方1.7公尺",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "consoleLogs": [
+    "[log] {\"name\":\"LakeUpperRocks\",\"bounds\":{\"minX\":2043.9269485473635,\"minY\":2249.348928451538,\"minZ\":190.2103103231912,\"maxX\":2100.615463256836,\"maxY\":2305.812961578369,\"maxZ\":206.2458666991716}}",
+    "[log] {\"name\":\"LakeShoreRocks\",\"bounds\":{\"minX\":2067.81059551239,\"minY\":2246.4517097473145,\"minZ\":185.2139743995195,\"maxX\":2102.9039459228516,\"maxY\":2278.1171460151672,\"maxZ\":194.23195688242964}}",
+    "[log] {\"name\":\"LakeRockWater\",\"bounds\":{\"minX\":2066.4843587875366,\"minY\":2266.5198125839233,\"minZ\":190.90852849001936,\"maxX\":2082.916356563568,\"maxY\":2283.5215759277344,\"maxZ\":206.1931151580339}}",
+    "[log] {\"name\":\"LakeRearRamp\",\"bounds\":{\"minX\":2059.724639892578,\"minY\":2282.3527479171753,\"minZ\":190.5705993008142,\"maxX\":2094.090063095093,\"maxY\":2306.7151527404785,\"maxZ\":206.96377460475017}}",
+    "[log] {\"name\":\"LakeRockPavilion\",\"bounds\":{\"minX\":2061.9885635375977,\"minY\":2279.018431663513,\"minZ\":205.7187737655168,\"maxX\":2071.5225501060486,\"maxY\":2288.4815673828125,\"maxZ\":213.3187731933122}}"
+  ],
+  "eventLog": [
+    {
+      "frame": 1,
+      "event": "sceneChanged",
+      "sceneName": "月明洞核心區",
+      "cause": "harness"
+    }
+  ],
+  "screenshotsTakenCount": 4,
+  "droppedScreenshots": [],
+  "profiles": [],
+  "performance": {
+    "avgStepMs": 0.2,
+    "worstStepMs": 10.2
+  },
+  "superseded": true,
+  "superseded_reason": "使用者要求撤除新增坡道、樓梯與湖岸下層石景；當前驗收見 lake-rocks-revision-gameplay.json。"
+}

@@ -152,7 +152,8 @@ def finish(meta):
   if obj.type=='MESH':
    bm=bmesh.new();bm.from_mesh(obj.data);bmesh.ops.recalc_face_normals(bm,faces=list(bm.faces));bm.to_mesh(obj.data);bm.free()
  bpy.context.view_layer.update();obs=[o for o in bpy.context.scene.objects if o.type=='MESH'];bb=bounds(obs)
- meta.update(status='照片輔助的簡化初稿，待風格確認',method='Blender原生網格建模；未使用Meshy/Tripo，未上傳原照片',unit='metre',bounds_blender_z_up=bb,user_identity_confirmed='2026-11-10',dimensions_estimated=True,texture='solid PBR palette; no external textures')
+ meta.update(status='照片輔助的簡化初稿，待風格確認',method='Blender原生網格建模；未使用Meshy/Tripo，未上傳原照片',unit='metre',bounds_blender_z_up=bb,dimensions_estimated=True,texture='solid PBR palette; no external textures')
+ meta.setdefault('user_identity_confirmed','2026-11-10')
  out=R/meta['id']/'model';out.mkdir(exist_ok=True)
  bpy.ops.object.select_all(action='DESELECT')
  for o in obs:o.select_set(True)
@@ -186,10 +187,11 @@ def finish(meta):
   bpy.ops.object.light_add(type='AREA',location=loc);o=bpy.context.object;o.data.energy=power;o.data.shape='DISK';o.data.size=size;o.rotation_euler=(Vector(meta['focus'])-o.location).to_track_quat('-Z','Y').to_euler()
  bpy.ops.object.camera_add();cam=bpy.context.object;scene.camera=cam;cam.data.type='ORTHO';cam.data.ortho_scale=max(bb[1][0]-bb[0][0],bb[1][1]-bb[0][1],bb[1][2]-bb[0][2])*1.45
  focus=Vector(meta['focus']);dist=meta['distance']
- for name,angle in [('front',-65),('right',25),('back',115),('left',205)]:
+ frontangle=meta.get('preview_yaw',-65)
+ for name,angle in [('front',frontangle),('right',frontangle+90),('back',frontangle+180),('left',frontangle+270)]:
   a=math.radians(angle);cam.location=focus+Vector((dist*math.cos(a),dist*math.sin(a),dist*.65));cam.rotation_euler=(focus-cam.location).to_track_quat('-Z','Y').to_euler();scene.render.filepath=str(out/(name+'.png'));bpy.ops.render.render(write_still=True)
  # Save with attractive front view and meaningful object names.
- a=math.radians(-65);cam.location=focus+Vector((dist*math.cos(a),dist*math.sin(a),dist*.65));cam.rotation_euler=(focus-cam.location).to_track_quat('-Z','Y').to_euler()
+ a=math.radians(frontangle);cam.location=focus+Vector((dist*math.cos(a),dist*math.sin(a),dist*.65));cam.rotation_euler=(focus-cam.location).to_track_quat('-Z','Y').to_euler()
  for area in bpy.context.screen.areas:
   if area.type=='VIEW_3D':area.spaces.active.region_3d.view_perspective='CAMERA'
  deps=bpy.context.evaluated_depsgraph_get();tris=0

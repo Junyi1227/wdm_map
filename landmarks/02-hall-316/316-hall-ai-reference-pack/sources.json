@@ -1,0 +1,56 @@
+[
+  {
+    "upload_file": "01-front-main.jpg",
+    "reference_id": "official-spring",
+    "recommended_use": "首選；較平視正面全景",
+    "source_page": "https://www.wolmyeongdong.kr/intro/scenic-spots/the-holy-sons-house-of-love",
+    "source_image_url": "https://www.wolmyeongdong.kr/img/intro/scenic-spots/the-holy-sons-house-of-love/the-holy-sons-house-of-love-spring.jpg",
+    "photo_date": null,
+    "source_sha256": "e91f02ff7f25778d5a6aa96c236ab83284d17a723715bb0c9af9b27245dec7c7"
+  },
+  {
+    "upload_file": "02-front-corner-A.jpg",
+    "reference_id": "official-corner-a",
+    "recommended_use": "第二視角；有透視縮短",
+    "source_page": "https://www.wolmyeongdong.kr/intro/scenic-spots/the-holy-sons-house-of-love",
+    "source_image_url": "https://www.wolmyeongdong.kr/img/intro/scenic-spots/the-holy-sons-house-of-love/the-holy-sons-house-of-love.jpg",
+    "photo_date": null,
+    "source_sha256": "30ad318d2d4aa90f962699d7554ecec5876f995a65eb13fc8a7e6d1e69c9b449"
+  },
+  {
+    "upload_file": "03-front-corner-B.jpg",
+    "reference_id": "official-sky",
+    "recommended_use": "另一側前角；非背面",
+    "source_page": "https://www.wolmyeongdong.kr/intro/scenic-spots/the-holy-sons-house-of-love",
+    "source_image_url": "https://www.wolmyeongdong.kr/img/intro/scenic-spots/the-holy-sons-house-of-love/the-holy-sons-house-of-love-sky.jpg",
+    "photo_date": null,
+    "source_sha256": "0889d910a7859f7b8080a8fb29df03dfcc603d7fa09596bba6354a7b5076c271"
+  },
+  {
+    "upload_file": "04-column-detail.jpg",
+    "reference_id": "official-pillar",
+    "recommended_use": "柱與簷底細節；不要填背面欄",
+    "source_page": "https://www.wolmyeongdong.kr/intro/scenic-spots/the-holy-sons-house-of-love",
+    "source_image_url": "https://www.wolmyeongdong.kr/img/intro/scenic-spots/the-holy-sons-house-of-love/the-holy-sons-house-of-love-pillar.jpg",
+    "photo_date": null,
+    "source_sha256": "fe783dfeacaa717e94cc0a4d84c92fb72cca626b9af1d628d1c0bbda974e10b5"
+  },
+  {
+    "upload_file": "05-upper-volume-winter-user.jpg",
+    "reference_id": "user-winter",
+    "recommended_use": "上部量體參考；忽略雪、網紋與浮水印",
+    "source_page": null,
+    "source_image_url": null,
+    "photo_date": null,
+    "source_sha256": "47851dec44e07fc1b4388f6ec0d55aea756303b79dc59788ecf35564d67f2371"
+  },
+  {
+    "upload_file": "06-rooftop-terrace.jpg",
+    "reference_id": "festival-31",
+    "recommended_use": "露台棚架參考；不作整體主圖",
+    "source_page": "https://2026rockfestival.com/",
+    "source_image_url": "https://2026rockfestival.com/assets/stone-exhibition-3.ecdea91e.webp",
+    "photo_date": null,
+    "source_sha256": "707ef5eab178d365ccfd2358a6a9f563852e446d5200ce3dc570d286c2c7db9b"
+  }
+]

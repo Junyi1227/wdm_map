@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "test": "Verify roadside field appearance",
+  "native_gdevelop_preview": true,
+  "frames": 4,
+  "assertions": [
+    "No stale missing-model object",
+    "Both surface textures loaded; no missing-material fallback"
+  ],
+  "sportsground_material_color_srgb": "#e6dbc5",
+  "texture_size": [
+    256,
+    256
+  ],
+  "diagnosis": {
+    "pink_area": "Editor retained LakeHalfWalkway after its file was removed by Git discard; runtime used missing-model fallback.",
+    "uneven_field_color": "Editor retained old SportsGround/Lawn sizes and placements while loading updated meshes, revealing underlying terrain."
+  },
+  "resolution": "Reopened on-disk project after user explicitly authorized discarding unsaved editor state; visually checked actual native preview.",
+  "errors": []
+}

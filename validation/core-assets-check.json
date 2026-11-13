@@ -14,13 +14,13 @@
     },
     {
       "name": "SportsGround",
-      "source_area_m2": 12712.954534353688,
-      "render_mesh_area_m2": 12712.9545435016
+      "source_area_m2": 13308.505259047262,
+      "render_mesh_area_m2": 13308.504539290409
     },
     {
       "name": "Lawn",
-      "source_area_m2": 8702.13832115382,
-      "render_mesh_area_m2": 8702.138316189212
+      "source_area_m2": 8344.130243541207,
+      "render_mesh_area_m2": 8344.130249992751
     }
   ],
   "route_width_checks": [
@@ -78,5 +78,5 @@
   "scene_uses_native_events": true,
   "relative_resources": 21,
   "checkpoint_commit": "e202f26",
-  "project_sha256": "37932747b592862c87dd620e1f4ff818d0f278f576bf47b197bfa75b95f088e3"
+  "project_sha256": "db3feddfe12be84af16bc5728f7b0a91280c169d09e8aac0e6c9e160d1787248"
 }
